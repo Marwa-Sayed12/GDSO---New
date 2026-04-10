@@ -1,0 +1,82 @@
+/* ================= TABLET VIEW ================= */
+@media (max-width: 1024px) {
+
+  .gallery-overlay-container {
+    width: 85vw;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .gallery-title {
+    font-size: 2.2rem;
+  }
+
+  .gallery-bottom-content h3 {
+    font-size: 1.8rem;
+  }
+
+  .gallery-bottom-content p {
+    font-size: 1.05rem;
+  }
+}
+
+
+
+
+
+
+
+
+/* ================= MOBILE VIEW ================= */
+@media (max-width: 768px) {
+
+  .gallery-overlay-container {
+    width: 92vw;
+    grid-template-columns: 1fr;   /* ⬅ stack images */
+    gap: 1.2rem;
+  }
+
+  .gallery-title {
+    font-size: 1.9rem;
+    margin-bottom: 2rem;
+  }
+
+  .gallery-bottom-content {
+    margin-top: 1.5rem;
+    padding: 0 0.5rem;
+  }
+
+  .gallery-bottom-content h3 {
+    font-size: 1.6rem;
+  }
+
+  .gallery-bottom-content p {
+    font-size: 1rem;
+    line-height: 1.7rem;
+  }
+
+  .gallery-btn {
+    font-size: 1rem;
+    padding: 0.7rem 1.8rem;
+  }
+}
+
+
+
+
+
+/* ================= SMALL PHONES ================= */
+@media (max-width: 480px) {
+
+  .gallery-title {
+    font-size: 1.6rem;
+  }
+
+  .gallery-bottom-content h3 {
+    font-size: 1.4rem;
+  }
+
+  .gallery-bottom-content p {
+    font-size: 0.95rem;
+  }
+}

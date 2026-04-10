@@ -1,0 +1,754 @@
+/* donation-responsive.css - Media Queries for DonationButton */
+
+/* ======================================
+   ULTRA WIDE SCREENS (1440px and above)
+   ====================================== */
+@media (min-width: 1440px) {
+  .donation-container {
+    max-width: 1400px;
+    margin: 6rem auto;
+  }
+  
+  .donation-image {
+    min-height: 700px;
+  }
+  
+  .image-overlay {
+    padding: 4rem;
+  }
+  
+  .image-overlay h2 {
+    font-size: 3rem;
+  }
+  
+  .image-overlay p {
+    font-size: 1.4rem;
+  }
+  
+  .donation-widget {
+    padding: 4rem;
+  }
+  
+  .donation-widget h3 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .donation-widget p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .amount-buttons {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+    margin-bottom: 25px;
+  }
+  
+  .amount-btn {
+    padding: 18px;
+    font-size: 1.2rem;
+  }
+  
+  .donate-btnn {
+    padding: 20px;
+    font-size: 1.3rem;
+  }
+}
+
+/* ======================================
+   DESKTOP LARGE (1200px to 1439px)
+   ====================================== */
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .donation-container {
+    max-width: 1100px;
+    margin: 5rem auto;
+  }
+  
+  .donation-image {
+    min-height: 650px;
+  }
+  
+  .image-overlay {
+    padding: 3.5rem;
+  }
+  
+  .image-overlay h2 {
+    font-size: 2.8rem;
+  }
+  
+  .donation-widget {
+    padding: 3.5rem;
+  }
+}
+
+/* ======================================
+   TABLET LANDSCAPE (992px to 1199px)
+   ====================================== */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .donation-container {
+    max-width: 950px;
+    margin: 4rem auto;
+  }
+  
+  .donation-image {
+    min-height: 600px;
+  }
+  
+  .image-overlay {
+    padding: 2.5rem;
+  }
+  
+  .image-overlay h2 {
+    font-size: 2.3rem;
+  }
+  
+  .image-overlay p {
+    font-size: 1.1rem;
+  }
+  
+  .donation-widget {
+    padding: 2.5rem;
+  }
+  
+  .donation-widget h3 {
+    font-size: 1.7rem;
+  }
+  
+  .amount-buttons {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ======================================
+   TABLET PORTRAIT (768px to 991px)
+   ====================================== */
+@media (min-width: 768px) and (max-width: 991px) {
+  .donation-container {
+    max-width: 700px;
+    margin: 3rem auto;
+    border-radius: 15px;
+  }
+  
+  .donation-image {
+    min-height: 400px;
+  }
+  
+  .image-overlay {
+    padding: 2rem;
+  }
+  
+  .image-overlay h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .image-overlay p {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  
+  .impact-stats {
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .donation-widget {
+    padding: 2.5rem;
+  }
+  
+  .donation-widget h3 {
+    font-size: 1.8rem;
+  }
+  
+  .donation-type-toggle {
+    max-width: 300px;
+    margin: 0 auto 25px;
+  }
+  
+  .amount-buttons {
+    max-width: 500px;
+    margin: 0 auto 20px;
+  }
+  
+  .custom-amount {
+    max-width: 500px;
+    margin: 0 auto 25px;
+  }
+  
+  .donate-btnn {
+    max-width: 500px;
+    margin: 0 auto 15px;
+  }
+  
+  .security-badge {
+    max-width: 500px;
+    margin: 20px auto 0;
+  }
+}
+
+/* ======================================
+   MOBILE LARGE (576px to 767px)
+   ====================================== */
+@media (min-width: 576px) and (max-width: 767px) {
+  .donation-container {
+    grid-template-columns: 1fr;
+    max-width: 540px;
+    margin: 2rem auto;
+    border-radius: 12px;
+  }
+  
+  .donation-image {
+    min-height: 350px;
+  }
+  
+  .image-overlay {
+    padding: 1.5rem;
+  }
+  
+  .image-overlay h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .image-overlay p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .impact-stats {
+    gap: 1.5rem;
+  }
+  
+  .stat-number {
+    font-size: 1.6rem;
+  }
+  
+  .stat-label {
+    font-size: 0.85rem;
+  }
+  
+  .donation-widget {
+    padding: 2rem;
+  }
+  
+  .donation-widget h3 {
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+  }
+  
+  .donation-widget p {
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+  }
+  
+  .donation-type-toggle {
+    max-width: 280px;
+    margin: 0 auto 20px;
+  }
+  
+  .toggle-btn {
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+  
+  .amount-buttons {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin-bottom: 15px;
+    max-width: 300px;
+    margin: 0 auto 15px;
+  }
+  
+  .amount-btn {
+    padding: 14px;
+    font-size: 1rem;
+  }
+  
+  .custom-amount {
+    max-width: 300px;
+    margin: 0 auto 20px;
+  }
+  
+  .custom-amount input {
+    padding: 14px 14px 14px 32px;
+    font-size: 1rem;
+  }
+  
+  .currency-symbol {
+    font-size: 1.1rem;
+    left: 12px;
+  }
+  
+  .donate-btnn {
+    max-width: 300px;
+    padding: 16px;
+    font-size: 1.1rem;
+    margin: 0 auto 15px;
+  }
+  
+  .security-badge {
+    max-width: 300px;
+    margin: 15px auto 0;
+    font-size: 0.85rem;
+  }
+}
+
+/* ======================================
+   MOBILE MEDIUM (480px to 575px)
+   ====================================== */
+@media (min-width: 480px) and (max-width: 575px) {
+  .donation-container {
+    margin: 1.5rem;
+    border-radius: 10px;
+  }
+  
+  .donation-image {
+    min-height: 300px;
+  }
+  
+  .image-overlay {
+    padding: 1.25rem;
+  }
+  
+  .image-overlay h2 {
+    font-size: 1.6rem;
+  }
+  
+  .image-overlay p {
+    font-size: 0.95rem;
+  }
+  
+  .impact-stats {
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .donation-widget {
+    padding: 1.5rem;
+  }
+  
+  .donation-widget h3 {
+    font-size: 1.5rem;
+  }
+  
+  .donation-widget p {
+    font-size: 0.9rem;
+  }
+  
+  .donation-type-toggle {
+    margin-bottom: 20px;
+  }
+  
+  .amount-buttons {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .amount-btn {
+    padding: 12px;
+    font-size: 1rem;
+  }
+  
+  .custom-amount input {
+    padding: 12px 12px 12px 30px;
+    font-size: 1rem;
+  }
+  
+  .donate-btnn {
+    padding: 15px;
+    font-size: 1rem;
+  }
+}
+
+/* ======================================
+   MOBILE SMALL (375px to 479px)
+   ====================================== */
+@media (min-width: 375px) and (max-width: 479px) {
+  .donation-container {
+    margin: 1rem;
+    border-radius: 8px;
+  }
+  
+  .donation-image {
+    min-height: 250px;
+  }
+  
+  .image-overlay {
+    padding: 1rem;
+  }
+  
+  .image-overlay h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .image-overlay p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .donation-widget {
+    padding: 1.25rem;
+  }
+  
+  .donation-widget h3 {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+  }
+  
+  .donation-widget p {
+    font-size: 0.85rem;
+    margin-bottom: 15px;
+  }
+  
+  .donation-type-toggle {
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+  
+  .toggle-btn {
+    padding: 8px;
+    font-size: 0.9rem;
+    border-radius: 6px;
+  }
+  
+  .amount-buttons {
+    gap: 6px;
+    margin-bottom: 15px;
+  }
+  
+  .amount-btn {
+    padding: 10px;
+    font-size: 0.95rem;
+    border-radius: 8px;
+  }
+  
+  .custom-amount input {
+    padding: 10px 10px 10px 28px;
+    font-size: 0.95rem;
+    border-radius: 8px;
+  }
+  
+  .currency-symbol {
+    font-size: 1rem;
+    left: 10px;
+  }
+  
+  .donate-btnn {
+    padding: 14px;
+    font-size: 0.95rem;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .security-badge {
+    font-size: 0.8rem;
+    padding: 8px;
+    border-radius: 6px;
+  }
+}
+
+/* ======================================
+   EXTRA SMALL MOBILE (below 375px)
+   ====================================== */
+@media (max-width: 374px) {
+  .donation-container {
+    margin: 0.75rem;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  }
+  
+  .donation-image {
+    min-height: 220px;
+  }
+  
+  .image-overlay {
+    padding: 0.75rem;
+  }
+  
+  .image-overlay h2 {
+    font-size: 1.2rem;
+  }
+  
+  .image-overlay p {
+    font-size: 0.8rem;
+    line-height: 1.4;
+  }
+  
+  .impact-stats {
+    margin-top: 1rem;
+  }
+  
+  .stat-number {
+    font-size: 1.3rem;
+  }
+  
+  .stat-label {
+    font-size: 0.75rem;
+  }
+  
+  .donation-widget {
+    padding: 1rem;
+  }
+  
+  .donation-widget h3 {
+    font-size: 1.2rem;
+  }
+  
+  .donation-widget p {
+    font-size: 0.8rem;
+    line-height: 1.4;
+  }
+  
+  .donation-type-toggle {
+    flex-direction: column;
+    gap: 5px;
+    background: transparent;
+    padding: 0;
+  }
+  
+  .toggle-btn {
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+  }
+  
+  .amount-buttons {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+  
+  .amount-btn {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+  
+  .custom-amount input {
+    padding: 8px 8px 8px 25px;
+    font-size: 0.9rem;
+  }
+  
+  .currency-symbol {
+    font-size: 0.9rem;
+    left: 8px;
+  }
+  
+  .donate-btnn {
+    padding: 12px;
+    font-size: 0.9rem;
+  }
+  
+  .security-badge {
+    font-size: 0.75rem;
+    padding: 6px;
+  }
+}
+
+/* ======================================
+   LANDSCAPE ORIENTATION FOR MOBILE/TABLET
+   ====================================== */
+@media (max-height: 600px) and (orientation: landscape) {
+  .donation-container {
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem;
+  }
+  
+  .donation-image {
+    min-height: 400px;
+  }
+  
+  .image-overlay {
+    padding: 1.5rem;
+  }
+  
+  .image-overlay h2 {
+    font-size: 1.6rem;
+  }
+  
+  .donation-widget {
+    padding: 1.5rem;
+  }
+  
+  .donation-widget h3 {
+    font-size: 1.4rem;
+  }
+  
+  .donation-widget p {
+    font-size: 0.9rem;
+  }
+  
+  .amount-buttons {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ======================================
+   DARK MODE SUPPORT
+   ====================================== */
+
+/* ======================================
+   TOUCH DEVICE OPTIMIZATIONS
+   ====================================== */
+@media (hover: none) and (pointer: coarse) {
+  .amount-btn,
+  .toggle-btn,
+  .donate-btnn {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  .amount-btn:hover,
+  .toggle-btn:hover {
+    transform: none;
+  }
+  
+  .donate-btnn:hover:not(:disabled) {
+    transform: none;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+  }
+  
+  .amount-btn.selected {
+    transform: none;
+  }
+}
+
+/* ======================================
+   HIGH DPI/RETINA DISPLAYS
+   ====================================== */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .donation-image img {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+}
+
+/* ======================================
+   REDUCED MOTION PREFERENCES
+   ====================================== */
+@media (prefers-reduced-motion: reduce) {
+  .amount-btn,
+  .toggle-btn,
+  .donate-btnn {
+    transition: none;
+  }
+  
+  .amount-btn:hover,
+  .toggle-btn:hover,
+  .donate-btnn:hover {
+    transform: none;
+  }
+}
+
+/* ======================================
+   PRINT STYLES
+   ====================================== */
+@media print {
+  .donation-container {
+    box-shadow: none;
+    border: 1px solid #ddd;
+    margin: 1cm auto;
+  }
+  
+  .donation-image {
+    display: none;
+  }
+  
+  .donation-widget {
+    width: 100%;
+  }
+  
+  .donation-type-toggle,
+  .donate-btnn {
+    display: none;
+  }
+  
+  .security-badge {
+    display: none;
+  }
+}
+
+/* ======================================
+   FOLDABLE DEVICES & DUAL SCREENS
+   ====================================== */
+@media (max-width: 280px) {
+  .donation-container {
+    margin: 0.5rem;
+    border-radius: 4px;
+  }
+  
+  .image-overlay h2 {
+    font-size: 1rem;
+  }
+  
+  .image-overlay p {
+    font-size: 0.75rem;
+  }
+  
+  .donation-widget h3 {
+    font-size: 1rem;
+  }
+  
+  .amount-buttons {
+    grid-template-columns: 1fr;
+  }
+  
+  .donate-btnn {
+    font-size: 0.85rem;
+    padding: 10px;
+  }
+}
+
+/* ======================================
+   ACCESSIBILITY FOCUS STATES
+   ====================================== */
+.amount-btn:focus-visible,
+.toggle-btn:focus-visible,
+.donate-btnn:focus-visible,
+.custom-amount input:focus-visible {
+  outline: 3px solid #667eea;
+  outline-offset: 2px;
+}
+
+/* ======================================
+   RTL SUPPORT
+   ====================================== */
+body.rtl .donation-container {
+  direction: rtl;
+}
+
+body.rtl .currency-symbol {
+  left: auto;
+  right: 15px;
+}
+
+body.rtl .custom-amount input {
+  padding: 15px 35px 15px 15px;
+}
+
+@media (max-width: 767px) {
+  body.rtl .currency-symbol {
+    right: 12px;
+  }
+  
+  body.rtl .custom-amount input {
+    padding: 14px 32px 14px 14px;
+  }
+}
+
+@media (max-width: 374px) {
+  body.rtl .currency-symbol {
+    right: 8px;
+  }
+  
+  body.rtl .custom-amount input {
+    padding: 8px 25px 8px 8px;
+  }
+}

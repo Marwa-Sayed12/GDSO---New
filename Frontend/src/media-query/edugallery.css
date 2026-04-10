@@ -1,0 +1,568 @@
+/* =================================================== */
+/* COMPREHENSIVE RESPONSIVE DESIGN - FIXED */
+/* =================================================== */
+
+/* Extra Large Screens (1440px and above) */
+@media (max-width: 1440px) and (orientation: portrait){
+  .education-gallery {
+    max-width: 100%;
+    padding: 20px;
+    /* background-color: rgb(4, 0, 255); */
+  
+  }
+ 
+  .education-container {
+    grid-template-columns: 440px 1fr;
+    gap: 20px;
+  }
+  
+  .education-header-title {
+    font-size: 3rem;
+  }
+    .education-category-icon {
+    font-size: 2.6rem !important;
+  }
+    .education-header-icon {
+    font-size: 5rem;
+  }
+  
+  .education-category-label {
+    font-size: 1.8rem !important;
+  }
+    .no-content-message p {
+    font-size: 1.7rem;
+  }
+    .education-content-title h2 {
+    font-size: 2rem;
+  }
+
+  .no-content-icon {
+    font-size: 60px;
+  }
+    .education-title-icon {
+    font-size: 3rem;
+  }
+  
+  .education-images-grid {
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    gap: 15px;
+  }
+  .education-gallery-image {
+  height: 370px;
+}
+}
+
+/* Large Tablets and Small Laptops (1024px - 1366px) */
+@media (min-width: 1200px) and (orientation: portrait){
+  .education-gallery {
+    max-width: 100%;
+    padding: 20px;
+    /* background-color: aqua; */
+  }
+  
+  .education-container {
+    grid-template-columns: 440px 1fr;
+    gap: 20px;
+  }
+  
+  .education-header-title {
+    font-size: 3rem;
+  }
+    .education-category-icon {
+    font-size: 2.6rem !important;
+  }
+    .education-header-icon {
+    font-size: 5rem;
+  }
+  
+  .education-category-label {
+    font-size: 1.8rem !important;
+  }
+    .no-content-message p {
+    font-size: 1.7rem;
+  }
+    .education-content-title h2 {
+    font-size: 2.5rem;
+  }
+
+  .no-content-icon {
+    font-size: 65px;
+  }
+    .education-title-icon {
+    font-size: 3rem;
+  }
+  
+  .education-images-grid {
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    gap: 15px;
+  }
+  .education-gallery-image {
+  height: 370px;
+}
+  
+
+}
+
+/* Tablets (768px - 1023px) */
+@media (max-width: 1024px) {
+      /* .education-gallery {
+    
+     background-color: rgb(212, 0, 255); 
+  
+  } */
+
+  
+  .education-header-title {
+    font-size: 2.2rem;
+  }
+  
+  .education-container {
+    grid-template-columns: 320px 1fr;
+    gap: 20px;
+  }
+
+  
+  .education-category-icon {
+    font-size: 2rem !important;
+  }
+  
+  .education-category-label {
+    font-size: 1.4rem !important;
+  }
+  
+    .education-header-icon {
+    font-size: 3.5rem !important;
+  }
+      .education-title-icon {
+    font-size: 2rem !important;
+  }
+  .education-content-title h2 {
+    font-size: 1.5rem;
+  }
+  
+  .education-images-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+    .education-gallery-image {
+  height: 270px;
+}
+ 
+}
+
+/* Large Phones and Small Tablets (576px - 767px) */
+@media (max-width: 768px) {
+  .education-gallery {
+    max-width: 100%;
+    padding: 20px;
+    /* background-color: rgb(239, 120, 182); */
+  
+  }
+  
+
+  
+  .education-header-icon {
+    font-size: 2rem;
+    padding: 6px 12px;
+  }
+  .education-sidebar-title {
+  font-size: 1.6rem;
+}
+  .education-header-title {
+    font-size: 2rem;
+  }
+  
+  .education-container {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  
+  .education-category-icon {
+    font-size: 1.2rem;
+  }
+  
+  .education-category-label {
+    font-size: 1.5rem !important;
+  }
+
+
+  
+  .education-content-title h2 {
+    font-size: 1.4rem;
+  }
+  
+  .education-images-grid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 12px;
+  }
+
+}
+
+/* Medium Phones (425px - 575px) */
+@media (max-width: 576px) {
+  /* .education-gallery {
+   
+    background-color: rgb(255, 4, 84);
+  
+  } */
+
+  
+  .education-header-icon {
+    font-size: 2.6rem !important;
+  }
+  
+  .education-header-title {
+    font-size: 1.6rem;
+  }
+  
+
+  
+  .education-sidebar-title {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  
+  .education-category-icon {
+    font-size: 1.4rem;
+   
+  }
+  
+  .education-category-label {
+    font-size: 1.4rem !important;
+   
+  }
+  
+  .education-content {
+    padding: 15px;
+  }
+  
+  .education-content-title {
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+  
+
+  
+  .education-content-title h2 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  
+  .education-images-grid {
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 10px;
+  }
+    .education-gallery-image {
+  height: 230px;
+}
+
+  
+  .no-content-message {
+    padding: 40px 15px;
+  }
+  
+  .no-content-message p {
+    font-size: 1rem;
+  }
+  
+  .no-content-icon {
+    font-size: 50px;
+  }
+}
+
+/* Small Phones (375px - 424px) */
+@media (max-width: 424px) {
+  .education-gallery {
+    max-width: 100%;
+    padding: 20px;
+    /* background-color: rgb(255, 42, 0); */
+  
+  }
+
+  .education-header-icon {
+    font-size: 1.6rem;
+  }
+  
+  .education-header-title {
+    font-size: 1.5rem;
+  }
+  
+
+  .education-sidebar-title {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  
+
+  
+  .education-category-icon {
+    font-size: 1.6rem !important;
+  }
+  
+  .education-category-label {
+    font-size: 1.3rem !important;
+  }
+  
+
+  
+  .education-title-icon {
+    font-size: 1rem;
+  }
+  
+  .education-content-title h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .education-images-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+  
+  .education-gallery-image {
+    width: 100%;
+    height: 160px;
+  }
+ 
+}
+
+/* Extra Small Phones (320px - 374px) */
+@media (max-width: 374px) {
+      .education-gallery {
+    max-width: 100%;
+    padding: 20px;
+    /* background-color: rgb(0, 255, 68); */
+  
+  }
+  .education-header-icon {
+    font-size: 1.6rem;
+  }
+  
+  .education-header-title {
+    font-size: 1.5rem;
+  }
+  
+
+  .education-sidebar-title {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  
+
+  
+  .education-category-icon {
+    font-size: 1.3rem !important;
+  }
+  
+  .education-category-label {
+    font-size: 1.2rem !important;
+  }
+  
+
+  
+  .education-title-icon {
+    font-size: 1.5rem !important;
+  }
+  
+  .education-content-title h2 {
+    font-size: 1.1rem ;
+    text-align: center;
+  }
+  
+  .education-images-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+  
+  .education-gallery-image {
+
+    height: 150px;
+  }
+}
+
+/* Very Small Phones (below 320px) */
+@media (max-width: 319px) {
+ .education-sidebar  {
+     margin-left: -6px;
+    /* background-color: rgb(255, 251, 0); */
+  
+  }
+.education-header-icon {
+    font-size: 1.4rem !important;
+  }
+  
+  .education-header-title {
+    font-size: 1.1rem;
+  }
+  
+
+  .education-sidebar-title {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+
+  
+  .education-category-icon {
+    font-size: 1rem !important;
+  }
+  
+  .education-category-label {
+    font-size: 1rem !important;
+  }
+  
+
+  
+  .education-title-icon {
+    font-size: 1.1rem !important;
+  }
+  
+  .education-content-title h2 {
+    font-size: 1rem ;
+    text-align: center;
+  }
+  
+  .education-images-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+  
+  .education-gallery-image {
+
+    height: 130px;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .education-gallery {
+    background: white;
+    padding: 0;
+  }
+  
+  .education-sidebar,
+  .education-header-icon,
+  .lightbox-overlay,
+  .nav-btn,
+  .close-lightbox {
+    display: none;
+  }
+  
+  .education-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .education-images-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .education-image-card {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
+
+/* Orientation-specific adjustments */
+@media (max-width: 768px) and (orientation: landscape) {
+  .education-container {
+    grid-template-columns: 200px 1fr;
+  }
+  
+  .education-category-list {
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .education-category-item {
+    min-width: 100%;
+    max-width: 100%;
+    padding: 10px 12px;
+    align-items: center;
+  }
+  
+  .education-category-icon {
+    min-width: 30px;
+  }
+  
+  .education-images-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .education-image-card {
+    aspect-ratio: 1/1;
+  }
+}
+
+/* High-resolution displays */
+@media (min-resolution: 192dpi) {
+  .education-gallery-image,
+  .lightbox-image {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+}
+
+/* Reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .education-image-card,
+  .lightbox-overlay,
+  .education-images-grid,
+  .education-videos-grid {
+    animation: none;
+    transition: none;
+  }
+}
+
+/* =================================================== */
+/* FIXED ALIGNMENT STYLES - ADD THESE TO MAIN CSS TOO */
+/* =================================================== */
+
+/* Fixed alignment for category items */
+.education-category-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #f8f9fa;
+  border: 1px solid transparent;
+  transition: all 0.25s ease;
+}
+
+.education-category-icon {
+  font-size: 1.4rem;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.education-category-label {
+  font-size: 1rem;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+}
+
+/* RTL alignment fixes */
+.education-gallery[dir="rtl"] .education-category-item {
+  gap: 12px;
+}
+
+.education-gallery[dir="rtl"] .education-category-icon {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.education-gallery[dir="rtl"] .education-category-label {
+  text-align: right;
+  direction: rtl;
+}

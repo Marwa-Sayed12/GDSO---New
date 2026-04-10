@@ -1,0 +1,337 @@
+@media screen
+and (min-width: 515px) and (max-width: 530px)
+and (min-height: 900px) and (max-height: 925px)
+and (orientation: portrait) {
+
+  .impact-image img {
+    max-width: 90%; 
+  }
+
+.area-image {
+  width: 100%;
+  max-width: 450px;
+  margin: 50px  auto 0 ;
+}
+
+.area-image img {
+  width: 100%;
+  height: auto;
+}
+.future-image img {
+  width: 100%;
+  height: auto;
+}
+
+}
+
+/* --------------------------------------------------------------- */
+
+
+@media (max-width: 374px)  and (orientation: portrait){
+
+  .impact-section-about {
+    background-image: url('../Images/background/111.svg');
+    background-size: cover;
+        background-position: center center; /* IMPORTANT */
+  }
+}
+
+@media  (max-height: 899px )   and (orientation: portrait){
+
+  .impact-section-about {
+    background-image: url('../Images/background/111.svg');
+    background-size: cover;
+        background-position: center center; /* IMPORTANT */
+  }
+}
+
+@media (width: 412px)  and (orientation: portrait){
+
+  .impact-section-about {
+    background-image: url('../Images/background/111.svg');
+    background-size: cover;
+        background-position: center center; /* IMPORTANT */
+  }
+}
+
+
+@media (max-width: 399px)  and (orientation: portrait){
+ .about-banner h1 {
+       font-size: 1.9rem !important; 
+
+   
+  }
+    body.rtl   .about-content p{
+    font-size: 22px;
+  }
+  .about-content p{
+    font-size: 18px;
+  }
+
+      .vmv-wrapper {
+    padding: 19px 19px 0px;
+  }
+  .vmv-divider {
+  width: 70%;
+  height: 3px;
+}
+  body.rtl .vmv-description {
+   
+    text-align: center;
+    font-size: 1.2rem;
+    line-height:1.7;
+
+  }
+  .vmv-description {
+   
+    text-align: center;
+    font-size: 0.9rem;
+    line-height:1.7;
+
+  }
+  .vmv-card-- p {
+    font-size: 1rem;
+    line-height: 1.65rem;
+    text-align: center;
+  }
+  body.rtl .vmv-card-- p {
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+    text-align: center;
+  }
+    .vmv-title {
+    flex: 1;
+    font-size: 33px;
+    padding-top:17px;
+}
+.impact-section-about {
+    background-image: url('../Images/background/111.svg');
+    background-size: cover;
+        background-position: center center; /* IMPORTANT */
+  }
+  .impact-image img {
+    max-width: 90%; 
+  }
+
+.area-image {
+
+  max-width: 420px;
+  margin: 50px  auto 0 ;
+}
+
+  .area-content p{
+    font-size: 1.1rem ;
+       margin: 0px  0 ;
+
+  }
+.area-image img {
+  width: 100%;
+  height: auto;
+}
+.future-image img {
+  width: 100%;
+  height: auto;
+}
+
+}
+
+@media (width: 834px)   and (orientation: portrait){
+
+      .area-section , .future-section{
+    display: block;
+   
+  }
+  .impact-image img {
+    max-width: 90%; 
+  }
+
+
+.future-image img {
+  width: 94% !important; 
+  height: auto;
+}
+
+}
+
+
+@media (min-width: 768px)     and (orientation: portrait)
+{
+   
+      .area-section , .future-section{
+    display: block;
+   
+  }
+.area-image {
+  width: 100%;
+  max-width: 550px;
+  margin: 50px  auto 0 ;
+}
+
+.area-image img {
+  width: 100%;
+  height: auto;
+}
+.future-image img {
+  width: 94%;
+  height: auto;
+}
+
+
+}
+
+@media (max-width: 320px) {
+
+  .about-banner h1 {
+    font-size: 1.5rem !important;
+  }
+  
+  .about-images-row {
+    gap: 0.5rem;
+    margin: 1rem 0;
+  }
+  
+  .about-images-row img {
+    width: 100%;
+    max-width: 240px;
+    height: 130px;
+  }
+  
+.about-content{
+  background-color: rgb(255, 255, 255) !important;
+}
+  .about-content h3 {
+    font-size: 1.5rem !important;
+    margin-left: 19px !important;
+  }
+  body.rtl   .about-content h3 {
+    font-size: 1.5rem !important;
+    margin-right: 19px !important;
+  }
+  
+  .about-content p {
+    font-size: 0.85rem !important;
+   
+  }
+  body.rtl   .about-content p {
+    font-size: 1rem !important;
+   
+  }
+    body.rtl   .impact-underline-whoweare {
+    width: 100px;
+     margin-left: 170px !important;
+  }
+  .impact-underline-whoweare {
+    width: 120px;
+     margin-left: 24px !important;
+  }
+
+  
+  /* VMV Section */
+  .vmv-wrapper {
+    padding: 1rem !important;
+  }
+
+  
+    .vmv-wrapper {
+    padding: 10px 14px 0px;
+  }
+    .vmv-description {
+    font-size: 13px !important;
+    line-height: 1.9;
+    text-align: justify;
+
+}
+.vmv-title{
+      font-size: 23px !important;
+
+}
+ body.rtl .vmv-divider {
+    width: 3px;
+    height: 200px;
+  }
+
+  .vmv-cards {
+    gap: 1rem;
+  }
+    .vmv-card-- {
+    max-width: 200px !important;
+    min-width: 200px !important;
+    min-height: 330px !important;
+  } 
+  
+  
+  .vmv-card-- h3 {
+    font-size: 1.3rem !important;
+  }
+  
+  .vmv-card-- p {
+    font-size: 0.8rem !important;
+    line-height: 1.4 !important;
+  }
+  body.rtl   .vmv-card-- p {
+    font-size: 1.2rem !important;
+    line-height: 1.4 !important;
+  }
+  
+  .vmv-img {
+    width: 80px;
+    margin: 0.5rem auto;
+  }
+  .impact-section-about {
+    background-image: url('../Images/background/111.svg');
+    background-size: cover;
+        background-position: center center; /* IMPORTANT */
+
+   
+  }
+  
+  .impact-right p {
+    font-size: 0.85rem !important;
+    line-height: 1.5;
+    text-align: left !important;
+  }
+  body.rtl   .impact-right p {
+    font-size: 1rem !important;
+    line-height: 1.5;
+    text-align: right !important;
+  }
+  
+  .impact-image img {
+    max-width: 90%; 
+  }
+
+
+  .future-content p{
+    font-size: 1.3rem ;
+      width: 86% !important;
+      margin-left: 3.4rem !important;
+  }
+    .future-content h3{
+    font-size: 1.3rem ;
+      width: 86% !important;
+      margin-left: 3.4rem !important;
+  }
+     body.rtl .future-content h3{
+     right: 5.4rem !important;
+  }
+       body.rtl .area-content h3{
+     right: 5.4rem !important;
+           width: 70% !important;
+
+  }
+
+  .area-content p{
+    font-size: 1.3rem ;
+      width: 76% !important;
+  }
+.future-image img {
+  width: 87%  !important;
+  height: 45vh !important;
+}
+.area-image img{
+  width: 87% !important;
+  max-width: 300px !important;
+  margin: 50px  auto 30px !important ;
+}
+ 
+}

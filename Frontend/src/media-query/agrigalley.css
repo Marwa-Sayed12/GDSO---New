@@ -1,0 +1,608 @@
+/* AgricultureGallery.css - Media Queries Only */
+
+/* Extra Large Screens (1440px and above) */
+@media (max-width: 1440px) and (orientation: portrait) {
+  .agriculture-gallery {
+    max-width: 100%;
+    padding: 20px;
+    /* background-color: rgb(231, 141, 31); */
+
+  }
+    
+  .agriculture-container {
+    grid-template-columns: 440px 1fr;
+    gap: 20px;
+  }
+  
+  .agriculture-header-title {
+    font-size: 3rem;
+  }
+  
+  .agriculture-category-icon {
+    font-size: 2.6rem !important;
+  }
+  
+  .agriculture-header-icon {
+    font-size: 5rem;
+  }
+  
+  .agriculture-category-label {
+    font-size: 1.8rem !important;
+  }
+  
+  .no-content-message p {
+    font-size: 1.7rem;
+  }
+  
+  .agriculture-content-title h2 {
+    font-size: 2rem;
+  }
+  
+  .no-content-icon {
+    font-size: 60px;
+  }
+  
+  .agriculture-title-icon {
+    font-size: 3rem;
+  }
+  
+  .agriculture-images-grid {
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    gap: 15px;
+  }
+  
+  .agriculture-gallery-image {
+    height: 370px;
+  }
+}
+
+/* Large Tablets and Small Laptops (1024px - 1366px) */
+@media (min-width: 1200px) and (orientation: portrait) {
+  .agriculture-gallery {
+    max-width: 100%;
+    padding: 20px;
+  }
+    /* .agriculture-gallery {
+    max-width: 100%;
+    padding: 20px;
+        background-color: rgb(131, 26, 147);
+
+  } */
+  
+  .agriculture-container {
+    grid-template-columns: 640px 1fr;
+    gap: 20px;
+  }
+  
+  .agriculture-header-title {
+    font-size: 3rem !important;
+  }
+  body.rtl   .agriculture-header-title {
+    font-size: 4.6rem !important;
+  }
+    .agriculture-sidebar-title {
+    font-size: 3.4rem !important;
+    text-align: center;
+  }
+  body.rtl     .agriculture-sidebar-title {
+    font-size: 4.5rem !important;
+
+  }
+  .agriculture-category-icon {
+    font-size: 2.6rem !important;
+  }
+  
+  .agriculture-header-icon {
+    font-size: 5rem;
+  }
+  
+  .agriculture-category-label {
+    font-size: 3.2rem !important;
+  }
+  body.rtl   .agriculture-category-label {
+    font-size: 4.3rem !important;
+  }
+  
+  .no-content-message p {
+    font-size: 3.7rem !important;
+  }
+  
+  .agriculture-content-title h2 {
+    font-size: 2.9rem;
+  }
+  body.rtl   .agriculture-content-title h2 {
+    font-size: 4.5rem;
+  }
+  
+  .no-content-icon {
+    font-size: 75px !important;
+  }
+  
+  .agriculture-title-icon {
+    font-size: 3rem;
+  }
+  
+  .agriculture-images-grid {
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    gap: 15px;
+  }
+  
+  .agriculture-gallery-image {
+    height: 370px;
+  }
+}
+
+/* Tablets (768px - 1023px) */
+@media (max-width: 1024px) {
+  .agriculture-header-title {
+    font-size: 2.2rem;
+  }
+    .agriculture-gallery {
+    max-width: 100%;
+    padding: 20px;
+        /* background-color: rgb(0, 255, 170); */
+
+  }
+  .agriculture-container {
+    grid-template-columns: 320px 1fr;
+    gap: 20px;
+  }
+  
+  .agriculture-category-icon {
+    font-size: 2rem !important;
+  }
+  
+  .agriculture-category-label {
+    font-size: 1.7rem !important;
+  }
+  body.rtl   .agriculture-category-label {
+    font-size: 1.89rem !important;
+  }
+  
+  
+  .agriculture-header-icon {
+    font-size: 3.5rem !important;
+  }
+  
+  .agriculture-title-icon {
+    font-size: 2rem !important;
+  }
+    .agriculture-sidebar-title {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .agriculture-content-title h2 {
+    font-size: 1.8rem;
+  }
+  body.rtl 
+  .agriculture-content-title h2 {
+    font-size: 1.88rem;
+  }
+  
+  .agriculture-images-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  
+  .agriculture-gallery-image {
+    height: 270px;
+  }
+}
+
+/* Large Phones and Small Tablets (576px - 767px) */
+@media (max-width: 768px) {
+  .agriculture-gallery {
+    max-width: 100%;
+    padding: 20px;
+        /* background-color: rgb(149, 54, 84); */
+
+  }
+   
+  
+  .agriculture-header-icon {
+    font-size: 2rem;
+    padding: 6px 12px;
+  }
+  
+  .agriculture-sidebar-title {
+    font-size: 1.6rem;
+  }
+  
+  .agriculture-header-title {
+    font-size: 2rem;
+  }
+  
+  .agriculture-container {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  .agriculture-category-icon {
+    font-size: 1.2rem;
+  }
+  
+  .agriculture-category-label {
+    font-size: 1.5rem !important;
+  }
+  
+  .agriculture-content-title h2 {
+    font-size: 1.4rem;
+  }
+  
+  .agriculture-images-grid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 12px;
+  }
+}
+
+/* Medium Phones (425px - 575px) */
+@media (max-width: 576px) {
+    /* .agriculture-gallery {
+   
+    background-color: rgb(4, 213, 255);
+  
+  } */
+  .agriculture-header-icon {
+    font-size: 2.6rem !important;
+  }
+  
+  .agriculture-header-title {
+    font-size: 1.6rem;
+  }
+  
+  .agriculture-sidebar-title {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  
+  .agriculture-category-icon {
+    font-size: 1.4rem;
+  }
+  
+  .agriculture-category-label {
+    font-size: 1.4rem !important;
+  }
+   body.rtl .agriculture-category-label {
+    font-size: 1.6rem !important;
+  }
+  
+  .agriculture-content {
+    padding: 15px;
+  }
+  
+  .agriculture-content-title {
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+  
+  .agriculture-content-title h2 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  
+  .agriculture-images-grid {
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 10px;
+  }
+  
+  .agriculture-gallery-image {
+    height: 230px;
+  }
+  
+  .no-content-message {
+    padding: 40px 15px;
+  }
+  
+  .no-content-message p {
+    font-size: 1rem;
+  }
+  
+  .no-content-icon {
+    font-size: 50px;
+  }
+}
+
+/* Small Phones (375px - 424px) */
+@media (max-width: 424px) {
+  .agriculture-gallery {
+    max-width: 100%;
+    padding: 20px;
+    /* background-color: rgb(4, 0, 255); */
+
+  }
+  
+  .agriculture-header-icon {
+    font-size: 1.6rem;
+  }
+  
+  .agriculture-header-title {
+    font-size: 1.5rem;
+  }
+  
+  .agriculture-sidebar-title {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  body.rtl   .agriculture-sidebar-title {
+    font-size: 1.8rem;
+  }
+  
+  .agriculture-category-icon {
+    font-size: 1.6rem !important;
+  }
+  
+  .agriculture-category-label {
+    font-size: 1.3rem !important;
+  }
+  
+  .agriculture-title-icon {
+    font-size: 1rem;
+  }
+  
+  .agriculture-content-title h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  body.rtl   .agriculture-content-title h2 {
+    font-size: 1.3rem;
+  }
+  
+  .agriculture-images-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+  
+  .agriculture-gallery-image {
+    width: 100%;
+    height: 160px;
+  }
+}
+
+/* Extra Small Phones (320px - 374px) */
+@media (max-width: 374px) {
+  .agriculture-gallery {
+    max-width: 100%;
+    padding: 20px;
+        /* background-color: rgb(234, 0, 255); */
+
+
+  }
+  
+  .agriculture-header-icon {
+    font-size: 1.6rem;
+  }
+  
+  .agriculture-header-title {
+    font-size: 1.6rem;
+  }
+  
+  .agriculture-sidebar-title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .agriculture-category-icon {
+    font-size: 1.3rem !important;
+  }
+  
+  .agriculture-category-label {
+    font-size: 1.2rem !important;
+  }
+  body.rtl   .agriculture-category-label {
+    font-size: 1.3rem !important;
+  }
+  
+  .agriculture-title-icon {
+    font-size: 1.5rem !important;
+  }
+  
+  .agriculture-content-title h2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  body.rtl   .agriculture-content-title h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .agriculture-images-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+  
+  .agriculture-gallery-image {
+    height: 150px;
+  }
+}
+
+/* Very Small Phones (below 320px) */
+@media (max-width: 319px) {
+  .agriculture-sidebar,
+    .agriculture-container {
+    margin-left: -12px;
+
+  }
+
+  body.rtl   .agriculture-sidebar,
+  .agriculture-container {
+    margin-left: -2px;
+
+  }
+    .agriculture-gallery {
+    max-width: 100%;
+    padding: 20px;
+        /* background-color: rgb(149, 109, 153); */
+
+
+  }
+  .agriculture-header-icon {
+    font-size: 1.4rem !important;
+  }
+  
+  .agriculture-header-title {
+    font-size: 1.1rem;
+  }
+  
+  .agriculture-sidebar-title {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .agriculture-category-icon {
+    font-size: 1rem !important;
+  }
+  
+  .agriculture-category-label {
+    font-size: 1rem !important;
+  }
+  body.rtl   .agriculture-category-label {
+    font-size: 1rem !important;
+  }
+  
+  .agriculture-title-icon {
+    font-size: 1.1rem !important;
+  }
+  
+  .agriculture-content-title h2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .agriculture-images-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+  
+  .agriculture-gallery-image {
+    height: 130px;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .agriculture-gallery {
+    background: white;
+    padding: 0;
+  }
+  
+  .agriculture-sidebar,
+  .agriculture-header-icon,
+  .lightbox-overlay,
+  .nav-btn,
+  .close-lightbox {
+    display: none;
+  }
+  
+  .agriculture-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .agriculture-images-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .agriculture-image-card {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
+
+/* Orientation-specific adjustments */
+@media (max-width: 768px) and (orientation: landscape) {
+  .agriculture-container {
+    grid-template-columns: 200px 1fr;
+  }
+  
+  .agriculture-category-list {
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .agriculture-category-item {
+    min-width: 100%;
+    max-width: 100%;
+    padding: 10px 12px;
+    align-items: center;
+  }
+  
+  .agriculture-category-icon {
+    min-width: 30px;
+  }
+  
+  .agriculture-images-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .agriculture-image-card {
+    aspect-ratio: 1/1;
+  }
+}
+
+/* High-resolution displays */
+@media (min-resolution: 192dpi) {
+  .agriculture-gallery-image,
+  .lightbox-image {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+}
+
+/* Reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .agriculture-image-card,
+  .lightbox-overlay,
+  .agriculture-images-grid,
+  .agriculture-videos-grid {
+    animation: none;
+    transition: none;
+  }
+}
+
+/* Fixed alignment for category items */
+.agriculture-category-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #f8f9fa;
+  border: 1px solid transparent;
+  transition: all 0.25s ease;
+}
+
+.agriculture-category-icon {
+  font-size: 1.4rem;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.agriculture-category-label {
+  font-size: 1rem;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+}
+
+/* RTL alignment fixes */
+.agriculture-gallery[dir="rtl"] .agriculture-category-item {
+  gap: 12px;
+}
+
+.agriculture-gallery[dir="rtl"] .agriculture-category-icon {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.agriculture-gallery[dir="rtl"] .agriculture-category-label {
+  text-align: right;
+  direction: rtl;
+}

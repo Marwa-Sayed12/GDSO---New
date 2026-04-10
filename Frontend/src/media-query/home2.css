@@ -1,0 +1,383 @@
+@media screen
+  and (min-width: 315px)
+  and (max-width: 325px)
+  and (min-height: 560px)
+  and (max-height: 575px)
+  and (orientation: portrait) {
+
+.slider-text-overlay {
+    top: 80%;
+    font-size: 1rem !important;
+    padding: 10px 14px;
+  }
+  body.rtl  .card p {
+        font-size: 0.9rem;
+        text-align: right;
+        line-height: 2rem;
+     }
+     body.rtl .video-main-description{
+    font-size: 0.9rem;
+    text-align: right;
+    line-height: 2rem;
+
+  }
+  .search-box {
+    width: 130px;
+    height: 30px;
+    font-size: 0.8rem;
+
+  }
+  .dropdown-button {
+  padding: 10px 4px;
+  font-size: 0.8rem;
+}
+.dropdown-menu li {
+  padding: 9px 15px;
+  font-size: 15px;
+}
+
+  .impact-card {
+    max-width: 290px;
+    height: 400px;
+  }
+  .img-large {
+    width: 100%;
+    height: 59vh;
+  }  
+  .img-decor {
+    width: 250px !important;
+    height: 250px !important;
+  }
+  .top-left {
+    margin-top: 1%;
+    left: -5%;
+  }
+  .one{
+    top: 19%;
+  position: relative;
+  z-index: 2;
+}
+ .bottom-right {
+    margin-top: -28%;
+    left: 30%;
+  }
+    .two{
+    top: 29%;
+  position: relative;
+  z-index: 2;
+}
+.about-text {
+    margin-top: 300px;
+    text-align: center;
+  }
+
+
+}
+
+
+
+@media screen
+and (min-width: 410px) and (max-width: 418px)
+and (min-height: 890px) and (max-height: 900px)
+and (orientation: portrait) {
+  /* .slider-text-overlay {
+    top: 80%;
+    font-size: 11rem !important;
+    padding: 10px 14px;
+  } */
+  
+  .navbar-links {
+    top: 248px;
+    left: 0;
+  }
+
+  .img-large {
+    width: 100%;
+    height: 49vh;
+  }
+    .img-decor {
+    width: 290px !important;
+    height: 240px !important;
+  }
+    .top-left {
+    margin-top: 17%;
+    left: 6%;
+  }
+    .bottom-right {
+    margin-top: 20%;
+    left: 43%;
+  }
+}
+
+
+@media screen
+and (min-width: 408px) and (max-width: 416px)
+and (min-height: 908px) and (max-height: 920px)
+and (orientation: portrait) {
+
+  
+  .search-box {
+    width: 170px;
+
+  }
+    .img-large {
+    width: 100%;
+    height: 49vh;
+  }
+    .img-decor {
+    width: 290px !important;
+    height: 240px !important;
+  }
+    .top-left {
+    margin-top: 17%;
+    left: 6%;
+  }
+    .bottom-right {
+    margin-top: 20%;
+    left: 43%;
+  }
+}
+
+@media screen
+and (min-width: 386px) and (max-width: 394px)
+and (min-height: 838px) and (max-height: 850px)
+and (orientation: portrait) {
+
+    .search-box {
+    width: 160px;
+
+  }
+    .navbar-links {
+    top: 200px;
+    left: 0;
+  }
+    .img-large {
+    width: 100%;
+    height: 49vh;
+  }
+    .img-decor {
+    width: 340px !important;
+    height: 270px !important;
+  }
+    .top-left {
+    margin-top: 13%;
+    left: -9%;
+  }
+    .bottom-right {
+    margin-top: 2%;
+    right: 3%;
+  }
+}
+
+
+@media screen
+and (min-width: 355px) and (max-width: 365px)
+and (min-height: 660px) and (max-height: 680px)
+and (orientation: portrait) {
+
+    .img-large {
+    width: 100%;
+    height: 49vh;
+  }
+    .img-decor {
+    width: 320px !important;
+    height: 260px !important;
+  }
+    .top-left {
+    margin-top: 13%;
+    left: -12%;
+  }
+    .one{
+    top: 30%;
+  position: relative;
+  z-index: 2;
+}
+  .about-text {
+    margin-top: 300px;
+  }
+    .bottom-right {
+    margin-top: 2%;
+    right: 3%;
+  }
+}
+
+
+@media screen
+and (min-width: 424px) and (max-width: 432px)
+and (min-height: 920px) and (max-height: 935px)
+and (orientation: portrait) {
+
+  .img-large {
+    width: 100%;
+    height: 49vh;
+  }
+    .img-decor {
+    width: 300px !important;
+    height: 260px !important;
+  }
+    .top-left {
+    margin-top: 17%;
+    left: 4%;
+  }
+    
+  .about-text {
+    margin-top: 550px;
+  }
+    .bottom-right {
+    margin-top: 2%;
+    right: 3%;
+  }
+}
+
+@media screen
+and (min-width: 738px) and (max-width: 750px)
+and (min-height: 1125px) and (max-height: 1140px)
+and (orientation: portrait) {
+
+    .slider-text-overlay {
+    top: 80%;
+    font-size: 1.8rem !important;
+    padding: 10px 14px;
+  }
+  .search-box {
+    width: 380px;
+
+  }
+   .card p {
+        font-size: 1.4rem;
+        text-align: justify;
+        line-height: 2.3rem;
+     }
+      body.rtl .card p {
+        font-size: 1.8rem;
+        text-align: right;
+        line-height: 2.8rem;
+     }
+       body.rtl .video-main-description{
+    font-size: 1.6rem;
+    text-align: right;
+    line-height: 2.8rem;
+
+  }
+  .img-large {
+    width: 100%;
+    height: 39vh;
+  }
+    .img-decor {
+    width: 440px !important;
+    height: 260px !important;
+  }
+    .top-left {
+    margin-top: 17%;
+    left: 4%;
+  }
+    
+  .about-text {
+    margin-top: 550px;
+  }
+    .bottom-right {
+    margin-top: 2%;
+    right: 3%;
+  }
+  body.rtl    .about-text p {
+    font-size: 2.6rem;
+  }
+}
+
+
+@media screen
+and (min-width: 355px) and (max-width: 365px)
+and (min-height: 790px) and (max-height: 810px)
+and (orientation: portrait) {
+
+
+    .img-large {
+    width: 100%;
+    height: 49vh;
+  }
+    .img-decor {
+    width: 290px !important;
+    height: 200px !important;
+  }
+    .top-left {
+    margin-top: 17%;
+    left: -4%;
+  }
+    
+  .about-text {
+    margin-top: 550px;
+  }
+    .bottom-right {
+    margin-top: 2%;
+    right: 3%;
+  }
+}
+
+
+@media screen
+and (min-width: 515px) and (max-width: 530px)
+and (min-height: 900px) and (max-height: 925px)
+and (orientation: portrait) {
+
+  .navbar-links {
+    top: 243px;
+    left: 0;
+  }
+    .img-large {
+    width: 100%;
+    height: 49vh;
+  }
+    .img-decor {
+    width: 430px !important;
+    height: 240px !important;
+  }
+    .top-left {
+    margin-top: 17%;
+    left: -4%;
+  }
+    
+  .about-text {
+    margin-top: 620px;
+  }
+    .bottom-right {
+    margin-top: 42%;
+    right: 3%;
+  }
+    .two{
+    top: 30%;
+  position: relative;
+  z-index: 2;
+}
+.footer-logo p , .footer-logo h2
+  {
+    
+    margin-left: 60px;
+  }
+}
+
+
+
+
+/* For 393px width × 873px height devices */
+@media (min-width: 393px) and (max-width: 396px) and (min-height: 844px) and (max-height: 873px) {
+
+.img-large {
+    width: 100%;
+    height: 49vh;
+  }
+    .img-decor {
+    width: 290px !important;
+    height: 240px !important;
+  }
+    .top-left {
+    margin-top: 9%;
+    left: 3%;
+  }
+    .bottom-right {
+    margin-top: 10%;
+    left: 36%;
+  }
+
+
+}
+

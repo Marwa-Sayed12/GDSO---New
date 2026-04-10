@@ -1,0 +1,1521 @@
+@media (max-width: 320px)
+
+{
+  .education-hero {
+    height: 70vh;
+  }
+
+ 
+  .edu-info-box {
+    flex-direction: column;
+    gap: 45px;
+    width: 80%;
+    bottom: -290px;
+    padding: 20px;
+  }
+
+  .edu-info-icon {
+    font-size: 1.9rem;
+  }
+    .edu-info-item p{
+   font-size: 1.3rem;
+  }
+
+  
+  .edu-hero-text h1 {
+    font-size: 1.5rem;
+           background: -webkit-linear-gradient(#ffffff, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+  }
+  body.rtl .edu-hero-text h1 {
+      font-family: "Amiri", serif;
+     font-size: 1.5rem;
+  }
+    .edu-extra-section {
+  margin-top: 150px;
+}
+.edu-section-paragraph {
+  font-size: 1rem;
+   text-align: left;
+}
+body.rtl .edu-section-paragraph {
+  font-size: 1.6rem;
+   text-align: right;
+}
+.edu-section-title {
+  font-size: 1.7rem;
+}
+
+
+  /* Two images section */
+  .edu-two-img-wrapper {
+    flex-direction: column;   /* stack images */
+    gap: 20px;
+    padding: 1.7rem;         
+    background-size: cover;
+
+  }
+
+  /* Small images */
+  .edu-img-small {
+    width: 100%;              /* full width */
+    max-width: 460px;         /* safe limit */
+    height: auto;             /* responsive height */
+    aspect-ratio: 1 / 1;  
+  }
+  .edu-courses-section {
+    padding: 20px 12px;
+  }
+
+  .edu-courses-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .edu-courses-section p {
+    font-size: 1rem;
+    margin-bottom: 25px;
+  }
+
+  body.rtl .edu-courses-section p {
+    font-size: 1.7rem;
+  }
+
+  /* Cards grid → single column */
+  .courses-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .course-card img {
+    height: 200px;
+  }
+
+  .course-card h3 {
+    font-size: 1.1rem;
+  }
+
+  body.rtl .course-card h3 {
+    font-size: 1.5rem;
+  }
+
+  .course-card p {
+    font-size: 1rem;
+  }
+
+  body.rtl .course-card p {
+    font-size: 1.6rem;
+  }
+
+  .course-duration {
+    font-size: 1.2rem;
+  }
+
+  /* Feature section stack */
+  .course-feature {
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 40px;
+  }
+
+  .feature-card img {
+    height: 200px;
+  }
+
+  .feature-text {
+    padding: 25px 20px;
+    text-align: left;
+  }
+
+  body.rtl .feature-text {
+    padding: 25px 20px;
+  }
+
+  .feature-text h2 {
+    font-size: 1.1rem;
+  }
+
+  body.rtl .feature-text h2 {
+    font-size: 1.6rem;
+  }
+
+  .feature-text p {
+    font-size: 1rem;
+  }
+
+  body.rtl .feature-text p {
+    font-size: 1.6rem;
+  }
+  .edu-highlights {
+    padding: 40px 15px;
+    margin-top: 40px;
+  }
+
+  .edu-highlights-header {
+    margin-bottom: 25px;
+  }
+
+  .edu-highlights-header h2 {
+    font-size: 1.5rem;
+  }
+
+  body.rtl .edu-highlights-header h2 {
+    font-size: 2rem;
+  }
+
+  .edu-highlights-header p {
+    font-size: 1.1rem;
+  }
+
+  body.rtl .edu-highlights-header p {
+    font-size: 1.7rem;
+  }
+
+  /* Container stacks */
+  .edu-highlights-container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .edu-highlights-image img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .edu-highlights-content {
+    gap: 25px;
+    width: 100%;
+  }
+
+  .highlight-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .highlight-icon {
+    font-size: 1.7rem;
+  }
+
+  .highlight-box h3 {
+    font-size: 1.1rem;
+  }
+
+  body.rtl .highlight-box h3 {
+    font-size: 1.2rem;
+  }
+  .edu-details {
+    padding: 30px 12px;
+    background-position: center;
+  }
+
+  .edu-detail {
+    margin-bottom: 20px;
+  }
+
+  .edu-detail h4 {
+    font-size: 1.3rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+  body.rtl .edu-detail h4 {
+    font-size: 1.7rem;
+  }
+
+  .edu-detail p {
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: left;
+    padding: 0 5px;
+  }
+
+  body.rtl .edu-detail p {
+    font-size: 1.6rem;
+    text-align: right;
+  }
+
+}
+
+
+
+
+@media (min-width: 360px) and (orientation: portrait) 
+{
+  .education-hero {
+    height: 70vh;
+  }
+
+ 
+  .edu-info-box {
+    flex-direction: column;
+    gap: 45px;
+    width: 80%;
+    bottom: -290px;
+    padding: 20px;
+  }
+
+  .edu-info-icon {
+    font-size: 2.9rem;
+  }
+    .edu-info-item p{
+   font-size: 1.3rem;
+  }
+
+  
+  .edu-hero-text h1 {
+    font-size: 2.3rem;
+           background: -webkit-linear-gradient(#fffef1, #fffff3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+  }
+  body.rtl .edu-hero-text h1 {
+      font-family: "Amiri", serif;
+     font-size: 2rem;
+  }
+    .edu-extra-section {
+  margin-top: 150px;
+}
+.edu-section-paragraph {
+  font-size: 1.1rem;
+   text-align: left;
+}
+body.rtl .edu-section-paragraph {
+  font-size: 1.8rem;
+   text-align: right;
+}
+
+
+  /* Two images section */
+  .edu-two-img-wrapper {
+    flex-direction: column;   /* stack images */
+    gap: 20px;
+    padding: 2.2rem;         
+    background-size: cover;
+
+  }
+
+  /* Small images */
+  .edu-img-small {
+    width: 100%;              /* full width */
+    max-width: 420px;         /* safe limit */
+    height: auto;             /* responsive height */
+    aspect-ratio: 1 / 1;  
+  }
+  .edu-courses-section {
+    padding: 20px 12px;
+  }
+
+  .edu-courses-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .edu-courses-section p {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+  }
+
+  body.rtl .edu-courses-section p {
+    font-size: 1.6rem;
+  }
+
+  /* Cards grid → single column */
+  .courses-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .course-card img {
+    height: 250px;
+  }
+
+  .course-card h3 {
+    font-size: 1.5rem;
+  }
+
+  body.rtl .course-card h3 {
+    font-size: 1.5rem;
+  }
+
+  .course-card p {
+    font-size: 1rem;
+  }
+
+  body.rtl .course-card p {
+    font-size: 1.8rem;
+  }
+
+  .course-duration {
+    font-size: 1.2rem;
+  }
+
+  /* Feature section stack */
+  .course-feature {
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 40px;
+  }
+
+  .feature-card img {
+    height: 230px;
+        width: 350px;
+
+  }
+
+  .feature-text {
+    padding: 25px 20px;
+    text-align: left;
+  }
+
+  body.rtl .feature-text {
+    padding: 25px 20px;
+  }
+
+  .feature-text h2 {
+    font-size: 1.7rem;
+  }
+
+  body.rtl .feature-text h2 {
+    font-size: 1.6rem;
+  }
+
+  .feature-text p {
+    font-size: 1.2rem;
+  }
+
+  body.rtl .feature-text p {
+    font-size: 1.9rem;
+  }
+  .edu-highlights {
+    padding: 40px 15px;
+    margin-top: 40px;
+  }
+
+  .edu-highlights-header {
+    margin-bottom: 25px;
+  }
+
+  .edu-highlights-header h2 {
+    font-size: 1.9rem;
+  }
+
+  body.rtl .edu-highlights-header h2 {
+    font-size: 2rem;
+  }
+
+  .edu-highlights-header p {
+    font-size: 1.3rem;
+  }
+
+  body.rtl .edu-highlights-header p {
+    font-size: 1.9rem;
+  }
+
+  /* Container stacks */
+  .edu-highlights-container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .edu-highlights-image img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .edu-highlights-content {
+    gap: 25px;
+    width: 100%;
+  }
+
+  .highlight-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .highlight-icon {
+    font-size: 1.7rem;
+  }
+
+  .highlight-box h3 {
+    font-size: 1.2rem;
+  }
+
+  body.rtl .highlight-box h3 {
+    font-size: 1.4rem;
+  }
+  .edu-details {
+    padding: 30px 12px;
+    background-position: center;
+  }
+
+  .edu-detail {
+    margin-bottom: 20px;
+  }
+
+  .edu-detail h4 {
+    font-size: 1.5rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+  body.rtl .edu-detail h4 {
+    font-size: 1.8rem;
+  }
+
+  .edu-detail p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: left;
+    padding: 0 5px;
+  }
+
+  body.rtl .edu-detail p {
+    font-size: 1.7rem;
+    text-align: right;
+  }
+
+}
+
+
+/* 601/962*/
+@media (min-width: 480px) and (orientation: portrait) 
+{
+  .education-hero {
+    height: 70vh;
+  }
+
+ 
+  .edu-info-box {
+    flex-direction: column;
+    gap: 45px;
+    width: 80%;
+    bottom: -290px;
+    padding: 20px;
+  }
+
+  .edu-info-icon {
+    font-size: 2.9rem;
+  }
+    .edu-info-item p{
+   font-size: 1.3rem;
+  }
+     body.rtl .edu-info-icon {
+    font-size: 3.2rem;
+  }
+   body.rtl .edu-info-item p{
+   font-size: 2rem;
+  }
+
+  
+  .edu-hero-text h1 {
+    font-size: 2.3rem;
+               background: -webkit-linear-gradient(#ffffff, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+  }
+  body.rtl .edu-hero-text h1 {
+      font-family: "Amiri", serif;
+
+  }
+    body.rtl .edu-section-title {
+      font-family: "Amiri", serif;
+        font-size: 3rem;
+
+  }
+
+    .edu-extra-section {
+  margin-top: 150px;
+}
+.edu-section-paragraph {
+  font-size: 1.2rem;
+   text-align: left;
+}
+body.rtl .edu-section-paragraph {
+  font-size: 2rem;
+   text-align: right;
+}
+
+
+
+  /* Two images section */
+  .edu-two-img-wrapper {
+    flex-direction:row;
+    gap: 20px;
+    padding: 5rem;      
+    background-size: cover;
+
+  }
+
+  /* Small images */
+  .edu-img-small {
+    width: 100%;              /* full width */
+    max-width: 520px;         /* safe limit */
+    height: auto;             /* responsive height */
+    aspect-ratio: 1 / 1;  
+  }
+  .edu-courses-section {
+    padding: 20px 12px;
+  }
+
+  .edu-courses-section h2 {
+    font-size: 2rem;
+  }
+
+  .edu-courses-section p {
+    font-size: 1.3rem;
+    margin-bottom: 25px;
+  }
+
+  body.rtl .edu-courses-section p {
+    font-size: 2.1rem;
+  }
+    body.rtl .edu-courses-section h2 {
+    font-size: 3rem;
+  }
+
+  /* Cards grid → single column */
+  .courses-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding: 25px 20px;
+  }
+
+  .course-card img {
+    height: 250px;
+  }
+
+  .course-card h3 {
+    font-size: 1.5rem;
+  }
+
+  body.rtl .course-card h3 {
+    font-size: 2rem;
+  }
+
+  .course-card p {
+    font-size: 1.2rem;
+  }
+
+  body.rtl .course-card p {
+    font-size: 2rem;
+  }
+
+  .course-duration {
+    font-size: 2rem;
+  }
+
+  /* Feature section stack */
+  .course-feature {
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 40px;
+    padding: 25px 20px;
+  }
+
+  .feature-card img {
+    height: 290px;
+        width: 430px;
+
+  }
+
+  .feature-text {
+    padding: 25px 25px;
+    text-align: left;
+  }
+
+  body.rtl .feature-text {
+    padding: 25px 20px;
+  }
+
+  .feature-text h2 {
+    font-size: 1.7rem;
+  }
+
+  body.rtl .feature-text h2 {
+    font-size: 2.3rem;
+  }
+
+  .feature-text p {
+    font-size: 1.2rem;
+  }
+
+  body.rtl .feature-text p {
+    font-size: 2rem;
+  }
+  .edu-highlights {
+    padding: 40px 15px;
+    margin-top: 40px;
+  }
+
+  .edu-highlights-header {
+    margin-bottom: 25px;
+  }
+
+  .edu-highlights-header h2 {
+    font-size: 1.9rem;
+  }
+
+  body.rtl .edu-highlights-header h2 {
+    font-size: 3rem;
+  }
+
+  .edu-highlights-header p {
+    font-size: 1.3rem;
+  }
+
+  body.rtl .edu-highlights-header p {
+    font-size: 2.3rem;
+  }
+
+  /* Container stacks */
+  .edu-highlights-container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .edu-highlights-image img {
+    width: 100%;
+    height: 280px;
+    border-radius: 14px;
+  }
+
+  .edu-highlights-content {
+    gap: 25px;
+    width: 100%;
+  }
+
+  .highlight-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .highlight-icon {
+    font-size: 2rem;
+  }
+
+  .highlight-box h3 {
+    font-size: 1.5rem;
+  }
+
+  body.rtl .highlight-box h3 {
+    font-size:1.8rem;
+  }
+  .edu-details {
+    padding: 30px 12px;
+    background-position: center;
+  }
+
+  .edu-detail {
+    margin-bottom: 20px;
+  }
+
+  .edu-detail h4 {
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+  body.rtl .edu-detail h4 {
+    font-size: 2.4rem;
+  }
+
+  .edu-detail p {
+    font-size: 1.4rem;
+    line-height: 1.9;
+    text-align: left;
+    padding: 0 5px;
+  }
+
+  body.rtl .edu-detail p {
+    font-size: 2.1rem;
+    text-align: right;
+  }
+
+}
+
+
+
+@media (min-width: 768px) and (orientation: portrait) 
+{
+  .education-hero {
+    height: 70vh;
+  }
+
+ 
+  .edu-info-box {
+    flex-direction: column;
+    gap: 45px;
+    width: 80%;
+    bottom: -290px;
+    padding: 20px;
+  }
+
+  .edu-info-icon {
+    font-size: 3.9rem;
+  }
+    .edu-info-item p{
+   font-size: 2rem;
+  }
+   body.rtl .edu-info-icon {
+    font-size: 4.2rem;
+  }
+   body.rtl .edu-info-item p{
+   font-size: 2.4rem;
+  }
+
+  
+  .edu-hero-text h1 {
+    font-size: 2.9rem;
+       background: -webkit-linear-gradient(#ffffff, #ececec);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+  }
+  body.rtl .edu-hero-text h1 {
+      font-family: "Amiri", serif;
+      
+  }
+  body.rtl .edu-section-title {
+      font-family: "Amiri", serif;
+        font-size: 3.3rem;
+
+  }
+    .edu-extra-section {
+  margin-top: 180px;
+}
+.edu-section-paragraph {
+  font-size: 1.6rem;
+   text-align: left;
+}
+body.rtl .edu-section-paragraph {
+  font-size: 3rem;
+   text-align: right;
+}
+
+
+  /* Two images section */
+  .edu-two-img-wrapper {
+    flex-direction: row;   /* stack images */
+    gap: 20px;
+    padding: 2.2rem;         
+    background-size: cover;
+
+  }
+
+  /* Small images */
+  .edu-img-small {
+    width: 100%;              /* full width */
+    max-width: 420px;         /* safe limit */
+    height: auto;             /* responsive height */
+    aspect-ratio: 1 / 1;  
+  }
+  .edu-courses-section {
+    padding: 20px 12px;
+  }
+
+  .edu-courses-section h2 {
+    font-size: 2.5rem;
+  }
+  body.rtl   .edu-courses-section h2 {
+    font-size: 3.3rem;
+  }
+
+  .edu-courses-section p {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+     margin-top: 35px;
+  }
+
+  body.rtl .edu-courses-section p {
+    font-size: 3rem;
+  }
+
+  /* Cards grid → single column */
+  .courses-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    margin:29px;
+  }
+
+  .course-card img {
+    height: 360px;
+  }
+
+  .course-card h3 {
+    font-size: 2.5rem;
+  }
+
+  body.rtl .course-card h3 {
+    font-size:2.3rem;
+  }
+
+  .course-card p {
+    font-size: 1.9rem;
+  }
+
+  body.rtl .course-card p {
+    font-size: 2.9rem;
+  }
+
+  .course-duration {
+    font-size: 2.3rem;
+  }
+
+  /* Feature section stack */
+  .course-feature {
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 40px;
+  }
+
+  .feature-card img {
+    height: 360px;
+  }
+
+  .feature-text {
+    padding: 25px 20px;
+    text-align: left;
+    margin: 10px 20px;
+  }
+
+
+
+  .feature-text h2 {
+    font-size: 2.5rem;
+  }
+
+  body.rtl .feature-text h2 {
+    font-size: 2.3rem;
+  }
+
+  .feature-text p {
+    font-size: 1.8rem;
+  }
+
+  body.rtl .feature-text p {
+    font-size: 2.9rem;
+  }
+  .edu-highlights {
+    padding: 40px 15px;
+    margin-top: 40px;
+  }
+
+  .edu-highlights-header {
+    margin-bottom: 25px;
+  }
+
+  .edu-highlights-header h2 {
+    font-size: 2.9rem;
+  }
+
+  body.rtl .edu-highlights-header h2 {
+    font-size: 3.3rem;
+  }
+
+  .edu-highlights-header p {
+    font-size: 1.9rem;
+    line-height: 2.9rem;
+        padding: 20px;
+
+  }
+
+  body.rtl .edu-highlights-header p {
+    font-size: 2.7rem;
+
+  }
+
+  /* Container stacks */
+  .edu-highlights-container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .edu-highlights-image img {
+    width: 100%;
+    height: 400px;
+  }
+
+  .edu-highlights-content {
+    gap: 25px;
+    width: 100%;
+  }
+
+  .highlight-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .highlight-icon {
+    font-size:2.9rem;
+  }
+
+  .highlight-box h3 {
+    font-size: 1.8rem;
+  }
+
+  body.rtl .highlight-box h3 {
+    font-size: 2.2rem;
+  }
+  .edu-details {
+    padding: 30px 19px;
+    background-position: center;
+  }
+
+  .edu-detail {
+    margin-bottom: 20px;
+  }
+
+  .edu-detail h4 {
+    font-size: 2.3rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+  body.rtl .edu-detail h4 {
+    font-size: 2.7rem;
+  }
+
+  .edu-detail p {
+    font-size: 1.7rem;
+    line-height: 1.6;
+    text-align: left;
+    padding: 0 10px;
+  }
+
+  body.rtl .edu-detail p {
+    font-size: 2.9rem;
+    text-align: right;
+  }
+
+}
+
+
+@media (min-width: 1024px) and (orientation: portrait) 
+{
+  .education-hero {
+    height: 70vh;
+    
+  }
+
+ 
+  .edu-info-box {
+    flex-direction: column;
+    gap: 45px;
+    width: 80%;
+    bottom: -290px;
+    padding: 20px;
+  }
+
+  .edu-info-icon {
+    font-size: 4.9rem;
+  }
+    .edu-info-item p{
+   font-size: 2.6rem;
+  }
+
+  
+  .edu-hero-text h1 {
+    font-size: 4.8rem;
+      background: -webkit-linear-gradient(#ffffff, #ececec);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+  }
+  body.rtl .edu-hero-text h1 {
+      font-family: "Amiri", serif;
+
+  }
+    .edu-extra-section {
+  margin-top: 190px;
+}
+.edu-section-paragraph {
+  font-size: 3.3rem;
+   text-align: left;
+}
+  body.rtl .edu-section-title {
+      font-family: "Amiri", serif;
+        font-size: 3.3rem;
+
+  }
+  .edu-section-title {
+        font-size: 5rem;
+
+  }
+  .edu-center-img-wrapper {
+  margin: 60px auto;
+  max-width: 900px;
+}
+
+  /* Two images section */
+  .edu-two-img-wrapper {
+    flex-direction: row;   /* stack images */
+    gap: 20px;
+    padding: 2.2rem;         
+    background-size: cover;
+
+  }
+
+  /* Small images */
+  .edu-img-small {
+    width: 100%;              /* full width */
+    max-width: 620px;         /* safe limit */
+    height: auto;             /* responsive height */
+    aspect-ratio: 1 / 1;  
+  }
+  .edu-courses-section {
+    padding: 20px 12px;
+  }
+
+  .edu-courses-section h2 {
+    font-size: 3.8rem;
+  }
+
+  .edu-courses-section p {
+    font-size: 3rem;
+    margin-bottom: 25px;
+  }
+
+  body.rtl .edu-courses-section p {
+    font-size: 1.5rem;
+  }
+
+  /* Cards grid → single column */
+  .courses-grid {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .course-card img {
+    height: 550px;
+  }
+
+  .course-card h3 {
+    font-size: 3.5rem;
+  }
+
+  body.rtl .course-card h3 {
+    font-size: 1.5rem;
+  }
+
+  .course-card p {
+    font-size: 2.8rem;
+  }
+
+  body.rtl .course-card p {
+    font-size: 1.6rem;
+  }
+
+  .course-duration {
+    font-size: 3.2rem;
+  }
+
+  /* Feature section stack */
+  .course-feature {
+    flex-direction: column;
+    gap: 45px;
+    margin-top: 40px;
+  }
+
+  .feature-card img {
+    height: 500px;
+  }
+
+  .feature-text {
+    padding: 25px 20px;
+    text-align: left;
+  }
+
+  body.rtl .feature-text {
+    padding: 25px 20px;
+  }
+
+  .feature-text h2 {
+    font-size: 3.7rem;
+  }
+
+  body.rtl .feature-text h2 {
+    font-size: 1.6rem;
+  }
+
+  .feature-text p {
+    font-size: 3.2rem;
+  }
+
+  body.rtl .feature-text p {
+    font-size: 1.4rem;
+  }
+  .edu-highlights {
+    padding: 40px 15px;
+    margin-top: 40px;
+  }
+
+  .edu-highlights-header {
+    margin-bottom: 25px;
+  }
+
+  .edu-highlights-header h2 {
+    font-size: 3.9rem;
+  }
+
+  body.rtl .edu-highlights-header h2 {
+    font-size: 1.7rem;
+  }
+
+  .edu-highlights-header p {
+    font-size: 3rem;
+      line-height: 1.6;
+
+  }
+
+  body.rtl .edu-highlights-header p {
+    font-size: 1.5rem;
+  }
+
+  /* Container stacks */
+  .edu-highlights-container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .edu-highlights-image img {
+    width: 100%;
+    height: 620px;
+    border-radius: 14px;
+  }
+
+  .edu-highlights-content {
+    gap: 25px;
+    width: 100%;
+  }
+
+  .highlight-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .highlight-icon {
+    font-size: 4rem;
+  }
+
+  .highlight-box h3 {
+    font-size: 2.7rem;
+  }
+
+  body.rtl .highlight-box h3 {
+    font-size: 1.4rem;
+  }
+  .edu-details {
+    padding: 30px 12px;
+    background-position: center;
+  }
+
+  .edu-detail {
+    margin-bottom: 20px;
+  }
+
+  .edu-detail h4 {
+    font-size: 3.5rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+  body.rtl .edu-detail h4 {
+    font-size: 1.5rem;
+  }
+
+  .edu-detail p {
+    font-size: 2.7rem;
+    line-height: 1.6;
+    text-align: left;
+    padding: 0 5px;
+  }
+
+  body.rtl .edu-detail p {
+    font-size: 1.6rem;
+    text-align: right;
+  }
+
+}
+
+@media (min-width: 1440px) and (orientation: portrait) 
+{
+  .education-hero {
+    height: 70vh;
+    
+  }
+
+ 
+  .edu-info-box {
+    flex-direction: column;
+    gap: 45px;
+    width: 80%;
+    bottom: -290px;
+    padding: 20px;
+  }
+
+  .edu-info-icon {
+    font-size: 5.9rem;
+  }
+    .edu-info-item p{
+   font-size: 4.3rem;
+  }
+      body.rtl .edu-info-icon {
+    font-size: 5.2rem;
+  }
+   body.rtl .edu-info-item p{
+   font-size: 3.4rem;
+  }
+  
+  .edu-hero-text h1 {
+    font-size: 9.3rem;
+      background: -webkit-linear-gradient(#ffffff, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+  }
+  body.rtl .edu-hero-text h1 {
+      font-family: "Amiri", serif;
+
+  }
+    .edu-extra-section {
+  margin-top: 230px;
+}
+.edu-section-title {
+  font-size: 5.2rem;
+}
+.edu-section-paragraph {
+  font-size: 4.3rem;
+   text-align: left;
+}
+  body.rtl .edu-hero-text h1 {
+      font-family: "Amiri", serif;
+      
+  }
+  body.rtl .edu-section-title {
+      font-family: "Amiri", serif;
+        font-size:4.7rem;
+
+  }
+
+
+  /* Two images section */
+  .edu-two-img-wrapper {
+    flex-direction: row;   /* stack images */
+    gap: 20px;
+    padding: 2.2rem;         
+    background-size: cover;
+
+  }
+  .edu-center-img-wrapper {
+  margin: 40px auto;
+  max-width: 1200px;
+}
+body.rtl .edu-section-paragraph {
+  font-size:5.4rem;
+  max-width: 1400px;
+   text-align: right;
+}
+
+  /* Small images */
+  .edu-img-small {
+    width: 100%;              /* full width */
+    max-width: 620px;         /* safe limit */
+    height: auto;             /* responsive height */
+    aspect-ratio: 1 / 1;  
+  }
+  .edu-courses-section {
+    padding: 20px 12px;
+  }
+
+  .edu-courses-section h2 {
+    font-size: 4.4rem;
+  }
+  body.rtl   .edu-courses-section h2 {
+    font-size: 4.9rem;
+  }
+
+  .edu-courses-section p {
+    font-size: 3.3rem;
+    margin-bottom: 25px;
+  }
+
+  body.rtl .edu-courses-section p {
+    font-size: 4.5rem;
+    max-width: 1400px;
+
+  }
+
+  /* Cards grid → single column */
+  .courses-grid {
+     display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 65px;
+  }
+
+  .course-card img {
+    height: 580px;
+  }
+
+  .course-card h3 {
+    font-size: 2.5rem;
+  }
+
+  body.rtl .course-card h3 {
+    font-size: 3.5rem;
+  }
+
+  .course-card p {
+    font-size: 2.8rem;
+  }
+
+  body.rtl .course-card p {
+    font-size: 4.6rem;
+  }
+
+  .course-duration {
+    font-size: 4.2rem;
+  }
+
+  /* Feature section stack */
+  .course-feature {
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 90px;
+  }
+
+  .feature-card img {
+    height: 600px;
+  }
+
+  .feature-text {
+    padding: 25px 30px;
+    text-align: left;
+  }
+
+  body.rtl .feature-text {
+    padding: 25px 20px;
+  }
+
+  .feature-text h2 {
+    font-size: 3.7rem;
+  }
+
+  body.rtl .feature-text h2 {
+    font-size: 3.6rem;
+  }
+
+  .feature-textp {
+    font-size: 1.2rem;
+  }
+
+  body.rtl .feature-text p {
+    font-size: 4.4rem;
+  }
+  .edu-highlights {
+    padding: 40px 15px;
+    margin-top: 90px;
+  }
+
+  .edu-highlights-header {
+    margin-bottom: 25px;
+  }
+
+  .edu-highlights-header h2 {
+    font-size: 3.9rem;
+  }
+
+  body.rtl .edu-highlights-header h2 {
+    font-size: 4.7rem;
+  }
+
+  .edu-highlights-header p {
+    font-size: 3.3rem;
+  }
+
+  body.rtl .edu-highlights-header p {
+    font-size: 4.3rem
+  }
+
+  /* Container stacks */
+  .edu-highlights-container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 200px;
+  }
+
+  .edu-highlights-image img {
+    width: 100%;
+    height: 620px;
+  }
+
+  .edu-highlights-content {
+    gap: 25px;
+    width: 100%;
+  }
+
+  .highlight-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .highlight-icon {
+    font-size: 3.7rem;
+  }
+
+  .highlight-box h3 {
+    font-size: 3.2rem;
+  }
+
+  body.rtl .highlight-box h3 {
+    font-size: 3.4rem;
+  }
+  .edu-details {
+    padding: 30px 12px;
+    background-position: center;
+  }
+
+  .edu-detail {
+    margin-bottom: 20px;
+  }
+
+  .edu-detail h4 {
+    font-size: 3.5rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+  body.rtl .edu-detail h4 {
+    font-size: 3.9rem;
+  }
+
+  .edu-detail p {
+    font-size: 3.2rem;
+    line-height: 1.6;
+    text-align: left;
+    max-width: 1400px;
+  }
+
+  body.rtl .edu-detail p {
+    font-size: 4.6rem;
+    text-align: right;
+  }
+
+}

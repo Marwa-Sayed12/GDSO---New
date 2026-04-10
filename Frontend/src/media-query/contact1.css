@@ -1,0 +1,200 @@
+@media (max-width: 320px)
+
+{
+      .contact-container {
+    flex-direction: column;
+  }
+  .contact-info h2 {
+
+}
+body.rtl .contact-info h2{
+   text-align: right;
+   font-family: "Amiri",sans-serif;
+}
+
+.contact-info p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+body.rtl .contact-info p {
+  font-size: 1.4rem;
+}
+
+
+}
+
+
+
+@media (min-width: 360px) and (orientation: portrait) 
+{
+      .contact-container {
+    flex-direction: column;
+  }
+  .contact-info h2 {
+     font-size: 1.6rem;
+}
+body.rtl .contact-info h2{
+   text-align: right;
+   font-family: "Amiri",sans-serif;
+}
+
+.contact-info p {
+  font-size: 1.3rem;
+}
+body.rtl .contact-info p {
+  font-size: 1.9rem;
+}
+
+
+}
+
+
+
+/* 601/962*/
+@media (min-width: 480px) and (orientation: portrait) 
+
+{
+      .contact-container {
+    flex-direction: column;
+  }
+  .contact-info h2 {
+ font-size: 2rem;
+}
+body.rtl .contact-info h2{
+   text-align: right;
+   font-family: "Amiri",sans-serif;
+}
+
+.contact-info p {
+  margin-bottom: 15px;
+  font-size: 1.7rem;
+}
+body.rtl .contact-info p {
+  font-size: 2.3rem;
+}
+.contact-form button {
+  font-size: 27px;
+}
+.contact-form input,
+.contact-form textarea {
+  font-size: 24px;
+}
+.contact-form label {
+  font-size: 28px;
+}
+}
+
+
+
+
+@media (min-width: 768px) and (orientation: portrait) 
+{
+      .contact-container {
+    flex-direction: column;
+  }
+  .contact-info h2 {
+ font-size: 2.8rem;
+}
+body.rtl .contact-info h2{
+   text-align: right;
+   font-family: "Amiri",sans-serif;
+}
+
+.contact-info p {
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+body.rtl .contact-info p {
+  font-size: 3rem;
+}
+.contact-form button {
+  font-size: 36px;
+}
+.contact-form input,
+.contact-form textarea {
+  font-size: 31px;
+}
+.contact-form label {
+  font-size: 36px;
+}
+}
+
+
+@media (min-width: 1024px) and (orientation: portrait) 
+
+{
+      .contact-container {
+    flex-direction: column;
+  }
+  .contact-info h2 {
+ font-size: 4rem;
+}
+body.rtl .contact-info h2{
+   text-align: right;
+   font-family: "Amiri",sans-serif;
+}
+
+.contact-info p {
+  font-size: 2.8rem;
+}
+.contact-info iframe {
+  height: 470px;
+}
+body.rtl .contact-info p {
+  font-size: 4rem;
+}
+.contact-form button {
+  font-size: 40px;
+}
+.contact-form {
+  padding: 45px;
+}
+.contact-form input,
+.contact-form textarea {
+  font-size: 38px;
+}
+.contact-form label {
+  font-size: 40px;
+}
+}
+
+
+
+@media (min-width: 1440px) and (orientation: portrait) 
+{
+      .contact-container {
+    flex-direction: column;  
+    max-width: 1400px;
+  }
+
+  .contact-info h2 {
+ font-size: 4rem;
+}
+body.rtl .contact-info h2{
+   text-align: right;
+   font-family: "Amiri",sans-serif;
+}
+
+.contact-info p {
+  font-size: 2.6rem;
+}
+.contact-info iframe {
+  height: 500px;
+}
+body.rtl .contact-info p {
+  font-size: 4.4rem;
+}
+.contact-form button {
+  font-size: 50px;
+}
+.contact-form {
+  padding: 45px;
+}
+.contact-form input,
+.contact-form textarea {
+  font-size: 48px;
+}
+.contact-form label {
+  font-size: 60px;
+}
+}

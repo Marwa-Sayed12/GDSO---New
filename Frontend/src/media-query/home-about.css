@@ -1,0 +1,513 @@
+
+
+/* --------------------------------------
+   LARGE DESKTOP PORTRAIT (max 1440px)
+   -------------------------------------- */
+@media (max-width: 1440px) and (orientation: portrait) {
+   .about-container {
+    flex-direction: column;
+    /* background-color: #6fa488e2; */
+   
+  }
+  .img-container {
+    max-width: 66%;
+  }
+
+  .img-large {
+    flex: 0 1 100%; 
+    max-width: 90%; 
+  }
+
+  .about-text {
+    width: 100%; /* Use percentage of parent */
+    max-width: 840px; /* Optional max width */
+    margin: 0 auto; /* Auto margins for centering */
+
+}
+  
+  .about-text h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .about-text h2::after {
+    width: 122px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .about-text p {
+    font-size: 2.3rem;
+    padding: 2rem;
+    text-align: center; /* Center text */
+  }
+
+  
+  body.rtl .about-text h2::after {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    margin-bottom: -6px;
+  }
+  
+  body.rtl .about-text p {
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+
+
+/* --------------------------------------
+   LAPTOP PORTRAIT (min-width 1200px)
+   -------------------------------------- */
+/* --------------------------------------
+   LAPTOP PORTRAIT (min-width 1200px)
+   -------------------------------------- */
+@media (min-width: 1200px) and (orientation: portrait) {
+  .about-container {
+    flex-direction: column;
+    /* background-color: #2bff00; */
+    gap: 2rem;
+    width: 100%;
+  }
+  
+  .about-section {
+    padding: 2rem 1rem;
+    width: 100%;
+  }
+  
+  /* Fix images stacking */
+  .about-images {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-layout {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .img-container {
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 500px; /* Control container width */
+  }
+
+  .img-large {
+    flex: 0 1 100%;
+    max-width: 100%; /* Full width within container */
+    width: 100%;
+  }
+  
+  /* Remove stagger effect on portrait */
+  .two {
+    margin-top: 0; /* CRITICAL: Remove the desktop stagger */
+  }
+
+  .about-images {
+    width: 100%;
+    padding: 0;
+  }
+  
+  .about-text {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto; 
+    padding: 1.5rem;
+  }
+  
+  .about-text h2 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+  
+  .about-text h2::after {
+    width: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .about-text p {
+    font-size: 1.2rem;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  /* RTL */
+  body.rtl .about-text h2 {
+    font-size: 2.4rem;
+  }
+  
+  body.rtl .about-text h2::after {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    margin-bottom: -6px;
+  }
+  
+  body.rtl .about-text p {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}
+
+/* --------------------------------------
+   TABLET LANDSCAPE (max 1024px)
+   -------------------------------------- */
+@media (max-width: 1024px) and (orientation: portrait) {
+  .about-container {
+    /* background-color: #ff0000; */
+    gap: 1.5rem;
+  }
+
+    .about-section {
+    padding: 2rem 1rem; /* Balanced padding */
+    width: 100%;
+  }
+  .img-container {
+    max-width: 80%;
+  }
+   
+
+  .img-large {
+    flex: 0 1 100%; 
+    max-width: 90%; 
+  }
+
+  .about-images {
+    width: 100%;
+    padding: 0;
+  }
+  
+  .about-text {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto; 
+    padding: 1.5rem;
+  }
+  
+
+  
+  .about-text h2::after {
+    width: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .about-text p {
+    font-size: 2.6rem;
+    padding: 1.7rem;
+  }
+
+
+  body.rtl .about-text h2::after {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    margin-bottom: -6px;
+  }
+  
+  body.rtl .about-text p {
+    font-size: 2.3rem;
+    text-align: center;
+  }
+}
+
+
+/* --------------------------------------
+   TABLET (max 768px)
+   -------------------------------------- */
+@media (max-width: 768px) and (orientation: portrait) {
+  .about-container {
+    flex-direction: column;
+    gap: 2.5rem;
+             /* background-color: #094e79; */
+
+
+  }
+    .about-section {
+    padding: 2rem 1rem; /* Balanced padding */
+    width: 100%;
+  }
+  .img-container {
+    max-width: 80%;
+  }
+   
+
+  .img-large {
+    flex: 0 1 100%; 
+    max-width: 90%; 
+  }
+
+  .about-images {
+    width: 100%;
+    padding: 0;
+  }
+  
+  .about-text {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto; 
+  }
+  
+
+  
+  .about-text h2::after {
+    width: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .about-text p {
+    font-size: 1.3rem;
+    padding: 1.7rem;
+  }
+
+
+  body.rtl .about-text h2::after {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    margin-bottom: -6px;
+  }
+  
+  body.rtl .about-text p {
+    font-size: 2.3rem;
+    text-align: center;
+  }
+}
+
+
+
+
+
+/* --------------------------------------
+   SMALL MOBILE (max 374px)
+   -------------------------------------- */
+@media (max-width: 374px) and (orientation: portrait) {
+  .about-section {
+    padding: 2rem 0.8rem;
+         /* background-color: #863266; */
+
+  }
+
+  .img-container {
+    max-width: 140px;
+  }
+
+  .about-text {
+    padding: 1.3rem;
+  }
+
+  .about-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .about-text p {
+    font-size: 0.95rem;
+    padding: 1.1rem;
+  }
+
+  /* RTL */
+  body.rtl .about-text h2 {
+    font-size: 2rem;
+  }
+
+  body.rtl .about-text p {
+    font-size: 1.2rem;
+  }
+}
+
+/* --------------------------------------
+   MOBILE (max 399px)
+   -------------------------------------- */
+@media (max-width: 399px) and (orientation: portrait) {
+  .about-container {
+    flex-direction: column;
+    gap: 2.5rem;
+             /* background-color: #094e79; */
+
+
+  }
+    .about-section {
+    padding: 2rem 1rem; /* Balanced padding */
+    width: 100%;
+  }
+  .img-container {
+    max-width: 80%;
+  }
+   
+
+  .img-large {
+    flex: 0 1 100%; 
+    max-width: 90%; 
+  }
+
+  .about-images {
+    width: 100%;
+    padding: 0;
+  }
+  
+  .about-text {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto; 
+  }
+  
+
+  
+  .about-text h2::after {
+    width: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .about-text p {
+    font-size: 1.3rem;
+    padding: 1.7rem;
+  }
+
+
+  body.rtl .about-text h2::after {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    margin-bottom: -6px;
+  }
+  
+  body.rtl .about-text p {
+    font-size: 2.3rem;
+    text-align: center;
+  }
+}
+
+
+
+
+/* --------------------------------------
+   MOBILE MEDIUM (max 576px)
+   -------------------------------------- */
+@media (max-width: 576px) and (orientation: portrait) {
+  .about-container {
+    flex-direction: column;
+    /* background-color: #74eaece2; */
+    padding: 0; 
+    width: 100%;
+  }
+  
+  .about-section {
+    padding: 2rem 0; /* Remove side padding, let container handle it */
+    width: 100%; /* Full width */
+  }
+  
+  .image-layout {
+    flex-wrap: wrap;
+  }
+
+  .img-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 80%;
+    padding: 0;
+    align-items: center; /* Center images */
+  }
+
+  .img-large {
+    flex: 0 1 100%; 
+    max-width: 90%; /* Slight margin on sides */
+  }
+  
+  /* Images - edge to edge */
+  .about-images {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* TEXT CARD - CENTERED FIX */
+  .about-text {
+    width: 90%; /* Use percentage of parent */
+    max-width: 500px; /* Optional max width */
+    margin: 20px auto 0; /* AUTO margins for centering */
+    padding: 1.5rem;
+    box-sizing: border-box; /* Include padding in width */
+  }
+  
+  .about-text h2 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  
+  .about-text h2::after {
+    width: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .about-text p {
+    font-size: 1rem;
+    text-align: center; /* Center text */
+  }
+
+  /* RTL */
+  body.rtl .about-text h2 {
+    font-size: 1.8rem;
+  }
+  
+  body.rtl .about-text h2::after {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    margin-bottom: -6px;
+  }
+  
+  body.rtl .about-text p {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}
+
+
+/* --------------------------------------
+   EXTRA SMALL (max 320px)
+   -------------------------------------- */
+@media (max-width: 320px) and (orientation: portrait) {
+  .about-section {
+    padding: 2rem 0 2rem;
+  /* background: linear-gradient(145deg, #25ca43, #ff0000); */
+
+  }
+
+  .img-container {
+       max-width: 90%;
+  }
+
+  .about-text {
+    padding: 1.1rem;
+    box-sizing: border-box; /* Include padding in width */
+  }
+  
+  .about-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .about-text p {
+    font-size: 0.7rem;
+  }
+
+  body.rtl .about-text h2 {
+    font-size: 1.3rem;
+  }
+  
+  body.rtl .about-text p {
+    font-size: 1.5rem;
+  }
+}
+

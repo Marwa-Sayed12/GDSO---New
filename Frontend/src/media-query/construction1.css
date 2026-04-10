@@ -1,0 +1,1377 @@
+/* construction1.css - Mobile Responsive Styles */
+
+/* ======================================
+   MOBILE EXTRA SMALL (max 320px)
+====================================== */
+@media (max-width: 320px) {
+  
+  /* HERO SECTION */
+  .construction-hero {
+    height: 60vh;
+  }
+
+  .construction-hero-text h1 {
+    font-size: 1.4rem;
+  }
+  
+  body.rtl .construction-hero-text h1 {
+    font-size: 1.4rem;
+  }
+
+  .construction-info-box {
+    flex-direction: column;
+    gap: 25px;
+    width: 76%;
+    bottom: -200px;
+    padding: 20px;
+  }
+
+  .construction-info-item p {
+    font-size: 1rem;
+  }
+
+  .construction-info-icon {
+    font-size: 1.6rem;
+  }
+  
+  body.rtl .construction-info-item p {
+    font-size: 1.2rem;
+  }
+
+  /* CARDS SECTION */
+  .construction-cards {
+    margin-top: 220px;
+    padding: 40px 10px;
+    gap: 25px;
+    background-size: contain;
+  }
+
+  .construction-card {
+    width: 100%;
+    height: 300px;
+  }
+
+  .card-overlay {
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    padding: 8px;
+    border-radius: 8px;
+  }
+
+  .overlay-text h3 {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+  }
+
+  .overlay-icon {
+    width: 32px;
+    height: 32px;
+    font-size: 1.2rem;
+  }
+
+  .overlay-line {
+    height: 40px;
+  }
+
+  /* PROJECTS SECTION */
+  .projects-details-container {
+    margin: 80px auto 0;
+    padding: 0 10px;
+  }
+  body.rtl   .projects-details-container {
+  
+    padding: 0 0px;
+  }
+
+  .section-header {
+    margin-bottom: 40px;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+
+  .section-subtitle {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  /* PROJECT DETAILS */
+  .project-detail-modern {
+    margin-bottom: 40px;
+    border-radius: 16px;
+  }
+
+  .project-left-border {
+    width: 6px;
+  }
+
+  .project-content-wrapper {
+    padding: 20px;
+  }
+
+  .project-title-section {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+  }
+
+  .project-detail-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .project-meta {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .meta-item {
+    font-size: 1rem;
+  }
+
+  /* CONTENT GRID - NEW: Images first, then text */
+  .project-content-grid-modern {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    display: flex;
+    padding-right: 0px;
+    flex-direction: column;
+  }
+
+  /* IMAGES FIRST */
+  .project-images-column {
+    order: 1; /* Images come first */
+    margin-bottom: 20px;
+    gap: 15px;
+  }
+
+  /* TEXT AFTER IMAGES */
+  .project-text-column {
+    order: 2; /* Text comes after images */
+    gap: 25px;
+  }
+
+  /* PREVENT IMAGE DISAPPEARING */
+  .main-image-container,
+  .secondary-image-container {
+    width: 100%;
+    overflow: visible;
+  }
+
+  .project-main-image {
+    height: auto;
+    max-height: 220px;
+    width: 100%;
+  }
+
+  .project-secondary-image {
+    height: auto;
+    max-height: 220px;
+    width: 100%;
+  }
+
+  /* PARAGRAPHS */
+  .paragraphs-container {
+    gap: 15px;
+  }
+
+  .paragraph-card {
+    padding: 15px;
+    gap: 15px;
+    flex-direction: column;
+  }
+
+  .paragraph-icon {
+    width: 35px;
+    height: 35px;
+    font-size: 1rem;
+  }
+
+  .paragraph-content h4 {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+  }
+
+  .paragraph-content p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+  body.rtl  .paragraph-content p {
+    font-size: 1.4rem;
+    line-height: 1.6;
+  }
+
+  
+}
+
+/* ======================================
+   SMALL MOBILE (360px portrait)
+====================================== */
+@media (min-width: 321px) and (max-width: 480px) {
+  
+  /* HERO SECTION */
+  .construction-hero {
+    height: 60vh;
+   
+  }
+
+  .construction-hero-text h1 {
+    font-size: 1.6rem;
+ /* background-image: linear-gradient(-60deg, #ff5900 0%, #ff5100 100%); */
+
+  }
+  
+  body.rtl .construction-hero-text h1 {
+    font-size: 1.7rem;
+  }
+
+  .construction-info-box {
+    flex-direction: column;
+    gap: 30px;
+    width: 78%;
+    bottom: -140px;
+    padding: 20px;
+  }
+
+  .construction-info-item p {
+    font-size: 1rem;
+  }
+
+  .construction-info-icon {
+    font-size: 1.8rem;
+  }
+  
+  body.rtl .construction-info-item p {
+    font-size: 1.5rem;
+  }
+
+  /* CARDS SECTION */
+  .construction-cards {
+    margin-top: 160px;
+    padding: 25px 15px;
+    gap: 30px;
+  }
+
+  .construction-card {
+    width: 100%;
+    height: 340px;
+  }
+
+  .card-overlay {
+    bottom: 15px;
+    left: 10px;
+    right: 10px;
+    padding: 12px;
+  }
+
+  .overlay-text h3 {
+    font-size: 1.1rem;
+   line-height: 1.3;
+  }
+  body.rtl   .overlay-text h3 {
+    font-size: 1.4rem;
+   line-height: 1.3;
+  }
+
+  .overlay-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 1.3rem;
+  }
+
+  /* PROJECTS SECTION */
+  .projects-details-container {
+    margin: 90px auto 0;
+    padding: 0 15px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.1rem;
+  }
+
+  /* PROJECT DETAILS */
+  .project-detail-modern {
+    border-radius: 18px;
+  }
+
+  .project-content-wrapper {
+    padding: 25px;
+  }
+
+  .project-detail-title {
+    font-size: 1.7rem;
+  }
+
+  .project-meta {
+    gap: 15px;
+  }
+
+  .meta-item {
+    font-size: 1.1rem;
+      font-weight: 500;
+  }
+  body.rtl   .meta-item {
+    font-size: 1.4rem;
+      font-weight: 500;
+  }
+
+  /* CONTENT GRID - Images first, then text */
+  .project-content-grid-modern {
+    grid-template-columns: 1fr;
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+  }
+.paragraph-card {
+  display: flex;
+  gap: 10px;
+  padding: 18px;
+}
+  /* IMAGES FIRST */
+  .project-images-column {
+    order: 1; /* Images come first */
+    margin-bottom: 25px;
+  }
+
+  /* TEXT AFTER IMAGES */
+  .project-text-column {
+    order: 2; /* Text comes after images */
+  }
+
+  .project-main-image {
+    height: auto;
+    max-height: 240px;
+    width: 100%;
+  }
+
+  .project-secondary-image {
+    height: auto;
+    max-height: 200px;
+    width: 100%;
+  }
+
+  /* PARAGRAPHS */
+
+  .paragraph-content h4 {
+    font-size: 1.15rem;
+  }
+
+  .paragraph-content p {
+    font-size: 1.1rem;
+  }
+  body.rtl   .paragraph-content p {
+    font-size: 1.9rem;
+  }
+
+  /* FEATURES */
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ======================================
+   MOBILE LARGE (480px portrait)
+====================================== */
+@media (min-width: 481px) and (max-width: 768px) {
+  
+  /* HERO SECTION */
+  .construction-hero {
+    height: 60vh;
+    /* background: linear-gradient(135deg, #106cff 0%, #0f73ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+
+  }
+
+  .construction-hero-text h1 {
+    font-size: 2.2rem;
+  }
+  
+  body.rtl .construction-hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .construction-info-box {
+    gap: 25px;
+    bottom: -59px;
+    padding: 25px 25px;
+  }
+
+  .construction-info-item p {
+    font-size: 1.3rem;
+  }
+
+  .construction-info-icon {
+    font-size: 2.2rem;
+  }
+
+
+
+  .construction-card {
+    width: 100%;
+    height: 340px;
+  }
+
+  /* PROJECTS SECTION */
+  .projects-details-container {
+    margin: 100px auto 0;
+    padding: 0 20px;
+  }
+
+  .section-title {
+    font-size: 2.3rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.2rem;
+  }
+
+  /* PROJECT DETAILS */
+  .project-detail-modern {
+    margin-bottom: 50px;
+  }
+
+  .project-content-wrapper {
+    padding: 30px;
+  }
+
+  .project-detail-title {
+    font-size: 1.9rem;
+  }
+
+  .project-meta {
+    gap: 20px;
+  }
+    .meta-item {
+    font-size: 1.2rem;
+      font-weight: 500;
+  }
+  body.rtl   .meta-item {
+    font-size: 1.6rem;
+      font-weight: 500;
+  }
+
+  /* CONTENT GRID - Images first, then text */
+  .project-content-grid-modern {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  /* IMAGES FIRST */
+  .project-images-column {
+    order: 1; /* Images come first */
+    margin-bottom: 30px;
+    flex-direction: row;
+  }
+
+  /* TEXT AFTER IMAGES */
+  .project-text-column {
+    order: 2; /* Text comes after images */
+  }
+
+  .project-main-image {
+    height: 260px;
+    width: 100%;
+  }
+
+  .project-secondary-image {
+    height: 260px;
+    width: 100%;
+  }
+
+  /* PARAGRAPHS */
+  .paragraph-content h4 {
+    font-size: 1.2rem;
+  }
+
+
+  .paragraph-content p {
+    font-size: 1.2rem;
+  }
+  body.rtl   .paragraph-content p {
+    font-size: 2.1rem;
+  }
+
+  /* FEATURES */
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ======================================
+   TABLET PORTRAIT (768px to 1024px)
+====================================== */
+@media (min-width: 769px) and (max-width: 1024px) {
+  
+    /* HERO SECTION */
+  .construction-hero {
+    height: 66vh;
+
+  }
+
+  .construction-hero-text h1 {
+    font-size: 3.5rem;
+           /* background-image: linear-gradient(-60deg, #ff5900 0%, #ff5100 100%); */
+
+  
+  }
+
+  .construction-info-box {
+    flex-direction: column;
+    gap: 25px;
+    width: 76%;
+    bottom: -200px;
+    padding: 20px;
+  }
+  .construction-info-item p {
+    font-size: 2rem;
+  }
+
+
+  .construction-info-icon {
+    font-size: 3.3rem;
+  }
+  
+  /* CARDS SECTION */
+  .construction-cards {
+    margin-top: 250px;
+    padding: 20px 30px;
+}
+
+  .construction-card {
+    height: 450px;
+    width: 100%;
+  }
+  
+
+  body.rtl .construction-info-item p {
+    font-size: 2rem;
+  }
+
+  /* PROJECTS SECTION */
+  .projects-details-container {
+    max-width: 1200px;
+  }
+
+  .section-title {
+    font-size: 2.4rem;
+  }
+
+  /* PROJECT DETAILS */
+
+
+
+
+  .overlay-text h3 {
+    font-size: 2rem;
+    line-height: 1.2rem;
+  }
+  body.rtl   .overlay-text h3 {
+    font-size: 2.2rem;
+    line-height: 1.2rem;
+  }
+.section-title {
+  font-size: 4rem;
+  
+}
+.project-detail-title {
+  font-size: 2.6rem;
+  
+}
+body.rtl .project-detail-title {
+  font-size: 3rem;
+  
+}
+  /* CONTENT GRID - Images first, then text for tablets too */
+  .project-content-grid-modern {
+    grid-template-columns: 1fr; /* Single column for tablets */
+    gap: 45px;
+  }
+
+  /* IMAGES FIRST */
+  .project-images-column {
+    order: 1; /* Images come first */
+    margin-bottom: 35px;
+  }
+
+  /* TEXT AFTER IMAGES */
+  .project-text-column {
+    order: 2; /* Text comes after images */
+  }
+
+  .meta-item {
+    font-size: 1.7rem;
+  }
+  body.rtl   .meta-item {
+    font-size: 2rem;
+  }
+  
+  .paragraph-content h4 {
+    font-size: 4.7rem;
+  }
+body.rtl   .paragraph-content h4 {
+    font-size: 6rem;
+  }
+  .paragraph-content p {
+    font-size: 2rem;
+    line-height: 1.8;
+  }
+  body.rtl   .paragraph-content p {
+    font-size: 3rem;
+    line-height: 1.8;
+  }
+  
+
+  /* For tablets, you might want to show images side by side */
+  .project-images-column {
+    flex-direction: column;
+  }
+  
+  .project-main-image {
+    height: 450px;
+    flex: 1;
+  }
+  
+  .project-secondary-image {
+    height: 450px;
+    flex: 1;
+  }
+}
+
+/* ======================================
+   DESKTOP (1025px and above) - Keep original layout
+====================================== */
+@media (min-width: 1025px) {
+  /* Keep the original desktop layout: Images on left, text on right */
+  .project-content-grid-modern {
+    grid-template-columns: 1fr 1.2fr; /* Original desktop layout */
+  }
+  
+  /* Reset order for desktop */
+  .project-images-column {
+    order: 0; /* Reset to normal */
+  }
+  
+  .project-text-column {
+    order: 0; /* Reset to normal */
+  }
+}
+
+/* ======================================
+   LANDSCAPE MODES
+====================================== */
+@media (max-height: 500px) and (orientation: landscape) {
+  .construction-hero {
+    height: 100vh;
+     
+  }
+  
+  .construction-cards {
+    margin-top: 100px;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  
+  .construction-card {
+    height: 250px;
+  }
+  
+  .card-overlay {
+    padding: 5px 8px;
+  }
+  
+  .overlay-text h3 {
+    font-size: 0.9rem;
+  }
+}
+
+/* ======================================
+   DARK MODE ADJUSTMENTS
+====================================== */
+
+/* ======================================
+   RTL RESPONSIVE FIXES
+====================================== */
+body.rtl .construction-hero-text h1 {
+  text-align: center;
+}
+
+body.rtl .construction-cards {
+  justify-content: center;
+}
+
+body.rtl .project-content-grid-modern {
+  direction: rtl;
+}
+
+body.rtl .project-meta {
+  justify-content: flex-end;
+}
+
+body.rtl .meta-item {
+  flex-direction: row-reverse;
+}
+
+body.rtl .features-grid {
+  direction: rtl;
+}
+
+body.rtl .feature-item-modern {
+  flex-direction: row-reverse;
+}
+
+body.rtl .overlay-left {
+  flex-direction: row-reverse;
+}
+
+body.rtl .paragraph-card {
+  border-left: none;
+  border-right: 4px solid #4f46e5;
+}
+
+body.rtl .project-left-border {
+  right: 0;
+  left: auto;
+}
+
+body.rtl .features-title::before {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/* RTL order adjustments */
+body.rtl .project-images-column {
+  order: 1; /* Keep images first in RTL too */
+}
+
+body.rtl .project-text-column {
+  order: 2; /* Keep text after images in RTL too */
+}
+
+/* ======================================
+   TOUCH DEVICE OPTIMIZATIONS
+====================================== */
+@media (hover: none) and (pointer: coarse) {
+  .construction-card:hover {
+    transform: none;
+  }
+  
+  .construction-card:hover .card-overlay {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .construction-card .card-overlay {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .paragraph-card:hover {
+    transform: none;
+  }
+  
+  .feature-item-modern:hover {
+    transform: none;
+  }
+}
+
+/* ======================================
+   HIGH DPI SCREENS
+====================================== */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .construction-hero {
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .construction-cards {
+    background-size: cover;
+  }
+}
+
+/* ======================================
+   PRINT STYLES
+====================================== */
+
+/* ======================================
+   ACCESSIBILITY FOCUS STATES
+====================================== */
+.construction-card:focus-visible,
+.project-detail-modern:focus-visible,
+.paragraph-card:focus-visible,
+.feature-item-modern:focus-visible {
+  outline: 3px solid #4f46e5;
+  outline-offset: 2px;
+}
+
+/* ======================================
+   PERFORMANCE OPTIMIZATIONS
+====================================== */
+@media (prefers-reduced-motion: reduce) {
+  .construction-card,
+  .card-overlay,
+  .card-main-img,
+  .project-detail-modern,
+  .paragraph-card,
+  .feature-item-modern {
+    transition: none !important;
+    animation: none !important;
+  }
+  
+  .construction-card:hover .card-main-img {
+    transform: none !important;
+  }
+}
+
+
+
+
+/* another media queries------------------------------------ */
+@media (max-width: 575px) and (min-width: 480px)and (orientation: portrait) {
+  
+  /* HERO SECTION */
+  .construction-hero {
+    height: 65vh;
+
+  }
+
+  .construction-hero-text h1 {
+    font-size: 2.4rem;       
+  
+  }
+
+  .construction-info-box {
+    flex-direction: column;
+    gap: 25px;
+    width: 76%;
+    bottom: -200px;
+    padding: 20px;
+  }
+
+  /* CARDS SECTION */
+  .construction-cards {
+    margin-top: 250px;
+    padding: 40px 30px;
+}
+
+  .construction-card {
+    height: 430px;
+    width: 100%;
+  }
+  
+  .section-header p {
+    font-size: 1.9rem;
+  }
+  body.rtl .construction-info-item p {
+    font-size: 1.7rem;
+  }
+
+  /* PROJECTS SECTION */
+  .projects-details-container {
+    max-width: 1200px;
+  }
+
+  .section-title {
+    font-size: 2.9rem;
+  }
+
+  /* PROJECT DETAILS */
+  .project-detail-modern {
+    margin-bottom: 50px;
+  }
+
+  .project-content-wrapper {
+    padding: 35px;
+  }
+
+  .project-detail-title {
+    font-size: 2.5rem;
+  }
+  .overlay-text h3 {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+  body.rtl   .overlay-text h3 {
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+  }
+
+  /* CONTENT GRID - Images first, then text for tablets too */
+  .project-content-grid-modern {
+    grid-template-columns: 1fr; /* Single column for tablets */
+    gap: 45px;
+  }
+
+  /* IMAGES FIRST */
+  .project-images-column {
+    order: 1; /* Images come first */
+    margin-bottom: 35px;
+  }
+
+  /* TEXT AFTER IMAGES */
+  .project-text-column {
+    order: 2; /* Text comes after images */
+  }
+
+  .meta-item {
+    font-size: 1.4rem;
+  }
+  
+  .paragraph-content h4 {
+    font-size: 1.7rem;
+  }
+
+  .paragraph-content p {
+    font-size: 1.4rem;
+    line-height: 1.8;
+  }
+  
+  .features-title {
+    font-size: 1.8rem;
+  }
+
+  /* For tablets, you might want to show images side by side */
+  .project-images-column {
+    flex-direction: column;
+  }
+  
+  .project-main-image {
+    height: 300px;
+    flex: 1;
+  }
+  
+  .project-secondary-image {
+    height: 300px;
+    flex: 1;
+  }
+}
+
+
+/* --------------------------------------------- */
+@media (max-width: 767px) and (min-width: 576px) and (orientation: portrait){
+  
+  /* HERO SECTION */
+  .construction-hero {
+    height: 65vh;
+
+  }
+
+  .construction-hero-text h1 {
+    font-size: 2.4rem;
+       
+  
+  }
+
+  .construction-info-box {
+    flex-direction: column;
+    gap: 25px;
+    width: 76%;
+    bottom: -200px;
+    padding: 20px;
+  }
+
+  /* CARDS SECTION */
+  .construction-cards {
+    margin-top: 250px;
+    padding: 40px 30px;
+}
+
+  .construction-card {
+    height: 430px;
+    width: 100%;
+  }
+  
+  .section-header p {
+    font-size: 1.9rem;
+  }
+  body.rtl .construction-info-item p {
+    font-size: 1.7rem;
+  }
+
+  /* PROJECTS SECTION */
+  .projects-details-container {
+    max-width: 1200px;
+  }
+
+  .section-title {
+    font-size: 2.9rem;
+  }
+
+  /* PROJECT DETAILS */
+  .project-detail-modern {
+    margin-bottom: 50px;
+  }
+
+  .project-content-wrapper {
+    padding: 35px;
+  }
+
+  .project-detail-title {
+    font-size: 2.5rem;
+  }
+  .overlay-text h3 {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+  body.rtl   .overlay-text h3 {
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+  }
+
+  /* CONTENT GRID - Images first, then text for tablets too */
+  .project-content-grid-modern {
+    grid-template-columns: 1fr; /* Single column for tablets */
+    gap: 45px;
+  }
+
+  /* IMAGES FIRST */
+  .project-images-column {
+    order: 1; /* Images come first */
+    margin-bottom: 35px;
+  }
+
+  /* TEXT AFTER IMAGES */
+  .project-text-column {
+    order: 2; /* Text comes after images */
+  }
+
+  .meta-item {
+    font-size: 1.4rem;
+  }
+  
+  .paragraph-content h4 {
+    font-size: 1.7rem;
+  }
+
+  .paragraph-content p {
+    font-size: 1.4rem;
+    line-height: 1.8;
+  }
+  
+  .features-title {
+    font-size: 1.8rem;
+  }
+
+  /* For tablets, you might want to show images side by side */
+  .project-images-column {
+    flex-direction: column;
+  }
+  
+  .project-main-image {
+    height: 300px;
+    flex: 1;
+  }
+  
+  .project-secondary-image {
+    height: 300px;
+    flex: 1;
+  }
+}
+
+/* ----------------------------------------- */
+
+
+@media (max-width: 1199px) and (min-width: 992px) and (orientation: portrait){
+  
+  /* HERO SECTION */
+  .construction-hero {
+    height: 55vh;
+
+  }
+
+  .construction-hero-text h1 {
+    font-size: 4rem;
+           /* background-image: linear-gradient(-60deg, #ff5900 0%, #ff5100 100%); */
+
+  
+  }
+
+  .construction-info-box {
+    flex-direction: column;
+    gap: 25px;
+    width: 76%;
+    bottom: -200px;
+    padding: 20px;
+  }
+  .construction-info-item p {
+    font-size: 2.5rem;
+  }
+
+
+  .construction-info-icon {
+    font-size: 3.3rem;
+  }
+  
+  /* CARDS SECTION */
+  .construction-cards {
+    margin-top: 250px;
+    padding: 40px 30px;
+}
+
+  .construction-card {
+    height: 630px;
+    width: 100%;
+  }
+  
+
+  body.rtl .construction-info-item p {
+    font-size: 3rem;
+  }
+
+  /* PROJECTS SECTION */
+  .projects-details-container {
+    max-width: 1200px;
+  }
+
+  .section-title {
+    font-size: 2.9rem;
+  }
+
+  /* PROJECT DETAILS */
+
+
+.card-overlay {
+
+  padding: 40px;
+
+}
+
+
+
+
+  .overlay-text h3 {
+    font-size: 2.2rem;
+    line-height: 1.2rem;
+  }
+  body.rtl   .overlay-text h3 {
+    font-size: 3.2rem;
+    line-height: 1.2rem;
+  }
+.section-title {
+  font-size: 4rem;
+  
+}
+.project-detail-title {
+  font-size: 3.3rem;
+  
+}
+body.rtl .project-detail-title {
+  font-size: 4.7rem;
+  
+}
+  /* CONTENT GRID - Images first, then text for tablets too */
+  .project-content-grid-modern {
+    grid-template-columns: 1fr; /* Single column for tablets */
+    gap: 45px;
+  }
+
+  /* IMAGES FIRST */
+  .project-images-column {
+    order: 1; /* Images come first */
+    margin-bottom: 35px;
+  }
+
+  /* TEXT AFTER IMAGES */
+  .project-text-column {
+    order: 2; /* Text comes after images */
+  }
+
+  .meta-item {
+    font-size: 2.4rem;
+  }
+  body.rtl   .meta-item {
+    font-size: 3rem;
+  }
+  
+  .paragraph-content h4 {
+    font-size: 4.7rem;
+  }
+body.rtl   .paragraph-content h4 {
+    font-size: 6.7rem;
+  }
+  .paragraph-content p {
+    font-size: 2.5rem;
+    line-height: 1.8;
+  }
+  body.rtl   .paragraph-content p {
+    font-size: 3.7rem;
+    line-height: 1.8;
+  }
+  
+
+  /* For tablets, you might want to show images side by side */
+  .project-images-column {
+    flex-direction: column;
+  }
+  
+  .project-main-image {
+    height: 550px;
+    flex: 1;
+  }
+  
+  .project-secondary-image {
+    height: 550px;
+    flex: 1;
+  }
+}
+
+/* --------------------------------- */
+
+@media (min-width: 1200px) and (orientation: portrait){
+  
+  /* HERO SECTION */
+  .construction-hero {
+    height: 55vh;
+
+  }
+
+  .construction-hero-text h1 {
+    font-size: 4rem;
+           /* background-image: linear-gradient(-60deg, #ff5900 0%, #ff5100 100%); */
+
+  
+  }
+
+  .construction-info-box {
+    flex-direction: column;
+    gap: 25px;
+    width: 76%;
+    bottom: -200px;
+    padding: 20px;
+  }
+  .construction-info-item p {
+    font-size: 2.5rem;
+  }
+
+
+  .construction-info-icon {
+    font-size: 3.3rem;
+  }
+  
+  /* CARDS SECTION */
+  .construction-cards {
+    margin-top: 250px;
+    padding: 60px 30px;
+}
+
+  .construction-card {
+    height: 630px;
+    width: 100%;
+  }
+  
+
+  body.rtl .construction-info-item p {
+    font-size: 3rem;
+  }
+
+  /* PROJECTS SECTION */
+  .projects-details-container {
+    max-width: 1200px;
+  }
+
+  .section-title {
+    font-size: 2.9rem;
+  }
+
+  /* PROJECT DETAILS */
+
+
+
+
+
+
+  .overlay-text h3 {
+    font-size: 2.2rem;
+    line-height: 1.2rem;
+  }
+  body.rtl   .overlay-text h3 {
+    font-size: 3.2rem;
+    line-height: 1.2rem;
+  }
+.section-title {
+  font-size: 4rem;
+  
+}
+.project-detail-title {
+  font-size: 3.3rem;
+  
+}
+body.rtl .project-detail-title {
+  font-size: 4.7rem;
+  
+}
+  /* CONTENT GRID - Images first, then text for tablets too */
+  .project-content-grid-modern {
+    grid-template-columns: 1fr; /* Single column for tablets */
+    gap: 45px;
+  }
+
+  /* IMAGES FIRST */
+  .project-images-column {
+    order: 1; /* Images come first */
+    margin-bottom: 35px;
+  }
+
+  /* TEXT AFTER IMAGES */
+  .project-text-column {
+    order: 2; /* Text comes after images */
+  }
+
+  .meta-item {
+    font-size: 2.4rem;
+  }
+  body.rtl   .meta-item {
+    font-size: 3rem;
+  }
+  
+  .paragraph-content h4 {
+    font-size: 4.7rem;
+  }
+body.rtl   .paragraph-content h4 {
+    font-size: 6.7rem;
+  }
+  .paragraph-content p {
+    font-size: 2.5rem;
+    line-height: 1.8;
+  }
+  body.rtl   .paragraph-content p {
+    font-size: 3.9rem;
+    line-height: 1.8;
+  }
+  
+
+  /* For tablets, you might want to show images side by side */
+  .project-images-column {
+    flex-direction: column;
+  }
+  
+  .project-main-image {
+    height: 550px;
+    flex: 1;
+  }
+  
+  .project-secondary-image {
+    height: 550px;
+    flex: 1;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

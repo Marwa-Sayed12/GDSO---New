@@ -1,0 +1,412 @@
+/* =========================================== */
+/* MEDIA QUERIES FOR RESPONSIVE DESIGN */
+/* =========================================== */
+
+/* Large Desktops (1200px and above) */
+@media (min-width: 1200px) and (orientation: portrait){
+  .futurePlans {
+    padding: 100px 80px;
+    /* background-image: linear-gradient(-60deg, #0073ff 0%, #00f2ff 100%); */
+
+  }
+  
+  .futurePlans-title {
+    font-size: 3.6rem;
+    text-align: center;
+  }
+  
+  .futurePlans-description {
+    font-size: 29px;
+  }
+  .futurePlans-location {
+    font-size: 36px;
+  }
+  .futurePlans-location svg {
+  font-size: 36px;
+}
+  .futurePlans-card {
+    padding: 43px;
+  }
+  
+  .futurePlans-cardTitle {
+    font-size: 60px;
+  }
+  
+  .futurePlans-cardText {
+    font-size: 39px;
+    line-height: 1.9;
+  }
+}
+
+/* Desktop (992px to 1199px) */
+@media (max-width: 1200px) {
+    .futurePlans {
+    padding: 80px 50px;
+    /* background-image: linear-gradient(-60deg, #51ff00 0%, #40ff00 100%); */
+
+  }
+  
+    .futurePlans-title {
+    font-size: 3.6rem;
+    text-align: center;
+  }
+  
+  .futurePlans-description {
+    font-size: 29px;
+  }
+  .futurePlans-location {
+    font-size: 36px;
+  }
+  .futurePlans-location svg {
+  font-size: 36px;
+}
+  .futurePlans-card {
+    padding: 43px;
+  }
+  
+  .futurePlans-cardTitle {
+    font-size: 60px;
+  }
+  
+  .futurePlans-cardText {
+    font-size: 39px;
+    line-height: 1.9;
+  }
+    body.rtl .futurePlans-cardText {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+}
+
+/* Tablets Landscape (768px to 991px) */
+@media (max-width: 991px) and (min-width: 768px) and (orientation: portrait){
+  .futurePlans {
+    padding: 70px 40px;
+ /* background-image: linear-gradient(-60deg, #ff1500 0%, #ff0000 100%); */
+
+  }
+  
+  .futurePlans-header {
+    max-width: 90%;
+    margin: 0 auto 50px;
+  }
+  
+.futurePlans-title {
+    font-size: 2.9rem;
+    text-align: center;
+  }
+  
+
+  .futurePlans-location {
+    font-size: 26px;
+  }
+  .futurePlans-location svg {
+  font-size: 26px;
+}
+  
+body.rtl .futurePlans-location {
+ 
+     font-size: 38px;
+}
+body.rtl .futurePlans-location svg {
+ 
+     font-size: 30px;
+}
+  .futurePlans-card {
+    padding: 43px;
+  }
+  
+  .futurePlans-cardTitle {
+    font-size: 39px;
+  }
+  
+  .futurePlans-cardText {
+    font-size: 33px;
+    line-height: 2;
+  }
+    body.rtl .futurePlans-cardText {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+}
+
+/* Tablets Portrait (576px to 767px) */
+@media (max-width: 767px) and (min-width: 576px) and (orientation: portrait) {
+  .futurePlans {
+    padding: 60px 30px;
+        /* background-image: linear-gradient(-60deg, #e7ff0b 0%, #ffe600 100%); */
+
+  }
+  
+  .futurePlans-header {
+    max-width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+
+.futurePlans-title {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+
+  .futurePlans-location {
+    font-size: 23px;
+  }
+  .futurePlans-location svg {
+  font-size: 23px;
+}
+  .futurePlans-card {
+    padding: 43px;
+  }
+  
+  .futurePlans-cardTitle {
+    font-size: 33px;
+  }
+  
+  .futurePlans-cardText {
+    font-size: 25px;
+    line-height: 2;
+  }
+  
+  body.rtl .futurePlans-cardText {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+
+}
+
+/* Mobile Devices (480px to 575px) */
+@media (max-width: 575px) and (min-width: 480px)and (orientation: portrait) {
+  .futurePlans {
+    padding: 50px 25px;
+        /* background-image: linear-gradient(-60deg, #9900ff 0%, #ea00ff 100%); */
+
+  }
+  
+  .futurePlans-header {
+    margin-bottom: 35px;
+    text-align: center;
+  }
+  
+.futurePlans-title {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+  
+  .futurePlans-description {
+    font-size: 29px;
+  }
+  .futurePlans-location {
+    font-size: 22px;
+  }
+  .futurePlans-location svg {
+  font-size: 25px;
+}
+  .futurePlans-card {
+    padding: 43px;
+  }
+  
+  .futurePlans-cardTitle {
+    font-size: 30px;
+  }
+  
+  .futurePlans-cardText {
+    font-size: 22px;
+    line-height: 1.9;
+  }
+  body.rtl .futurePlans-cardText {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+/* Small Mobile Devices (below 480px) */
+@media (max-width: 479px) {
+  .futurePlans {
+    padding: 40px 20px;
+        /* background-image: linear-gradient(-60deg, #ff00b3 0%, #ff5500 100%); */
+
+  }
+  
+  .futurePlans-header {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  body.rtl .futurePlans-header {
+    text-align: center;
+  }
+  
+  .futurePlans-title {
+    font-size: 29px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  body.rtl .futurePlans-title {
+    text-align: center !important;
+    font-size: 30px;
+  }
+  
+
+  
+
+  
+  .futurePlans-list {
+    gap: 16px;
+  }
+  
+  .futurePlans-card {
+    padding: 27px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .futurePlans-cardTitle {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 6px;
+  }
+  
+  body.rtl .futurePlans-cardTitle {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .futurePlans-location {
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+  }
+  
+body.rtl .futurePlans-location {
+ 
+     font-size: 25px;
+}
+  
+  .futurePlans-location svg {
+    font-size: 20px;
+  }
+  body.rtl   .futurePlans-location svg {
+    font-size: 20px;
+  }
+  
+  .futurePlans-cardText {
+    font-size: 21px;
+    line-height: 1.7;
+  }
+  
+  body.rtl .futurePlans-cardText {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  /* Adjust border thickness on mobile */
+  .futurePlans-card {
+    border-inline-start-width: 4px;
+  }
+}
+
+/* Extra Small Devices (below 360px) */
+@media (max-width: 359px) {
+  .futurePlans {
+    padding: 30px 15px;
+  }
+  
+  .futurePlans-title {
+    font-size: 212px;
+  }
+  
+  body.rtl .futurePlans-title {
+    font-size: 20px;
+  }
+  
+  .futurePlans-description {
+    font-size: 12px;
+  }
+  
+  .futurePlans-card {
+    padding: 16px;
+  }
+  
+  .futurePlans-cardTitle {
+    font-size: 16px;
+  }
+  
+  .futurePlans-location {
+    font-size: 11px;
+  }
+  
+  .futurePlans-cardText {
+    font-size: 22px;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .futurePlans {
+    padding: 20px 0;
+    background: none !important;
+  }
+  
+  .futurePlans-card {
+    box-shadow: none !important;
+    border: 1px solid #ddd !important;
+    page-break-inside: avoid;
+  }
+  
+  
+  
+  
+}
+
+/* High-DPI Screens (Retina Displays) */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .futurePlans-title {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+
+
+/* Landscape Mode for Mobile */
+@media (max-height: 500px) and (orientation: landscape) {
+  .futurePlans {
+    padding: 40px 30px;
+  }
+  
+  .futurePlans-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  
+  .futurePlans-card {
+    padding: 20px;
+  }
+  
+  .futurePlans-cardText {
+    font-size: 22px;
+    line-height: 1.4;
+  }
+}
+
+/* Touch Device Optimizations */
+@media (hover: none) and (pointer: coarse) {
+  .futurePlans-card {
+    transition: none;
+  }
+  
+  .futurePlans-location {
+    gap: 10px; /* Larger touch target */
+  }
+  
+  .futurePlans-location svg {
+    min-width: 20px; /* Better touch target */
+  }
+}

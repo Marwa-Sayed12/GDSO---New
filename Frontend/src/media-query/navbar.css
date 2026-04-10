@@ -1,0 +1,959 @@
+@media (max-width: 320px)  and (orientation: portrait){
+  .dropdown-button span:not(.dropdown-icon) {
+    display: none; /* Hide language text */
+  }
+
+  .flag-icon {
+    width: 20px !important;
+    height: auto;
+  }
+
+  .dropdown-icon {
+    font-size: 12px !important;
+    margin-left: 0;
+  }
+
+  .navbar-links {
+    padding: 25px;
+    gap: 2rem;
+     margin-top: 15px;
+  }
+
+  .navbar-links a {
+    font-size: 0.8rem !important;
+  }
+
+
+
+  .submenu li {
+    font-size: 1rem;        
+    text-align: center !important;
+    padding: 8px 0 !important;
+  }
+
+  .submenu li a {
+    font-size: 0.5rem !important;
+  }
+  
+  .donate-btn {
+    font-size: 0.8rem !important;
+    padding: 0.2rem 1.3rem !important; 
+  }
+
+  body.rtl .donate-btn {
+    font-size: 0.7rem;
+    padding: 0rem 1.5rem !important;
+  }
+
+}
+
+
+@media (max-width: 1440px) and (orientation: portrait) {
+  .dropdown-button span:not(.dropdown-icon) {
+    display: none; 
+  }
+.navbar-top {
+  padding: 34px 20px;
+   flex-direction: column;
+    align-items: center;
+}
+
+.dropdown-button {
+  margin: -20px !important;
+    padding: 20px 20px; 
+    font-size: 3rem !important;
+
+}
+body.rtl .dropdown-button {
+  margin-left: 60px !important;
+    font-size: 4.7rem !important;
+
+}
+
+
+  .language-switcher {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+  }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60px;
+    height: 50px;
+    z-index: 101;
+
+    order: 0;    
+  }
+
+  .hamburger span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #ffffff;
+  
+   
+  }
+
+
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 215px;
+    left: 0;
+    background-color: #114169;
+    padding: 10px 0;
+    z-index: 100;
+
+    order: 1;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .navbar-right {
+    margin-left: auto;   /* RIGHT side */
+    order: 2;
+  }
+
+  .navbar-links {
+     margin-top: 190px !important;
+  }
+  body.rtl   .navbar-links {
+     margin-top: 190px !important;
+  }
+
+  .flag-icon {
+    width: 80px !important;
+    height: auto;
+  }
+  .dropdown-menu li {
+      padding: 26px 65px;
+    font-size: 3rem !important;
+}
+
+body.rtl   .dropdown-menu li {
+      padding: 42px 65px;
+    font-size: 3.7rem !important;
+}
+
+  .dropdown-icon {
+    font-size: 34px !important;
+    margin-left: 0;
+  }
+.dropdown-button {
+  margin: -20px !important;
+    padding: 12px 17px; 
+
+}
+.logo {
+  width: 270px;
+  height: auto;
+}
+
+  .navbar-links a {
+    font-size: 3.2rem !important;
+  }
+
+  body.rtl   .navbar-links a {
+    font-size: 3.5rem !important;
+  }
+
+
+  .submenu li {
+    font-size: 2.4rem;        
+    text-align: center !important;
+    padding: 30px 150px !important;
+  }
+   .donate-btn {
+    font-size: 1.9rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 1.2rem 1.3rem !important; 
+  }
+
+  body.rtl .donate-btn {
+    font-size: 2.5rem !important;
+     margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0.1rem 1.7rem !important;
+  }
+
+}
+
+
+
+@media (min-width: 1200px) and (orientation: portrait) {
+  .dropdown-button span:not(.dropdown-icon) {
+    display: none; 
+  }
+.navbar-top {
+  padding: 34px 20px;
+   flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+  width: 420px;
+  height: auto;
+}
+
+.dropdown-button {
+  margin: -20px !important;
+    padding: 20px 20px; 
+    font-size: 3rem !important;
+
+}
+body.rtl .dropdown-button {
+  margin-left: 60px !important;
+    font-size: 4.7rem !important;
+
+}
+    .search-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    
+  }
+
+  .search-box {
+    width: 80%;
+    margin-bottom: 3px;
+  }
+
+  .language-switcher {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+  }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 70px;
+    height: 80px;
+    cursor: pointer;
+    z-index: 101;
+
+    order: 0;            /* LEFT side */
+    margin-right: 12px;
+    margin-left: 0;
+  }
+
+  .hamburger span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #ffffff;
+  
+   
+  }
+
+
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 215px;
+    left: 0;
+    background-color: #114169;
+    padding: 10px 0;
+    z-index: 100;
+
+    order: 1;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .navbar-right {
+    margin-left: auto;   /* RIGHT side */
+    order: 2;
+  }
+
+  .navbar-links {
+     margin-top: 395px !important;
+  }
+  body.rtl   .navbar-links {
+     margin-top: 440px !important;
+  }
+
+  .flag-icon {
+    width: 95px !important;
+    height: auto;
+  }
+  .dropdown-menu li {
+      padding: 42px 65px;
+    font-size: 3.7rem !important;
+}
+
+body.rtl   .dropdown-menu li {
+      padding: 42px 65px;
+    font-size: 3.7rem !important;
+}
+
+  .dropdown-icon {
+    font-size: 60px !important;
+    margin-left: 0;
+  }
+
+
+  .navbar-links a {
+    font-size: 3.5rem !important;
+  }
+
+  body.rtl   .navbar-links a {
+    font-size: 3.5rem !important;
+  }
+
+
+  .submenu li {
+    font-size: 2.4rem;        
+    text-align: center !important;
+    padding: 30px 150px !important;
+  }
+
+  
+  .donate-btn {
+    font-size: 4rem !important;
+    margin: 30px ;
+    padding: 2.2rem 2.9rem !important; 
+  }
+
+  body.rtl .donate-btn {
+    font-size: 5.3rem !important;
+      margin: 40px ;
+    padding: 0.5rem 3.7rem !important;
+  }
+}
+
+
+/* Tablets (768px - 1023px) */
+@media (max-width: 1024px)  and (orientation: portrait){
+  .dropdown-button span:not(.dropdown-icon) {
+    display: none; 
+  }
+
+
+.dropdown-button {
+  margin: -10px !important;
+}
+  .flag-icon {
+    width: 55px !important;
+    height: auto;
+  }
+  .dropdown-menu li {
+      padding: 22px 25px;
+    font-size: 1.7rem !important;
+}
+
+  .dropdown-icon {
+    font-size: 30px !important;
+    margin-left: 0;
+  }
+
+  .navbar-links {
+    padding: 25px;
+    gap: 4rem;
+     margin-top: 140px !important;
+  }
+  body.rtl .navbar-links {
+   
+     margin-top: 140px !important;
+  }
+
+  .navbar-links a {
+    font-size: 2.2rem !important;
+  }
+
+
+
+  .submenu li {
+    font-size: 2rem;        
+    text-align: center !important;
+    padding: 20px 0 !important;
+  }
+
+  
+  .donate-btn {
+    font-size: 1.9rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 1.2rem 1.3rem !important; 
+  }
+
+  body.rtl .donate-btn {
+    font-size: 2.5rem !important;
+     margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0.1rem 1.7rem !important;
+  }
+}
+
+
+
+@media (max-width: 768px)  and (orientation: portrait){
+   .dropdown-button span:not(.dropdown-icon) {
+    display: none; /* Hide language text */
+  }
+.logo {
+  width: 170px;
+  height: auto;
+}
+.dropdown-menu li {
+ 
+  font-size: 29px !important;
+ 
+}
+  .flag-icon {
+    width: 40px !important;
+    height: auto;
+  }
+  .dropdown-button {
+
+  margin: 18px 13px !important; /* Adjusted padding for pill shape */
+  
+}
+
+  .dropdown-icon {
+    font-size: 25px !important;
+    margin-left: 0;
+  }
+  body.rtl   .dropdown-menu li {
+    font-size: 25px !important;
+     padding: 20px 29px;
+    margin-left: 0;
+  }
+
+  .navbar-links {
+    padding: 25px;
+    gap: 4rem;
+     margin-top: 85px !important;
+  }
+  body.rtl .navbar-links {
+   
+     margin-top: 80px !important;
+  }
+
+  .navbar-links a {
+    font-size: 2rem !important;
+  }
+  body.rtl   .navbar-links a {
+    font-size: 2rem !important;
+  }
+
+
+
+  .submenu li {
+    font-size: 2rem;        
+    text-align: center !important;
+    padding: 20px 0 !important;
+  }
+
+  
+  .donate-btn {
+    font-size: 2rem !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 1rem 1.3rem !important; 
+  }
+
+  body.rtl .donate-btn {
+    font-size: 2.2rem !important;
+     margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0.1rem 1.7rem !important;
+  }
+}
+
+
+@media (max-width: 576px)  and (orientation: portrait){
+  .dropdown-button span:not(.dropdown-icon) {
+    display: none; /* Hide language text */
+  }
+
+  .flag-icon {
+    width: 30px !important;
+    height: auto;
+  }
+  .dropdown-button {
+  margin: -10px !important;
+}
+
+  .dropdown-menu li {
+      padding: 14px 33px !important;
+    font-size: 1.2rem !important;
+}
+    
+  .dropdown-icon {
+    font-size: 12px !important;
+    margin-left: 0;
+  }
+    .dropdown-button {
+
+  margin: 18px 13px !important; /* Adjusted padding for pill shape */
+  
+}
+
+  .navbar-links {
+    padding: 25px;
+    gap: 2.8rem;
+     margin-top: 24px !important;
+  }
+  body.rtl   .navbar-links {
+     margin-top: 22px !important;
+  }
+
+  .navbar-links a {
+    font-size: 1.7rem !important;
+  }
+
+
+
+  .submenu li {
+    text-align: center !important;
+    padding: 19px 0 !important;
+  }
+
+  .submenu li a {
+    font-size: 1.8rem !important;
+  }
+  
+  .donate-btn {
+    font-size: 1.4rem !important;
+    padding: 0.8rem 1.7rem !important; 
+  }
+
+  body.rtl .donate-btn {
+    font-size: 1.5rem !important;
+    padding: 0.3rem 1.5rem !important;
+  }
+
+}
+
+
+
+@media (max-width: 374px)  and (orientation: portrait){
+    .dropdown-button span:not(.dropdown-icon) {
+    display: none; /* Hide language text */
+  }
+
+  .flag-icon {
+    width: 30px !important;
+    height: auto;
+  }
+    .dropdown-menu li {
+ 
+  font-size: 19px !important;
+ 
+}
+  .dropdown-icon {
+    font-size: 12px !important;
+    margin-left: 0;
+  }
+
+  .navbar-links {
+    padding: 25px;
+    gap: 2.8rem;
+     margin-top: 24px !important;
+  }
+  body.rtl   .navbar-links {
+     margin-top: 10px;
+  }
+
+  .navbar-links a {
+    font-size: 1.7rem !important;
+  }
+
+
+
+  .submenu li {
+    text-align: center !important;
+    padding: 19px 0 !important;
+  }
+
+  .submenu li a {
+    font-size: 1.8rem !important;
+  }
+  
+  .donate-btn {
+    font-size: 1.4rem !important;
+    padding: 0.8rem 1.7rem !important; 
+  }
+
+  body.rtl .donate-btn {
+    font-size: 1.5rem !important;
+    padding: 0.3rem 1.5rem !important;
+  }
+}
+
+@media  (max-height: 899px )   and (orientation: portrait){
+   .navbar-links {
+    padding: 25px;
+    gap: 2.8rem;
+     margin-top: -24px !important;
+  }
+  body.rtl   .navbar-links {
+     margin-top: 10px;
+  }
+}
+
+@media (width: 412px)  and (orientation: portrait){
+   .navbar-links {
+    padding: 25px;
+    gap: 2.8rem;
+     margin-top: 24px !important;
+  }
+  body.rtl   .navbar-links {
+     margin-top: 10px;
+  }
+}
+
+
+@media (max-width: 399px)  and (orientation: portrait){
+   .navbar-links {
+    padding: 25px;
+    gap: 2.8rem;
+     margin-top: 24px !important;
+  }
+  body.rtl   .navbar-links {
+     margin-top: 10px;
+  }
+}
+
+@media (width: 834px)   and (orientation: portrait){
+     .navbar-links {
+    padding: 25px;
+    gap: 2.8rem;
+     margin-top: 124px !important;
+  }
+  body.rtl   .navbar-links {
+     margin-top: 10px;
+  }
+}
+
+
+/* Breakpoint for tablets and smaller */
+@media screen and (max-width: 1024px)  and (orientation: portrait){
+
+  /* Top Section */
+  .navbar-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 15px;
+  }
+
+  .navbar-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+
+  .search-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    
+  }
+
+  .search-box {
+    width: 60%;
+    margin-bottom: 3px;
+  }
+
+  .language-switcher {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+  }
+
+  /* Bottom Section: hamburger left, donate right */
+  .navbar-bottom {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 101;
+
+    order: 0;            /* LEFT side */
+    margin-right: 12px;
+    margin-left: 0;
+  }
+
+  .hamburger span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+   
+  }
+
+  .hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .hamburger.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+  }
+
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 215px;
+    left: 0;
+    background-color: #114169;
+    padding: 10px 0;
+    z-index: 100;
+
+    order: 1;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .navbar-right {
+    margin-left: auto;   /* RIGHT side */
+    order: 2;
+  }
+}
+
+
+/* Breakpoint for mobile phones */
+@media screen and (max-width: 768px) {
+
+  .navbar-top {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 10px 15px;
+  }
+
+  .navbar-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .search-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+   
+  }
+
+  .search-icon {
+    width: 28px;
+    height: 28px;
+    padding: 5.5px;
+  }
+
+  .search-box {
+    width: 280px;
+    height: 32px;
+  }
+
+  .language-switcher {
+    margin-left: auto;
+    top: auto;
+  }
+
+  .navbar-bottom {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 10px;
+  }
+
+  /* Hamburger LEFT */
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 101;
+
+    order: 0;
+    margin-right: 12px;
+    margin-left: 0;
+  }
+
+  .hamburger span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 210px;
+    left: 0;
+    background-color: #114169;
+    padding: 10px 0;
+    z-index: 100;
+
+    order: 1;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  /* Donate RIGHT */
+  .navbar-right {
+    margin-left: auto;
+    order: 2;
+    
+  }
+
+  .donate-btn {
+    font-size: 1.2rem;
+    padding: 0.6rem 1.8rem;
+  }
+  .dropdown-button {
+  gap: 8px;
+  padding: 10px 14px;
+  font-size: 1.2rem;
+}
+.dropdown-icon {
+  font-size: 20px;
+}
+.flag-icon {
+  width: 40px;
+  height: auto;
+}
+.dropdown-menu {
+  padding: 5px 0;
+  min-width: 140px;
+ 
+}
+.dropdown-menu li {
+  padding: 15px 50px;
+  font-size: 20px;
+
+
+}
+}
+
+
+
+
+
+/* Extra small phones */
+@media screen and (max-width: 480px) {
+
+  .logo {
+    width: 100px;
+  }
+
+  .search-box {
+    width: 130px;
+    height: 30px;
+    font-size: 0.8rem;
+
+  }
+
+  .search-icon {
+    width: 22px;
+    height: 22px;
+    padding: 7px;
+  }
+    .language-switcher {
+    margin-left: auto;
+    top: auto;
+  }
+
+  /* ALWAYS keep hamburger LEFT */
+  .hamburger {
+    order: 0;
+    margin-left: 0;
+    margin-right: 12px;
+  }
+
+  /* Donate stays RIGHT */
+  .navbar-right {
+    margin-left: auto;
+    order: 2;
+  }
+  .navbar-links {
+    top: 190px;
+    left: 0;
+  }
+  .dropdown-button {
+  padding: 10px 10px;
+  font-size: 1rem;
+}
+.dropdown-icon {
+  font-size: 1rem;
+}
+.dropdown-menu li {
+  padding: 9px 15px;
+  font-size: 15px;
+}
+
+  .donate-btn {
+    font-size: 1.2rem;
+    padding: 0.7rem 1.7rem;
+  }
+  body.rtl .donate-btn {
+ font-size: 1.5rem;
+    padding: 0.1rem 1.7rem;    
+  }
+  .flag-icon {
+  width: 30px;
+  height: auto;
+}
+.navbar-links a {
+  font-size: 1.3rem;
+  padding: 0rem 0;
+}
+
+.submenu li {
+  padding: 0.8rem 1.5rem;
+  font-size: 1.4rem;
+  transition: all 0.2s ease;
+  font-family: "Antic Slab", serif;
+}
+}
+
