@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Antic+Slab&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Antic Slab", serif;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-container {
+  width: 100%;
+}
+
+/* Top bar */
+.navbar-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 20px;
+}
+
+/* Logo */
+.navbar-logo {
+  flex: 1;
+}
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+/* Language switcher - Updated with modern pill shape */
+.language-switcher {
+  position: relative;
+  margin-left: 20px;
+}
+
+.dropdown-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px; /* Adjusted padding for pill shape */
+  cursor: pointer;
+  background-color: #ebf9fe;
+  border: none;
+  border-radius: 30px; /* Changed from 10% to pill shape */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: all 0.2s ease;
+  font-size: 1rem;
+}
+
+.dropdown-button:hover {
+  background-color: #d2e9f5;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.dropdown-icon {
+  font-size: 15px;
+  color: #06480d;
+  transition: transform 0.3s ease-in-out;
+}
+
+.dropdown-icon2 {
+  font-size: 15px;
+  color: #dbe7dc;
+  margin-right: 4px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.language-switcher:hover .dropdown-icon {
+  transform: rotate(180deg);
+}
+
+/* Dropdown menu - keeping your original styling but with fixed RTL */
+.dropdown-menu {
+  position: absolute;
+  top: calc(100% + 5px); /* Slight gap */
+  right: 0;
+  background-image: linear-gradient(-225deg, #E3FDF5 0%, #b5d8f3 100%);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 5px 0;
+  min-width: 140px;
+  z-index: 1000;
+  animation: fadeDown 0.3s ease;
+}
+
+/* Invisible bridge to connect button and dropdown */
+.dropdown-menu::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: transparent;
+}
+
+.dropdown-menu li {
+  padding: 12px 15px;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.2s ease-in-out;
+}
+
+.dropdown-menu li:hover {
+  background-color: #a0c8e4;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.flag-icon {
+  width: 30px;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Bottom nav */
+.navbar-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 17px;
+  background-color: #114169;
+}
+
+/* Main menu */
+.navbar-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  flex: 2;
+}
+
+
+.nav-item {
+  position: relative;
+}
+
+.navbar-links a {
+  color: #ffffff;
+  font-size: 1.4rem;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 0;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #4b9de1;
+}
+
+/* Underline animation */
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: -4px;
+  left: 0;
+  background-color: #128bd7;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Submenu dropdown */
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  background: linear-gradient(to top, #033451 0%, rgb(92, 105, 121) 100%);
+  min-width: 220px;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: all 0.25s ease;
+  z-index: 99;
+}
+
+.nav-item:hover .submenu {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
+}
+
+.submenu li {
+  padding: 0.8rem 0.5rem;
+  font-size: 1.4rem;
+  transition: all 0.2s ease;
+  font-family: "Antic Slab", serif;
+}
+
+.submenu li:hover {
+  font-weight: 700;
+  color: #00ecec;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Animation for dropdown */
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Right Side */
+.navbar-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.donate-btn {
+  background-image: linear-gradient(rgba(167, 28, 195, 0.818), rgba(13, 96, 128, 0.884));
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 0.7rem 2rem;
+  border-radius: 27px;
+  cursor: pointer;
+  margin: 5px 0px;
+  font-size: 1.6rem;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+body.rtl .donate-btn {
+  font-family: "Amiri", serif;
+  padding: 0rem 2.8rem;
+  font-size: 2rem;
+}
+
+.donate-btn:hover {
+  background-image: linear-gradient(90deg, #897e08 0%, #6bc505 100%);
+  color: #ffffff;
+  transition: 0.3s;
+}

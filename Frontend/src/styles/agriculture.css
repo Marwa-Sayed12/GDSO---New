@@ -1,0 +1,785 @@
+.agri-hero {
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-image: linear-gradient(rgba(4, 12, 26, 0.726), rgba(74, 85, 117, 0.4)), url('../Images/Polish_20250417_101057556.jpg');
+   
+  }
+
+  .agri-hero-text{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background: -webkit-linear-gradient(#8ec1ff, #6fb476);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+    font-family:Georgia, 'Times New Roman', Times, serif;
+     
+    z-index: 6;
+    padding: 0 20px;
+  }
+
+  .agri-hero-text h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+  }
+   body.rtl .agri-hero-text h1 {
+    font-size: 2.4rem;
+    font-family: "Amiri", serif;
+  }
+  
+  .agri-hero-text p {
+    font-size: 1.6rem;
+    padding: 10px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+
+  }
+  
+  
+  /* Floating Div Overlapping Hero */
+  .agri-info-box {
+    position: absolute;
+    bottom: -70px; /* 50% below, 50% inside hero */
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(83, 93, 110, 0.69);
+    backdrop-filter: blur(10px);
+    /* background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);    border-radius: 20px; */
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    z-index: 10;
+  }
+  
+  /* Each icon block */
+  .agri-info-item {
+    text-align: center;
+    /* padding: 5px; */
+    /* background-image: linear-gradient(to right, #243949 0%, #517fa4 100%); */
+  }
+  .agri-info-item p{
+    /* background: -webkit-linear-gradient(#20a624, #388607);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: #ffffff;
+  }
+   body.rtl .agri-info-item p{
+    font-family: "Noto Naskh Arabic", serif;
+        font-size: 1.4rem;
+  }
+  
+  
+  .agri-info-icon { 
+    color: #ffffff;
+    font-size: 3rem;
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  /* To create space below hero for floating box */
+  .agri-section {
+    position: relative;
+    padding-bottom: 120px; /* Prevent overlap with next section */
+  }
+  
+
+  /* tomato */
+  /* Tomato Sauce Program Layout */
+.sauce-program-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  padding-bottom: 130px;
+  background-color: #fff8f0;
+  flex-wrap: wrap;
+  gap: 40px;
+  background-image: url('../Images/background/mesh-1\ \(1\).png');
+  background-size: cover;
+}
+
+/* Text on the right */
+.sauce-text {
+  flex: 1;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: right;
+}
+
+.sauce-text h2 {
+  font-size: 2rem;
+  background: -webkit-linear-gradient(#8ec1ff, #6fb476);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+  margin-bottom: 20px;
+  text-align: center;
+}
+body.rtl .sauce-text h2 {
+     font-family: "Amiri", serif;
+
+}
+
+.sauce-text p {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.6;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+body.rtl .sauce-text p {
+  font-family: "Quicksand", sans-serif;
+      text-align: right;
+      line-height: 1.6;
+      font-size: 1.3rem;
+
+}
+
+/* Images on the left */
+.sauce-images {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+
+.tomato-img-1{
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  mask-image: url('../Images/icon-logo/tomato-svgrepo-com.svg');
+  mask-size: cover;
+  mask-repeat: no-repeat;
+  mask-position: center;background: rgba(157, 74, 74, 0.69);
+  border: 2px solid #a92c2c;
+}
+/* Tomato Mask Style */
+.tomato-img {
+  width: 310px;
+  height: 310px;
+  margin-left: 17%;
+  margin-top: 10%;
+  position: absolute;
+  z-index: 2;
+  
+  object-fit: cover;
+  mask-image: url('../Images/icon-logo/tomato-svgrepo-com.svg');
+  mask-size: cover;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-image: url('../Images/icon-logo/tomato-svgrepo-com.svg');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  border: 2px solid #a92c2c;
+  border-radius: 12px;
+}
+
+/* Sauce Making Steps */
+.sauce-steps-section {
+  
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.sauce-steps-title {
+  font-size: 2.5rem;
+  background: -webkit-linear-gradient(#8ec1ff, #6fb476);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 50px;
+}
+body.rtl 
+.sauce-steps-title {
+  font-family: "Amiri", serif;
+}
+
+/* Cards Container */
+.sauce-steps-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+/* Individual Card */
+.step-card {
+  background-color: #ffffff;
+  border: 1px solid #eee;
+  border-radius: 16px;
+  padding: 30px 20px;
+  width: 330px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  position: relative;
+}
+
+
+/* Step Number Circle */
+.step-number {
+  width: 50px;
+  height: 50px;
+  background-color: #2c92a9;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -26px;
+  left: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+
+.step-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.step-card h3 {
+  font-size: 1.3rem;
+  background: -webkit-linear-gradient(#fd6f6f, #66b56e, #a92c2c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+}
+
+.step-card p {
+  font-size: 1rem;
+  color: #555;
+  text-align: justify;
+  line-height: 1.5;
+  text-align: left;
+}
+body.rtl .step-card h3 {
+    font-family: "Noto Naskh Arabic", serif;
+      line-height: 1.6;
+      font-size: 1.5rem;
+
+}
+body.rtl .step-card p {
+  font-family: "Quicksand", sans-serif;
+      text-align: right;
+      line-height: 1.6;
+      font-size: 1.1rem;
+
+}
+/* Tomato Gallery Section */
+.tomato-gallery-section {
+  background-image: url('../Images/Romi/mesh-637.png');
+  background-size: cover;
+  padding: 60px 20px;
+}
+
+.tomato-gallery-title {
+  font-size: 2.2rem;
+  background: -webkit-linear-gradient(#8ec1ff, #6fb476);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Centered gallery layout */
+.tomato-gallery-center {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* Square cards with border */
+.tomato-card {
+  width: 200px;
+  height: 180px;
+  border: 8px solid #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.tomato-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Tilt Effects */
+.rotate-left {
+  transform: rotate(-4deg);
+}
+
+.rotate-right {
+  transform: rotate(4deg);
+}
+
+
+
+/* --------------------------------------water */
+/* Water Services Section */
+/* Section wrapper */
+.water-services-section {
+  padding: 80px 80px;
+  height: 60vh;
+    background-image: linear-gradient(to right, #e1f8f8 0%, #17c0fe8c 100%),url('../Images/water/water\ \(4\).jpg');
+  
+  background-size: cover;
+}
+
+/* Layout */
+.water-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+/* Background container with PNG + drops */
+.drop-bg-container {
+  position: relative;
+  width: 380px;
+  height: 380px;
+  background-image: url('../Images/icon-logo/pngwing.com\ \(2\).png'); /* your water PNG background */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Main drop image */
+.main-drop {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  mask-image: url('../Images/icon-logo/water-drop-svgrepo-com.svg');
+  mask-size: cover;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: url('../Images/icon-logo/water-drop-svgrepo-com.svg');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+}
+
+
+/* Small drops */
+.small-drop {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  mask-image: url('../Images/icon-logo/water-drop-svgrepo-com.svg');
+  mask-size: cover;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: url('../Images/icon-logo/water-drop-svgrepo-com.svg');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Position small drops */
+.top-left-drop {
+  top: -40px;
+  left: -1px;
+}
+
+.bottom-right-drop {
+  bottom: -40px;
+  right: -60px;
+}
+
+/* Text styling */
+.water-text {
+  max-width: 40vw;
+  padding: 35px;
+  height: auto;
+  backdrop-filter: blur(3px);
+}
+
+.water-text h2 {
+  font-size: 2.5rem;
+  color: #3b86a5;
+  font-family: "Mirza", serif !important;
+    background: -webkit-linear-gradient(#022851, #005c81);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+   padding-bottom: 15px;
+}
+
+.water-text p {
+  font-size: 1rem;
+  color: #2f2f31;
+  line-height: 1.5;
+}
+
+/* More details button */
+
+.more-details-btn {
+  display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px 20px;
+  border-top: 1px solid #a9d5e9;
+  font-size: 1.2rem;
+  color: #a1e3ff;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+   background-image: url('../Images/icon-logo/pngwing.com\ \(6\).png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  box-shadow: rgba(6, 160, 174, 0.453) 0px -23px 25px 0px inset, rgba(4, 118, 144, 0.551) 0px -36px 30px 0px inset, rgba(2, 92, 112, 0.419) 0px -79px 40px 0px inset, rgba(1, 90, 126, 0.255) 0px 2px 1px, rgba(1, 82, 78, 0.507) 0px 4px 2px, rgba(1, 44, 85, 0.501) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(3, 40, 70, 0.304) 0px 32px 16px;
+  /* box-shadow: rgba(1, 41, 52, 0.737) 0px 25px 50px -12px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(1, 43, 101, 0.3) 0px 30px 60px -30px, rgba(1, 41, 81, 0.533) 0px -2px 6px 0px inset;
+ */
+
+}
+body.rtl .water-text h2{
+  text-align: right;
+
+}
+body.rtl .water-text p{
+  text-align: right;
+}
+body.rtl .more-details-btn{
+ 
+}
+body.rtl  .water-content {
+  align-items: right;
+}
+
+/* --------------------------------------tree growth */
+
+.future-plantation-section {
+  background-color: #f7fdf8;
+  padding: 80px 30px;
+  text-align: center;
+}
+.future-plantation-section h2{
+  background: -webkit-linear-gradient(#8ec1ff, #6fb476);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+body.rtl 
+.future-plantation-section h2 ,
+.water-text h2{
+  font-family: "Amiri", serif;
+}
+body.rtl 
+.water-text h2{
+  font-family: "Amiri", serif;
+}
+
+/* Section subtitle (h3 under h2) */
+.future-plantation-section > h3.future-title {
+  text-align: left;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 10px auto 8px;
+  max-width: 1100px;
+  padding: 0 20px;
+
+  background: linear-gradient(90deg, #1e7f5c, #2fa4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* Section paragraph under h3 */
+.future-intro {
+  max-width: 1100px;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+
+  font-size: 1.1rem;
+  line-height: 1.75;
+  color: #4a4a4a;
+  text-align: justify;
+}
+
+body.rtl .future-plantation-section > h3.future-title {
+  text-align: right;
+  font-family: "Amiri", serif;
+  font-size: 1.8rem;
+}
+
+body.rtl .future-intro {
+  font-family: "Lateef", serif;
+  font-size: 1.9rem;
+  line-height: 2.1;
+  text-align: right;
+}
+
+
+
+
+
+.section-title {
+  font-size: 2.8rem;
+  color: #1f5223;
+  font-weight: bold;
+}
+
+.plantation-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* exactly 3 per row */
+  gap: 40px;
+  justify-items: center;
+  max-width: 90vw;   /* control total grid width */
+  margin: 0 auto;
+}
+
+.plant-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+/* card1------------------------- */
+#almond{
+  height: 85vh;
+  background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+}
+#almond img{
+  height: 35vh;
+}
+#almond h3{
+  font-size: 1.5rem;
+  color: #08596f;
+}
+#almond p{
+ font-size: 1.2rem;
+ color: #c1ffd1;
+   padding: 25px;
+}
+body.rtl #almond h3{
+     font-family: "Amiri", serif;
+  text-align: right;
+}
+body.rtl #almond p{
+     font-family: "Lateef", serif;
+  text-align: right;
+  font-size: 1.7rem;
+}
+
+/* card2------------------------- */
+#olive{
+  margin-top: 2%;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+.oliveicon{
+  display: flex;
+  max-width: 80px;
+  max-height: 80px;
+  margin: 0 auto;
+}
+#olive img{
+  border-radius: 20px;
+  height: 38vh;
+}
+#olive  h3{
+  text-align: center;
+  font-size:1.5rem;
+}
+#olive  p{
+  font-size: 1rem;
+  text-align:center;
+ }
+body.rtl #olive h3{
+     font-family: "Amiri", serif;
+  font-size: 1.6rem;
+}
+body.rtl #olive p{
+     font-family: "Lateef", serif;
+  font-size: 1.6rem;
+}
+
+
+/* card3------------------------- */
+#olive-1{
+  
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+.oliveicon{
+
+  display: flex;
+  max-width: 80px;
+  max-height: 80px;
+  margin: 0 auto;
+
+}
+#olive-1 img{
+  border-radius: 20px;
+  height: 35vh;
+  margin-bottom: 4%;
+}
+#olive-1  h3{
+  text-align: center;
+  font-size: 1.5rem;
+}
+#olive-1  p{
+  font-size: 1rem;
+  text-align:center;
+ }
+ body.rtl #olive-1 h3{
+     font-family: "Amiri", serif;
+  font-size: 1.6rem;
+}
+body.rtl #olive-1 p{
+     font-family: "Lateef", serif;
+  font-size: 1.6rem;
+}
+
+/* card4----------------------- */
+#pomegrant{
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+
+  margin-top: 2%;
+}
+.oliveicon{
+
+  display: flex;
+  max-width: 80px;
+  max-height: 80px;
+  margin: 0 auto;
+
+}
+#pomegrant img{
+  border-radius: 20px;
+  height: 35vh;
+}
+#pomegrant  h3{
+  text-align: center;
+  font-size: 1.5rem;
+}
+#pomegrant  p{
+  font-size: 1rem;
+  text-align:center;
+ }
+  body.rtl #pomegrant h3{
+     font-family: "Amiri", serif;
+  font-size: 1.6rem;
+}
+body.rtl #pomegrant p{
+     font-family: "Lateef", serif;
+  font-size: 1.6rem;
+}
+
+/* card5----------------------- */
+
+#Mulberry{
+  
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+.oliveicon{
+  display: flex;
+  max-width: 80px;
+  max-height: 80px;
+  margin: 0 auto;
+}
+#Mulberry img{
+  border-radius: 20px;
+  height: 35vh;
+  margin-top: 5%;
+}
+#Mulberry  h3{
+  text-align: center;
+  font-size: 1.5rem;
+}
+#Mulberry  p{
+  font-size: 1rem;
+  text-align:center;
+ }
+  body.rtl #Mulberry h3{
+     font-family: "Amiri", serif;
+  font-size: 1.6rem;
+}
+body.rtl #Mulberry p{
+     font-family: "Lateef", serif;
+  font-size: 1.6rem;
+}
+
+/* card6-------------- */
+#anar{
+  height: 83vh;
+  background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+}
+body.rtl #anar{
+  height: 93vh;
+  background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+}
+#anar img{
+  height: 35vh;
+}
+
+#anar h3{
+  font-size: 1.5rem;
+  color: #08596f;
+}
+#anar p{
+ font-size: 1.2rem;
+ padding: 25px;
+ color: #c1ffd1;
+}
+  body.rtl #anar h3{
+     font-family: "Amiri", serif;
+  font-size: 1.6rem;
+  text-align: right;
+}
+body.rtl #anar p{
+     font-family: "Lateef", serif;
+  font-size: 1.7rem;
+  text-align: right;
+}
+
+
+
+
+
+.plant-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.plant-card h3 {
+  padding: 16px 20px 4px;
+  font-size: 1.4rem;
+  color: #2e6a37;
+}
+
+.plant-card p {
+  padding: 0 20px 20px;
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.5;
+}

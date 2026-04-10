@@ -1,0 +1,125 @@
+/* contact.css */
+
+/* Section styling */
+.contact-section {
+  background: #f7f7f7;
+  padding: 60px 20px;
+}
+
+/* Container: Left & Right layout */
+.contact-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* LEFT SIDE: Contact Info */
+.contact-info {
+  flex: 1 1 400px;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.contact-info h2 {
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+body.rtl .contact-info h2{
+   text-align: right;
+   font-family: "Amiri",sans-serif;
+}
+
+.contact-info p {
+  margin-bottom: 15px;
+  color: #555;
+  line-height: 1.5;
+}
+body.rtl .contact-info p{
+   text-align: right;
+    font-family: "Lateef", serif;
+    font-size: 1.6rem;
+}
+
+/* Map inside left column */
+.contact-info iframe {
+  margin-top: 10px;
+  width: 100%;
+  height: 200px;
+  border: none;
+  border-radius: 8px;
+}
+
+/* RIGHT SIDE: Contact Form */
+.contact-form {
+  flex: 1 1 400px;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #2c3e50;
+}
+body.rtl .contact-form label{
+  text-align: right;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 15px;
+}
+body.rtl .contact-form input,
+.contact-form textarea{
+  text-align: right;
+}
+
+
+.contact-form textarea {
+  resize: none;
+  min-height: 120px;
+  
+   text-align: left;
+}
+body.rtl .contact-form textarea {
+  
+   text-align: right;
+}
+
+.contact-form button {
+  padding: 12px;
+  background: #2c7a7b; /* NGO theme */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background: #276c6e;
+}
+
+/* Success message */
+.contact-success {
+  text-align: center;
+  padding: 40px;
+  background: #e6fffa;
+  border-radius: 10px;
+  color: #2c7a7b;
+  margin-top: 20px;
+}
+

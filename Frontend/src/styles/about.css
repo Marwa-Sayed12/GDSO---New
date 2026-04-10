@@ -1,0 +1,657 @@
+
+
+
+.about-page {
+    background: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Banner Section */
+  .about-banner {
+    text-align: center;
+   padding: 3rem;
+    /* background: linear-gradient(to right, #026ffd, #081f41); */
+    color: rgb(5, 11, 113);
+    background-image: url('../Images/backgrounddesign/border\ \(1\).png');
+    
+    background-size: cover;
+    background-attachment: fixed;
+    /* background: rgba(162, 165, 168, 0.49);  */
+    
+  }
+  
+  .about-banner h1 {
+    font-size: 3.7rem;
+    text-align: center;
+    margin: 0 auto;
+
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  body.rtl .about-banner h1{
+      font-family: "Amiri", serif;
+  }
+  
+  .about-images-row {
+    display: flex;
+    gap: 1.5rem;
+    margin: 2rem 0 4rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .about-images-row img {
+    width: 270px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  /* .about-images-row img:hover {
+    transform: scale(1.05);
+  } */
+
+
+.div-banner > .banner-p {
+    font-size: 2.5rem;
+    
+    text-align: center;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../Images/students\ \(1\).jpg'); */
+    width: 80%;
+    margin-left: 4%;
+    padding: 7rem;
+    background: -webkit-linear-gradient(#026ffd, #081f41);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+    font-family:Georgia, 'Times New Roman', Times, serif;
+     
+    /* background-image: url('../Images//layered-waves-haikei.png'); */
+
+}
+
+
+
+  .animate__animated  {
+    
+    margin: 0 0.5rem;
+  
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
+  
+  .about-content h3{
+    font-size: 40px;
+    text-align: left;
+    background: -webkit-linear-gradient(#026ffd, #081f41);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+  }
+  body.rtl .about-content h3{
+    font-family: "Amiri", serif;
+    text-align: right;
+  }
+ .about-content p {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;     /* CENTER ELEMENT */
+  font-size: 1rem;
+  text-align: center;
+    margin-bottom: 60px;     
+
+}
+  body.rtl .about-content p{
+    font-family: "Ubuntu", sans-serif;
+      font-size: 25px;
+    text-align: right;
+  }
+  /* Section Layout */
+  .about-section {
+    display: flex;
+    align-items: center;
+   font-size: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .about-section:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  
+  .text-only {
+    justify-content: center;
+    text-align: center;
+  }
+  .impact-underline-whoweare{
+    width: 120px;
+    height: 3px;
+    margin-top: 0%;
+    justify-content: center;
+    text-align: center;
+    float: center;
+    display: flex;
+    margin-left: 3%;
+    
+    background-color: #007bff;
+    margin-bottom: 30px;
+  }
+  body.rtl .impact-underline-whoweare{
+    margin-left: auto;
+    margin-right: 2%;
+  }
+  
+  .about-image {
+    flex: 1;
+    min-width: 300px;
+    padding: 1rem;
+  }
+  
+  .about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+  }
+  
+  .about-content {
+    flex: 1;
+    padding: 2rem;
+    min-width: 300px;
+  }
+  
+  .about-content h3 {
+    font-size: 2.1rem;
+    margin-bottom: 1rem;
+    color: #081f41;
+  }
+  
+  .about-content p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #444;
+    text-align: justify;
+  }
+/* ---------------------------------impact-------------------------------- */
+.impact-section-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+    margin-top: 4rem;
+    background-image: url('../Images/background/2\ \(2\).svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+      min-height: 100vh;        /* forces full screen height */
+    background-position: center center; /* IMPORTANT */
+
+  }
+  
+  .impact-image img {
+  
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+  }
+  
+  /* This creates two-column layout for the content */
+  .impact-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    gap: 40px;
+
+  }
+  
+  /* Left column */
+  .impact-left {
+    flex: 1;
+    text-align: left;
+    margin-top: 30px;
+  }
+  
+  .impact-left h3 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-left: 50px;
+    background: -webkit-linear-gradient(#026ffd, #081f41);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 5px;
+  }
+  body.rtl .impact-left h3{
+    font-family: "Amiri", serif;
+    margin-left: 24%;
+  }
+  
+  .impact-underline {
+    width: 120px;
+    height: 3px;
+    margin-top: 3%;
+    margin-left: 23%;
+    background-color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .impact-subtitle {
+    font-size: 1rem;
+    color: #666;
+    width: 84%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Right column */
+  .impact-right {
+    flex: 2;
+    text-align: right;
+  }
+  
+  .impact-right p {
+    font-size: 1rem;
+    margin-top: 50px;
+    text-align: left;
+    line-height: 1.6;
+    color: #000000;
+  }
+  body.rtl .impact-right p{
+    font-family: "Ubuntu", sans-serif;
+      font-size: 23px;
+      line-height: 2.4rem;
+      text-align: right;
+  }
+  
+
+  /* ------------------------------------Modern Vision, Mission, Values Section----------------------- */
+  .vmv-wrapper {
+    background-color: #f5f5f5;
+    padding: 50px 40px;
+  }
+  
+  .vmv-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-color: #333;
+  }
+  
+  .vmv-title {
+    flex: 1;
+    font-size: 38px;
+    font-weight: bold;
+    color: #6e6e6e;
+    text-align: center;
+
+    min-width: 340px;
+  }
+  body.rtl .vmv-title{
+   font-family: "Amiri", serif;
+   font-size: 2.8rem;
+  }
+  
+  .vmv-divider {
+    width: 3px;
+    height: 100px;
+    background-color: #ccc;
+  }
+  
+  .vmv-description {
+    flex: 2;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #dfdfdf;
+    text-align: left;
+    min-width: 280px;
+    padding: 1.4rem;
+  }
+  body.rtl .vmv-description{
+    text-align: right;
+        font-family: "Ubuntu", sans-serif;
+      font-size: 17px;
+  }
+  
+  .vmv-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .vmv-card-- {
+    background-color: white;
+    flex: 1;
+    max-width: 300px;
+    min-width: 230px;
+    min-height: 400px;
+    padding: 20px 20px 20px;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: rgba(46, 72, 240, 0.4) 5px 5px, rgba(46, 188, 240, 0.3) 10px 10px, rgba(114, 46, 240, 0.2) 15px 15px, rgba(46, 208, 240, 0.1) 20px 20px, rgba(46, 240, 240, 0.05) 25px 25px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .vmv-card-- h3 {
+    font-size: 2rem;
+    font-family:cursive;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #f4faff;
+  }
+  body.rtl .vmv-card-- h3{
+    font-family: "Amiri", serif;
+  }
+  
+  .vmv-card-- p {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+    flex: 1;
+  }
+  body.rtl .vmv-card-- p{
+    font-family: "Ubuntu", sans-serif;
+      font-size: 17px;
+      line-height: 1.9rem;
+  }
+    .impact-underline-area{
+    width: 120px;
+    height: 3px;
+    margin-top: 1%;
+    margin-left:20% ;
+    background-color: #007bff;
+    margin-bottom: 20px;
+  }
+  body.rtl .impact-underline-area{
+    margin-left: auto;
+    margin-right: 2%;
+  }
+  
+  .vmv-img {
+    margin-top: 20px;
+    height: auto;
+    width: 120px;
+    margin-bottom: 30px;
+    object-fit: contain;
+    align-self: center;
+  }
+  
+  /* Optional distinct colors */
+  .mission {
+    border-top: 5px solid #0077cc;
+  }
+  
+  .vision {
+    border-top: 5px solid #00aa55;
+  }
+  
+  .values {
+    border-top: 5px solid #ff9933;
+  }
+  .vmv-box {
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
+    padding: 30px;
+    border-radius: 12px;
+    color: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .mission {
+    background-color: #009fd9;
+  }
+  
+  .vision {
+    background-color: #006c9c;
+  }
+  
+  .values {
+    background-color: #6a8e00;
+  }
+  
+  .vmv-box h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .vmv-box p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .vmv-icon {
+    font-size: 40px;
+    margin-top: 20px;
+  }
+  /* Responsive */
+  
+  
+  
+/* ------------------------------area----------------------- */
+  
+  .about-area{
+    display: flex;
+    padding: 7rem 2rem ;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+    flex-direction: row-reverse; /* This reverses the order */
+    
+  }
+  .about h3{
+    text-align: left;
+    margin-left:10%;
+  }
+
+  .about-section .about-area{
+    display: flex;
+    align-items: center;
+   font-size: 30px;
+    flex-wrap: wrap;
+    
+  }
+  .about-content .about {
+   
+  }
+  .about-image > img{
+    border-bottom-left-radius: 150px;
+  }
+  .about-image img {
+    
+    height: 53vh;
+   object-fit: cover;
+  }
+
+
+
+/* ------------------------------futur goal----------------------- */
+  .about-section-feature{
+background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    display: flex;
+      align-items: center;
+     font-size: 30px;
+      flex-wrap: wrap;
+      padding: 5rem 1rem ;
+    
+  }
+  .about-image-feature > .future-about{
+    width: 40vw;
+    margin-left: 40px;
+    height: 50vh;
+    object-fit: cover;
+    border-bottom-right-radius: 150px;
+
+  }
+
+    
+  .about-content-future {
+    flex: 1;
+    padding: 2rem;
+    min-width: 300px;
+  }
+
+  .about-content-future h3{
+    font-size: 34px;
+    margin-bottom: 1rem;
+    background: -webkit-linear-gradient(#026ffd, #081f41);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+  }
+
+  body.rtl .about-content-future h3{
+    font-family: "Amiri", sans-serif;
+  }
+    .about-image-feature > img{
+    border-radius: 12px;
+  }
+  .about-content-future p{
+    width: 90%;
+    margin-left: 6%;
+    text-align: left;
+    font: 1.4rem ;
+  }
+
+  body.rtl .about-content-future p {
+        font-family: "Ubuntu", sans-serif;
+      text-align: right;
+      font-size: 1.3rem;
+      
+  }
+ 
+  .about-content-future p{
+    font-size: 1rem;
+    margin-top: 50px;
+    text-align: left;
+    line-height: 1.6;
+    color: #444;
+  }
+
+
+
+
+
+
+
+
+/* ======================================
+   IMPACT SECTION - UNIFIED DESIGN
+   ====================================== */
+
+
+.impact-image {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 30px 40px -15px rgba(2, 111, 253, 0.867);
+  transition: all 0.5s ease;
+  display: inline-block;        /* Makes container fit content */
+  width: fit-content;           /* Ensures width matches content */
+  max-width: 100%;              /* Prevents overflow on small screens */
+  margin: 0 auto;               /* Center if needed */
+  border-radius: 20px;          /* Ensures width matches content */
+
+}
+
+
+
+
+
+.impact-image img {
+  
+  height: auto;
+  margin: 0 auto;
+
+   padding: 14px;
+background-image: linear-gradient(to right, #bbc1bf 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+  display: block;
+  transition: transform 0.8s ease;
+   width: 100%;                 
+  height: auto;
+  display: block;
+  max-width: 730px;             
+}
+
+.impact-image:hover img {
+  transform: scale(1.05);
+}
+
+
+
+/* ===== RESPONSIVE FIXES FOR SVG BACKGROUND ===== */
+
+/* Tablets and small desktops */
+@media (max-width: 1024px) {
+  .impact-section-about {
+    background-size: contain; /* Show full SVG on tablets */
+    background-position: top center;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 768px) {
+  .impact-section-about {
+    background-size: 250% auto; /* Make SVG larger but still visible */
+    background-position: center 20%;
+    min-height: 80vh; /* Reduce height on mobile */
+    padding: 40px 15px;
+  }
+  
+  .impact-content {
+    flex-direction: column; /* Stack columns on mobile */
+    width: 95%;
+    gap: 20px;
+  }
+  
+  .impact-image img {
+    max-width: 80%; /* Smaller image on mobile */
+    margin: 0 auto 20px;
+    display: block;
+  }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+  .impact-section-about {
+    background-size: 200% auto; /* Even larger to show pattern */
+    background-position: 30% center;
+    min-height: auto;
+    padding: 30px 12px;
+  }
+  
+  .impact-section-about::before {
+    background: rgba(255, 255, 255, 0.9); /* Slightly darker overlay for readability */
+  }
+  
+  .impact-image img {
+    max-width: 90%;
+  }
+  
+  .impact-content {
+    width: 100%;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 360px) {
+  .impact-section-about {
+    background-size: 250% auto;
+  }
+}
+
+
+
+
+
+

@@ -1,0 +1,291 @@
+
+
+/* Search Container */
+.search-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex: 2;
+  justify-content: flex-end;
+  gap: 15px;
+  max-width: 100%; /* Prevent overflow */
+}
+
+/* Search Box Container */
+.search-box-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+   max-width: 100%;
+}
+
+/* CSS Icon Inside Search Box - LTR */
+.search-icon-inside {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  pointer-events: none;
+}
+
+.search-icon-inside svg {
+  width: 18px;
+  height: 18px;
+  stroke: #666;
+  transition: stroke 0.3s ease;
+}
+
+/* Search Box - LTR */
+.search-box {
+  padding-left: 45px;
+  padding-right: 20px;
+  height: 50px;
+  width: 400px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  background: #eef0f4;
+  box-shadow: rgba(21, 114, 222, 0.25) 0px 54px 55px, rgba(29, 95, 170, 0.12) 0px -12px 30px, rgba(46, 86, 150, 0.12) 0px 4px 6px, rgba(90, 114, 174, 0.17) 0px 12px 13px, rgba(50, 105, 208, 0.09) 0px -3px 5px;
+  color: #2d4059;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+
+
+.search-box::placeholder {
+  color: #073d83;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+   text-align:start !important;
+}
+
+.search-box:focus {
+  box-shadow: 
+    inset 5px 5px 10px #cbced1,
+    inset -5px -5px 10px #ffffff;
+  background: #f0f2f6;
+      
+
+}
+
+.search-box:focus + .search-icon-inside svg {
+  stroke: #073d83;
+  opacity: 1;
+}
+
+.search-icon-inside svg {
+  width: 20px;
+  height: 20px;
+  stroke: #073d83;
+  opacity: 0.7;
+}
+
+/* Remove old search icon styles */
+.search-icon {
+  display: none;
+}
+
+  .search-box:focus {
+    width: 450px !important;
+  }
+  body.rtl   .search-box:focus {
+    width: 390px;
+  }
+
+/* ========== COMPLETE RTL FIXES ========== */
+
+
+body.rtl .search-box-container {
+  direction: rtl; /* Force RTL direction */
+}
+
+body.rtl .search-box {
+  padding-left: 20px;  /* Reset LTR padding */
+  padding-right: 45px; /* Add padding on right for icon */
+  text-align: right;   /* Align text to right */
+  direction: rtl;      /* Force RTL text direction */
+}
+
+body.rtl .search-box::placeholder {
+  text-align: right;
+  direction: rtl;
+}
+
+body.rtl .search-icon-inside {
+  left: auto;    /* Remove LTR left positioning */
+  right: 12px;   /* Position icon on the right */
+}
+
+/* Fix for the icon staying inside the box */
+body.rtl .search-box-container {
+  position: relative;
+  overflow: visible; /* Ensure icon isn't cut off */
+}
+
+/* RTL Dropdown fixes */
+body.rtl .search-dropdown {
+  left: auto;
+  right: 0;
+  direction: rtl;
+}
+
+body.rtl .search-dropdown-item {
+  border-left: none;
+  border-right: 3px solid transparent;
+  text-align: right;
+  direction: rtl;
+}
+
+body.rtl .search-dropdown-item:hover {
+  border-left-color: transparent;
+  border-right-color: #114169;
+  padding-left: 16px;
+  padding-right: 20px;
+}
+
+body.rtl .search-view-all {
+  text-align: center;
+  direction: rtl;
+}
+
+
+/* ========== RTL FIXES FOR SEARCH ICON ========== */
+body.rtl .search-box {
+  padding-left: 20px;  /* Reset LTR padding */
+  padding-right: 45px; /* Add padding on right for icon */
+  text-align: right;   /* Align text to right */
+}
+
+body.rtl .search-box::placeholder {
+  text-align: right;
+}
+
+body.rtl .search-icon-inside {
+  left: auto;    /* Remove LTR left positioning */
+  right: 12px;   /* Position icon on the right */
+}
+
+/* RTL Dropdown fixes */
+body.rtl .search-dropdown {
+  left: auto;
+  right: 0;
+}
+
+body.rtl .search-dropdown-item {
+  border-left: none;
+  border-right: 3px solid transparent;
+  text-align: right;
+}
+
+body.rtl .search-dropdown-item:hover {
+  border-left-color: transparent;
+  border-right-color: #114169;
+  padding-left: 16px;
+  padding-right: 20px;
+}
+
+body.rtl .search-view-all {
+  text-align: center; /* Keep centered */
+}
+
+/* ========== MOBILE RTL FIXES ========== */
+
+/* Extra Small Mobile */
+@media (max-width: 375px) {
+  body.rtl .search-box {
+    width: 160px;
+    padding-left: 8px;
+    padding-right: 35px;
+    font-size: 0.85rem;
+  }
+
+  body.rtl .search-icon-inside {
+    right: 8px;
+  }
+
+  body.rtl .search-icon-inside svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+/* Small Mobile */
+@media (min-width: 376px) and (max-width: 480px) {
+  body.rtl .search-box {
+    width: 180px;
+    padding-left: 10px;
+    padding-right: 38px;
+  }
+
+  body.rtl .search-icon-inside {
+    right: 10px;
+  }
+}
+
+/* Mobile Large */
+@media (min-width: 481px) and (max-width: 575px) {
+  body.rtl .search-box {
+    width: 200px;
+    padding-left: 12px;
+    padding-right: 40px;
+  }
+
+  body.rtl .search-icon-inside {
+    right: 12px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 576px) and (max-width: 768px) {
+  body.rtl .search-box {
+    width: 220px;
+    padding-left: 15px;
+    padding-right: 42px;
+  }
+
+  body.rtl .search-icon-inside {
+    right: 12px;
+  }
+}
+
+/* ========== CRITICAL FIX FOR ICON STAYING INSIDE ========== */
+/* This ensures the icon never goes outside the box */
+body.rtl .search-box-container {
+  position: relative;
+  width: fit-content;
+}
+
+body.rtl .search-icon-inside {
+  position: absolute;
+  right: 12px;
+  left: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* Force box-sizing to include padding */
+body.rtl .search-box,
+.search-box {
+  box-sizing: border-box;
+}
+
+/* Debugging - remove after fixing */
+body.rtl .search-box {
+  background-color: #eef0f4; /* Keep your original color */
+}
+
+
+
+
+
+
+

@@ -1,0 +1,88 @@
+.career-empty {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+.career-empty-content {
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+.career-icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 1.5rem;
+  color: #94a3b8;
+  display: block;
+}
+
+.main-message {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #1e293b;
+  margin: 0 0 0.5rem 0;
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.sub-message {
+  font-size: 1rem;
+  color: #64748b;
+  margin: 0;
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* RTL Support */
+[dir="rtl"] .main-message,
+[dir="rtl"] .sub-message {
+  font-family: 'Noto Sans Arabic', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Mobile Responsive */
+@media (max-width: 640px) {
+  .career-empty {
+    min-height: 50vh;
+    padding: 1.5rem;
+  }
+
+  .career-icon {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 1.25rem;
+  }
+
+  .main-message {
+    font-size: 1.125rem;
+  }
+
+  .sub-message {
+    font-size: 0.9375rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .career-empty {
+    min-height: 40vh;
+    padding: 1rem;
+  }
+
+  .career-icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 1rem;
+  }
+
+  .main-message {
+    font-size: 1rem;
+  }
+
+  .sub-message {
+    font-size: 0.875rem;
+  }
+}

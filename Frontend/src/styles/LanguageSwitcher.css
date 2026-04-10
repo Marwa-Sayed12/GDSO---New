@@ -1,0 +1,15 @@
+
+
+.language-switcher > button{
+    margin: 3px;
+    padding: 5px 20px;
+
+    font-size: 15px; 
+    border: transparent;
+    background-color: #3cb3d1;
+    color: rgb(0, 43, 43);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button:hover{
+    background-color: #389672;
+}

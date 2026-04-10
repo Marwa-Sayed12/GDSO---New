@@ -1,0 +1,452 @@
+.education-section {
+    position: relative;
+    padding-bottom: 150px; /* Prevent overlap with next section */
+   
+  }
+  .education-hero {
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-image: linear-gradient(rgba(4, 12, 26, 0.726), rgba(74, 85, 117, 0.4)), url('../Images/Boys/boys\ \(26\).jpg');
+   
+  }
+
+  .edu-hero-text{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background: -webkit-linear-gradient(#8ec1ff, #6fb476);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+    font-family:Georgia, 'Times New Roman', Times, serif;
+     
+    z-index: 6;
+    padding: 0 20px;
+  }
+  
+  .edu-hero-text h1 {
+    font-size: 2.7rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+  }
+  body.rtl .edu-hero-text h1 {
+      font-family: "Amiri", serif;
+
+  }
+  
+  .edu-info-box{
+    position: absolute;
+    bottom: -70px; /* 50% below, 50% inside hero */
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(83, 93, 110, 0.69);
+    backdrop-filter: blur(10px);
+    /* background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);    border-radius: 20px; */
+    padding: 14px 17px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    z-index: 10;
+     /* background-image: url('../Images//layered-waves-haikei.png'); */
+  }
+  .edu-info-item {
+    text-align: center;
+    /* padding: 5px; */
+    /* background-image: linear-gradient(to right, #243949 0%, #517fa4 100%); */
+  }
+  .edu-info-item p{
+   font-size: 1.5em;
+        font-weight: bold;
+        color: #ffffff;
+  }
+  body.rtl   .edu-info-item p{
+    font-family: "Noto Naskh Arabic", serif;
+
+  }
+  
+  .edu-info-icon { 
+    color: #ffffff;
+    font-size: 3.4rem;
+    width: 100px;
+  }
+
+  .edu-extra-section {
+  background-color: #f9fcff;
+  padding: 40px 40px;
+}
+
+.edu-section-title {
+  font-size: 2.3rem;
+ background: -webkit-linear-gradient(#026ffd, #081f41);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+    margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+body.rtl .edu-section-title {
+    font-family: "Amiri", serif;
+
+}
+
+.edu-section-paragraph {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+  margin: 20px auto;
+  width: 100%;
+  font-family: "Quicksand", sans-serif;
+}
+body.rtl .edu-section-paragraph  {
+ text-align: right;
+   font-size: 1.9rem;
+   max-width: 1000px;
+    font-family: "Lateef", serif;
+
+}
+
+.edu-center-img-wrapper {
+  margin: 40px auto;
+  max-width: 500px;
+}
+
+.edu-center-img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.edu-two-img-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  padding: 3rem;
+  flex-wrap: wrap;
+  background-image: url('../Images/backgrounddesign/3\ \(2\).png');
+  background-size: cover;
+  background-position: center;
+}
+
+.edu-img-small {
+  width: 370px;
+  height: 320px;
+  border-radius: 10px;
+clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ----------------------------------------------- */
+
+.edu-courses-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.edu-courses-section h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+   background: -webkit-linear-gradient(#026ffd, #081f41);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+body.rtl .edu-courses-section h2 {
+    font-family: "Amiri", serif;
+
+}
+
+.edu-courses-section p {
+  max-width: 1000px;
+  margin: 0 auto 40px;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #081f41;
+    font-family: "Quicksand", sans-serif;
+
+
+
+}
+
+body.rtl .edu-courses-section p {
+ text-align: right;
+   font-size: 1.9rem;
+    font-family: "Lateef", serif;
+
+}
+
+/* Grid for 3 cards */
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 65px;
+  margin-bottom: 50px;
+}
+
+.course-card {
+background-image: linear-gradient(to top, #f8f1e6 0%, #e3eeff 99%, #e3eeff 100%);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+.course-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  
+}
+
+.course-card h3 {
+  margin: 15px;
+  font-size: 1.2rem;
+  color: #081f41;
+}
+body.rtl .course-card h3 {
+    font-family: "Noto Naskh Arabic", serif;
+  text-align: right;
+}
+
+.course-card p {
+  margin: 0 15px 10px;
+  color: #555;
+  text-align: justify;
+}
+body.rtl .course-card p {
+ font-size: 1.6rem;
+  text-align: right;
+  font-family: "Lateef", serif;
+
+}
+
+.course-duration {
+  display: block;
+  margin: 0 15px;
+  font-size: 1.2rem;
+  color: #1268a5;
+  text-align: center;
+}
+body.rtl .course-duration {
+    font-family: "Amiri", serif;
+   
+}
+
+/* New second row - 1 card + text */
+.course-feature {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 80px;
+  border-radius: 10px;
+  color: white;
+}
+
+.feature-card {
+  flex: 1;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.feature-card img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+
+.feature-card h3 {
+  color: #0a3d62;
+  margin: 15px 0;
+}
+body.rtl .feature-card h3 {
+    font-family: "Lateef", serif;
+    text-align: right;
+}
+
+.feature-text {
+  flex: 1.5;
+  padding: 60px;
+  text-align: left;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+body.rtl .feature-text {
+  padding: 40px;
+}
+
+
+.feature-text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+body.rtl .feature-text h2  {
+  font-family: "Noto Naskh Arabic", serif;
+  text-align: right;
+}
+
+.feature-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #5a5858;
+}
+body.rtl .feature-text p   {
+    font-family: "Lateef", serif;
+    text-align: right;
+    font-size: 1.6rem;
+}
+
+
+/* ----------------------------------------------- */
+
+
+/* ----------------------------------------------- */
+.edu-highlights {
+  padding: 80px 60px;
+  margin-top: 70px;
+  background-image: url('../Images/background/mesh-941.png');
+  background-size: cover;
+}
+.edu-highlights-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+
+.edu-highlights-header h2 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+     background: -webkit-linear-gradient(#026ffd, #081f41);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+body.rtl .edu-highlights-header h2 {
+    font-family: "Amiri", serif;
+
+}
+
+.edu-highlights-header p {
+  font-size: 1.2rem;
+  color: #48494a;
+} 
+body.rtl .edu-highlights-header p {
+  font-size: 1.9rem;
+  font-family: "Lateef", serif;
+
+} 
+
+.edu-highlights-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  max-width: 950px;
+  padding: 0;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border-end-end-radius: 100px;
+  border-start-end-radius: 100px;
+background-image: linear-gradient(45deg, #7c9be4 0%, #a8e4c3 100%);
+background-size: cover;
+background-position: center;
+margin: 0 auto;
+}
+
+.edu-highlights-image img {
+  width: 450px;
+  height: 400px;
+  object-fit: cover;
+
+}
+
+.edu-highlights-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.highlight-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.highlight-icon {
+  font-size: 2rem;
+ color: #0c5d92;
+}
+
+body.rtl .highlight-box h3 {
+ text-align: right;
+}
+
+
+
+.highlight-box h3 {
+  font-size: 1.2rem;
+  margin: 0;
+background-image: linear-gradient(15deg, #0d222f 0%, #05c0aa 100%);  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body.rtl .highlight-box h3 {
+  font-size: 1.3rem;
+   font-family: "Noto Naskh Arabic", serif;
+  
+}
+
+
+/* Details Section-------------------------------------- */
+.edu-details {
+  padding: 40px 20px;
+  background-image: url('../Images/background/mesh-131.png');
+  background-size: cover;
+}
+
+.edu-detail {
+  margin-bottom: 25px;
+}
+
+.edu-detail h4 {
+     background-image: linear-gradient(to right, #0db3ab 0%, #31a47c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+}
+body.rtl .edu-detail h4 {
+  font-size: 1.4rem;
+    font-family: "Amiri", serif;
+  
+}
+
+.edu-detail p {
+  margin: 0;
+  text-align: start;
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  max-width: 900px;
+  margin: 0 auto;
+}
+body.rtl .edu-detail p {
+  font-size: 1.9rem;
+  font-family: "Lateef", serif;
+    text-align: right;
+
+  
+}

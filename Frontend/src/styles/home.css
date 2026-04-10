@@ -1,0 +1,965 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Lateef:wght@200;300;400;500;600;700;800&display=swap');
+/* @import url('@fortawesome/fontawesome-free/css/all.min.css'); */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Lateef:wght@200;300;400;500;600;700;800&family=Mirza:wght@400;500;600;700&family=Noto+Naskh+Arabic:wght@400..700&family=Noto+Sans+Arabic:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Tajawal:wght@200;300;400;500;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Lateef:wght@200;300;400;500;600;700;800&family=Mirza:wght@400;500;600;700&family=Noto+Naskh+Arabic:wght@400..700&family=Noto+Sans+Arabic:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Tajawal:wght@200;300;400;500;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    box-sizing: border-box;
+
+    /* background-image: linear-gradient(to top, #f1fcfc 0%, #fcf7f7 100%); */
+
+
+
+
+  }
+
+  .slider-image-container {
+    position: relative;
+  }
+  
+  .slider-text-overlay {
+    position: absolute;
+    top: 85%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+  font-family: "Quicksand", sans-serif;
+ 
+  background: #114169cc; /* optional for contrast */
+    padding: 16px 20px;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1.5s ease-in-out;
+  }
+
+  body.rtl .slider-text-overlay {
+    font-family: "Amiri", serif;
+     padding: 10px 2px;
+     font-weight: 500;
+     
+
+}
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translate(-50%, -40%);
+    }
+    to {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+    }
+  }
+  
+
+.services {
+    text-align: center;
+    padding: 3rem 1rem;
+    /* background-image: url('../Images/18106012.jpg'); */
+    background-size:cover ;
+    background-attachment: fixed;
+  }
+  
+  .services-title {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+    background: -webkit-linear-gradient(#026ffd, #081f41);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+  }
+  body.rtl .services-title{
+    font-family: "Amiri", serif;
+  }
+  
+  .services-description {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+    max-width: 900px;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+  font-family: "Quicksand", sans-serif;
+
+
+  }
+  body.rtl .services-description{
+    font-family: "Lateef", serif;
+        font-size: 30px;
+        max-width: 900px;
+  }
+  
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  align-items: stretch;      /* ← important */
+  align-content: flex-start; /* keeps multi-row behavior consistent */
+}
+
+/* Each card becomes a flex column so inner parts can grow */
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 330px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+  text-align: center;
+
+  display: flex;            /* ← make card a flex container */
+  flex-direction: column;   /* stack contents vertically */
+  justify-content: space-between;
+  min-height: 320px;        /* optional base height; adjust as needed */
+}
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 35vh;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+
+  .img-home {
+    width: 100vw;
+    height: 70vh;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .home-slider {
+    position: relative;
+    z-index: 0;
+    
+  }
+  
+  
+  
+  .card h3 {
+    color: #007B5E;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+
+  }
+  body.rtl .card h3{
+    font-family: "Noto Naskh Arabic", serif;
+  }
+  
+  .card p {
+    color: #686666;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-align: justify;
+      font-family: "Quicksand", sans-serif;
+
+      flex: 1 1 auto;   /* grows to fill remaining space */
+
+  }
+   body.rtl .card p{
+    font-family: "Noto Naskh Arabic", serif;
+    text-align: right;
+    line-height: 2rem;
+    font-size: 15px;
+    
+  }
+
+  .link{
+    text-align: left;
+    
+    margin-top: 10%;
+    
+  }
+  .link a{
+    text-decoration: none;
+    font-size: 25px !important;
+    display: inline ;
+    color: #007B5E;
+
+  }
+     body.rtl .link{
+    font-family: "Noto Naskh Arabic", serif;
+    text-align: right;
+  }
+  .link a:hover{
+    text-decoration: underline;
+  }
+/* //video section --------------------------------------------------*/
+
+
+/* Video Section Styles */
+.video-section {
+  padding: 60px 20px;
+background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+}
+
+.video-main-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.video-main-description {
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  color: #555;
+  padding: 0 20px;
+}
+   body.rtl .video-main-description{
+    font-family: "Noto Naskh Arabic", serif;
+    line-height: 2.3rem;
+    font-size: 19px;
+    
+  }
+
+.video-container-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 50%, #e9ecef 100%);
+  background-image: url('../Images/backgrounddesign/pngfind.com-4k-letterbox-png-3880274.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.video-card {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto 30px;
+}
+
+.youtube-wrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.youtube-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-controls {
+  display: flex;
+  justify-content: center;
+  gap: 180px; /* Increased gap between icons */
+  margin: 40px 0 30px; /* Added space above and below */
+}
+
+.control-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px; /* Space between icon and label */
+}
+
+.control-icon {
+  background: linear-gradient(135deg, #27ae60, #219a52);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: white;
+  box-shadow: 0 5px 15px rgba(39, 174, 96, 0.3);
+}
+
+.control-icon:hover {
+  transform: translateY(-5px) scale(1.1);
+  box-shadow: 0 8px 20px rgba(39, 174, 96, 0.4);
+}
+
+.control-label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2c3e50;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.video-subtitle {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 30px 0 0;
+  color: #2c3e50;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Responsive Design */
+
+
+
+/* impact--------------------------------------------------------- */
+
+
+.impact-section {
+  text-align: center;
+  padding: 1rem 4rem;
+  background-color: #f9f9f9;
+  background-image: url('../Images/backgrounddesign/8993.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.impact-title {
+  font-size: 2.5rem;
+  background: -webkit-linear-gradient(#026ffd, #081f41);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+  margin-top: 40px;
+  font-weight: 600;
+}
+body.rtl .impact-text{
+    font-family: "Ubuntu", sans-serif;
+}
+body.rtl .impact-desc{
+    font-family: "Noto Naskh Arabic", serif;
+}
+
+.impact-desc{
+  color: #444343;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.impact-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+  padding: 3rem 0rem;
+
+}
+
+.impact-card {
+  perspective: 1000px;
+  width: 320px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+              rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+              rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+
+
+.card-inner {
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.8s ease-in-out;
+    transform: rotateY(0deg);
+  
+  
+}
+
+.impact-card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+.card-front {
+  z-index: 2;
+}
+.card-back {
+  z-index: 1;
+}
+
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  border-radius: 12px;
+  box-sizing: border-box;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.card-back {
+  transform: rotateY(180deg);
+  border-radius: 12px;
+  overflow: hidden; /* This ensures image doesn't overflow rounded corners */
+  padding: 0; /* Important: remove padding! */
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.impact-back-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 0; /* Let the container control the roundness */
+}
+
+
+.impact-icon {
+  width: 100px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.impact-number {
+  font-size: 2.5rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #007B5E;
+}
+
+.impact-text {
+  font-size: 1.7rem;
+  color: #565454;
+}
+
+.impact-turn {
+display:inline-block;
+  background-size: cover;
+  padding: 44px 38px;   
+  border-radius: 10px;
+}
+
+.impact-turn {
+  font-size: 1rem;
+}
+
+
+.flip-hint {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  font-size: 1.5rem;
+  color: #ffcc00; /* yellow or your accent color */
+  opacity: 0.9;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  z-index: 3; /* make sure it stays on top of the image/text */
+}
+
+
+
+/* about.css - Main Styles */
+/* about.css - Main Styles */
+
+.about-section {
+  padding: 4rem 2rem;
+  background: linear-gradient(145deg, #ffffff 0%, #f0f7ff 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  align-items: center;
+  max-width: 1300px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* ========== IMAGES SECTION ========== */
+.about-images {
+  flex: 1;
+  min-width: 300px;
+  width: 100%; 
+}
+
+.image-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.img-container {
+  position: relative;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.img-large {
+  width: 100%;
+  max-width: 230px; /* Slightly increased */
+  height: auto;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  box-shadow: 0 20px 35px -10px rgba(2, 111, 253, 0.3);
+  transition: all 0.4s ease;
+  border: 5px solid transparent;
+  border-image: linear-gradient(to right, #407ed4c4 0%, #35e0a7 19%, #57c6e1 42%, #311367 79%, #7ac5d8 100%);
+  border-image-slice: 1;
+  margin: 0; /* Remove any default margins */
+}
+
+
+
+/* ========== TEXT SECTION ========== */
+.about-text {
+  flex: 1;
+  min-width: 280px;
+  width: 100%;
+  padding: 2.1rem;
+  background: white;
+  border-radius: 40px;
+  box-shadow: 0 30px 60px -15px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(2, 111, 253, 0.1);
+  backdrop-filter: blur(10px);
+  transition: all 0.4s ease;
+  box-sizing: border-box;
+}
+
+.about-text h2 {
+  font-size: clamp(1.8rem, 5vw, 2.5rem);
+  margin-bottom: 1.5rem;
+  background: linear-gradient(135deg, #026ffd, #0a2472);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+  line-height: 1.2;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.about-text p {
+  font-size: clamp(0.9rem, 2vw, 1rem);
+  line-height: 1.8;
+  color: #4a5568;
+  padding: clamp(1rem, 3vw, 1.8rem);
+  background: linear-gradient(145deg, #f8faff, #ffffff);
+  border-radius: 30px;
+  box-shadow: inset 0 2px 5px rgba(0,0,0,0.02);
+  border: 1px solid rgba(2, 111, 253, 0.08);
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* ========== RTL BASE STYLES ========== */
+body.rtl .about-text h2 {
+  font-family: "Amiri", serif;
+  font-size: 2.7rem;
+  text-align: right;
+}
+
+body.rtl .about-text h2::after {
+  left: auto;
+  right: 0;
+}
+
+body.rtl .about-text p {
+  font-family: "Lateef", serif;
+  font-size: 1.6rem;
+  text-align: right;
+}
+
+/* Keep images LTR in RTL mode */
+body.rtl .image-layout,
+body.rtl .img-container {
+  direction: ltr;
+}
+
+
+
+
+
+
+/* ------------------------------------------------------------------- */
+
+.vision-mission-values-section{
+  padding: 4rem 2rem;
+  background-color: #f3fffc;
+  text-align: center;
+  margin-top: 14%;
+}
+
+.section-title  {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  background: -webkit-linear-gradient(#026ffd, #081f41);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+body.rtl .section-title{
+  font-family: "Amiri", serif;
+}
+
+.vmv-cards{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.vmv-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 3rem 2rem 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+  max-width: 270px;
+  height: 320px;
+  position: relative;
+  text-align: center;
+  transition: all 0.3s ease;
+  border-top: 6px solid #ccc;
+}
+
+.vmv-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Unique border-top colors */
+.vision-card { border-top-color: #026ffd; }
+.mission-card { border-top-color: #28a745; }
+.values-card { border-top-color: #ffc107; }
+
+.vmv-image-circle {
+  width: 100px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: -10px;
+}
+
+.vmv-image-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.vmv-card h3 {
+  font-size: 1.5rem;
+  margin-top: 1.2rem;
+  color: #40277a;
+  margin-bottom: 1rem;
+}
+body.rtl .vmv-card h3{
+  font-family: "Amiri", serif;
+}
+
+.vmv-card  {
+  font-size: 0.8rem;
+  font-family: "Quicksand", sans-serif;
+  margin-top: 1.5rem;
+  color: #444;
+  line-height: 1.6;
+}
+body.rtl .vmv-card{
+      font-family: "Noto Naskh Arabic", serif;
+      font-size: 1rem;
+
+}
+
+/* ------------------------------------------------gallery */
+
+.gallery-section {
+  padding: 2rem 0rem;
+  text-align: center;
+  background: #f5fbff;
+}
+
+.gallery-title {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  background: -webkit-linear-gradient(#026ffd, #081f41);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+body.rtl .gallery-title{
+    font-family: "Amiri", serif;
+}
+
+.gallery-grid {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-overlay-container {
+  position: relative;
+  width: 59vw;
+  max-width: 1200px;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 0 auto 6rem;
+
+  display: grid;
+grid-template-columns: repeat(2, minmax(220px, 1fr));
+
+}
+
+.gallery-overlay-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+
+}
+
+
+.gallery-bottom-content {
+  grid-column: 1 / -1;   /* ⬅ forces full width */
+  text-align: center;
+
+  max-width: 720px;
+  margin: 2rem auto 0;
+  padding: 0 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.gallery-bottom-content h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  background: -webkit-linear-gradient(#026ffd, #081f41);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body.rtl .gallery-bottom-content h3{
+      font-family: "Amiri", serif;
+
+}
+
+.gallery-bottom-content p {
+  font-size: 1.1rem;
+  color: #4a4a4a;
+  margin: 0 auto;
+  margin-bottom: 2.5rem;
+  max-width: 680px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body.rtl .gallery-bottom-content p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+}
+
+
+.gallery-btn {
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  background: linear-gradient(135deg, #026ffd, #081f41);
+  color: white;
+  border: none;
+  position: relative;
+  z-index: 1000;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.gallery-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+.footer-section {
+  background-color: #081f41;
+  color: #fff;
+  padding: 2rem 2rem;
+  
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 3rem;
+}
+
+.footer-logo {
+  flex: 1 1 250px;
+  max-width: 400px;
+}
+
+
+  .footer-links-columns {
+    display: flex;
+    flex: 1 1 300px;
+    justify-content: flex-end;
+    gap: 7rem; /* Reduce space between columns */
+  }
+  
+
+.footer-logo h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: #26a0da;
+  background: -webkit-linear-gradient(#026ffd, #081f41);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+.footer-logo img{
+  width: 140px;
+  height: auto;
+  justify-content: center;
+}
+
+.footer-logo p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  font-weight: 300;
+  line-height: 1.8;
+}
+body.rtl .footer-logo p{
+    font-family: "Noto Naskh Arabic", serif;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    text-align: right;
+}
+
+.footer-column h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #26a0da;
+  background: -webkit-linear-gradient(#026ffd, #081f41);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 0.8rem;
+  text-align: center;
+}
+
+.footer-column ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+  
+}
+
+.footer-column ul li a:hover {
+  color: #26a0da;
+}
+
+.footer-social {
+  flex: 1 1 200px;
+  margin-left: 160px;
+  text-align: center;
+
+}
+
+.footer-social h3 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1.3rem;
+  margin-right: 30px;
+  background: -webkit-linear-gradient(#026ffd, #081f41);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+
+}
+body.rtl .footer-logo h2{
+  text-align: center;
+        font-family: "Noto Naskh Arabic", serif;
+
+}
+body.rtl .footer-logo p{
+  text-align: center;
+      font-family: "Lateef", serif;
+   
+}
+.social-icons a {
+  color: rgb(181, 218, 224);
+  margin-right: 1.5rem;
+  font-size: 1.5rem;
+  transition: color 0.7s;
+}
+
+.social-icons a:hover {
+  color: #00aeff;
+}
+
+.footer-bottom {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  border-top: 1px solid #434067;
+  padding-top: 1rem;
+}
+body.rtl .footer-bottom{
+    font-family: "Noto Naskh Arabic", serif;
+}

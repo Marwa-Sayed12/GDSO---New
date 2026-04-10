@@ -1,0 +1,474 @@
+.construction-section {
+  position: relative;
+}
+
+.construction-hero {
+  width: 100%;
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-image: linear-gradient(rgba(10, 20, 40, 0.7), rgba(60, 80, 120, 0.4)),
+    url('../Images/ansarullah-workflow/ans\ \(28\).jpg'); 
+}
+
+.construction-hero-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: -webkit-linear-gradient(#ffcd3c, #ff914d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.construction-hero-text h1 {
+  font-size: 2.7rem;
+    background: -webkit-linear-gradient(#8ec1ff, #6fb476);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+.construction-info-box {
+  position: absolute;
+  bottom: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(90, 90, 100, 0.75);
+  backdrop-filter: blur(10px);
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.construction-info-item {
+  text-align: center;
+}
+
+.construction-info-item p {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #fff;
+}
+
+.construction-info-icon {
+  font-size: 2.4rem;
+  color: #ffffff;
+}
+
+.construction-cards {
+  margin-top: 130px;
+  background-image: url('../Images/background/mesh-833.png');
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 37px;
+  justify-content: center;
+  padding: 50px;
+}
+
+.construction-card {
+  position: relative;
+  width: 300px;
+  height: 370px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  
+  margin: 0;
+}
+
+
+/* Main image */
+.card-main-img  {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 250s ease;
+}
+
+
+/* Overlay with Gradient Backgrounds */
+.card-overlay {
+  position: absolute;
+  bottom: 30px;
+  left: 15px;
+  right: 15px;
+  padding: 10px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  background: linear-gradient(135deg, rgba(0,0,0,0.9), rgba(0,0,0,0.7));
+  backdrop-filter: blur(10px);
+  transition: all 400s ease;
+}
+
+
+/* Gradient Overlay for Road Construction Card (Green) */
+.construction-card:nth-child(1) .card-overlay {
+  background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+}
+
+/* Gradient Overlay for Bridge Projects Card (Orange) */
+.construction-card:nth-child(2) .card-overlay {
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+/* Gradient Overlay for Housing Development Card (Blue) */
+.construction-card:nth-child(3) .card-overlay {
+  background-image: linear-gradient(to left, #007adf 0%, #00ecbc 100%);
+}
+
+/* Gradient Overlay for School Buildings Card (Purple) */
+.construction-card:nth-child(4) .card-overlay {
+   background-image: linear-gradient(225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
+}
+
+/* Gradient Overlay for Hospital Projects Card (Red) */
+.construction-card:nth-child(5) .card-overlay {
+background-image: linear-gradient(to right, #f1d6af 0%, #fb9776 100%);
+}
+
+/* Left section: line + small image */
+.overlay-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.overlay-line {
+  width: 4px;
+  height: 50px;
+  background: #ffffff;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.overlay-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  border-radius: 50%;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Text */
+.overlay-text h3{
+
+  font-size: 0.8rem;
+  text-align: left;
+  line-height: 1rem;
+  font-weight: 400;
+    font-family: "Ubuntu", sans-serif;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+  
+}
+body.rtl .overlay-text h3 {
+
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+  text-align: right;   
+  box-sizing: border-box; 
+  width: 100%;
+}
+body.rtl .overlay-icon{
+  
+  text-align: right;
+}
+
+.overlay-text p {
+  margin: 0;
+  font-size: 0.6rem;
+  opacity: 0.9;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+
+}
+
+/* Card Top Border Colors */
+.construction-card:nth-child(1) {
+  border-top: 5px solid #4CAF50;
+}
+
+.construction-card:nth-child(2) {
+  border-top: 5px solid #FF9800;
+}
+
+.construction-card:nth-child(3) {
+  border-top: 5px solid #2196F3;
+}
+
+.construction-card:nth-child(4) {
+  border-top: 5px solid #9C27B0;
+}
+
+.construction-card:nth-child(5) {
+  border-top: 5px solid #F44336;
+}
+
+
+
+
+
+/* Projects Details Container */
+
+/* Modern Projects Section */
+.projects-details-container {
+  max-width: 1400px;
+  margin: 100px auto 0;
+  padding: 0 20px;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-title {
+  font-size: 2.8rem;
+  background: linear-gradient(135deg, #1e293b 0%, #475569 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  margin-bottom: 15px;
+  letter-spacing: -0.5px;
+}
+
+.section-subtitle {
+  font-size: 1.2rem;
+  color: #64748b;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Modern Project Detail Design */
+.project-detail-modern {
+  position: relative;
+  background: white;
+  border-radius: 24px;
+  padding: 0;
+  margin-bottom: 60px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.05);
+  border: 1px solid #f1f5f9;
+  display: flex;
+  overflow: hidden;
+}
+
+
+
+/* Gradient Left Borders for Projects */
+.project-detail-modern:nth-child(1) .project-left-border {
+  background: linear-gradient(to bottom, #4CAF50, #2E7D32);
+}
+
+.project-detail-modern:nth-child(2) .project-left-border {
+background-image: linear-gradient(to top, #f9dbce 0%, #ace0f9 100%);
+}
+
+.project-detail-modern:nth-child(3) .project-left-border {
+background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+
+.project-detail-modern:nth-child(4) .project-left-border {
+background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #9c91f0 100%);
+}
+
+.project-detail-modern:nth-child(5) .project-left-border {
+background-image: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+}
+
+.project-left-border {
+  width: 8px;
+  min-height: 100%;
+}
+
+.project-content-wrapper {
+  flex: 1;
+  padding: 40px;
+}
+
+.project-title-section {
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #f1f5f9;
+}
+
+.project-detail-title {
+  font-size: 2.2rem;
+  color: #1e293b;
+  margin: 0 0 15px 0;
+  font-weight: 700;
+  background: linear-gradient(135deg, #1e293b 0%, #475569 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+body.rtl .project-detail-title {
+  font-size: 2.2rem;
+  text-align: right;
+}
+
+.project-meta {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.meta-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #56647a;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.meta-item svg {
+  color: #036a5e;
+}
+
+/* Modern Content Grid */
+.project-content-grid-modern {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 50px;
+  align-items: start;
+}
+
+/* Images Column */
+.project-images-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main-image-container {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.project-main-image {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+
+.secondary-image-container {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.project-secondary-image {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+
+/* Text Column */
+.project-text-column {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.paragraphs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.paragraph-card {
+  display: flex;
+  gap: 20px;
+  padding: 28px;
+  background: #f8fafc;
+  border-radius: 16px;
+  border-left: 4px solid #4f46e5;
+  transition: all 30s ease;
+}
+
+
+
+.paragraph-icon {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 50%;
+  font-size: 1.2rem;
+}
+
+.paragraph-content h4 {
+  font-size: 1.2rem;
+  color: #1e293b;
+  margin: 0 0 10px 0;
+  font-weight: 600;
+}
+
+.paragraph-content p {
+  font-size: 1rem;
+  color: #475569;
+  line-height: 1.8;
+  margin: 0;
+  font-weight: 340;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body.rtl .paragraph-content p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-family: "Lateef",sans-serif;
+
+}
+
+/* Modern Features */
+
+
+/* RTL Support */
+body.rtl .project-left-border {
+  right: 0;
+  left: auto;
+}
+
+body.rtl .paragraph-card {
+  border-left: none;
+  border-right: 4px solid #4f46e5;
+}
+
+body.rtl .paragraph-card:hover {
+  transform: translateX(-5px);
+}
+
+body.rtl .features-title::before {
+  margin-right: 0;
+  margin-left: 10px;
+}
+

@@ -1,0 +1,161 @@
+.futurePlans {
+  padding: 80px 60px;
+background-image: linear-gradient(-225deg, #feeffe 0%, #D7FFFE 100%);
+
+}
+
+/* Header */
+.futurePlans-header {
+  max-width: 720px;
+  margin-bottom: 60px;
+
+}
+body.rtl .futurePlans-header {
+text-align: right;
+  flex-direction: row-reverse;
+
+}
+
+.futurePlans-title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #111827;
+  margin-bottom: 14px;
+     background: -webkit-linear-gradient(#026ffd, #081f41);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ 
+}
+body.rtl .futurePlans-title {
+  text-align: right !important;
+  font-family: "Amiri",sans-serif;
+    flex-direction: row-reverse;
+ 
+}
+
+.futurePlans-description {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #4b5563;
+}
+body.rtl .futurePlans-description {
+  text-align: right !important;
+   
+ 
+}
+
+/* One card under another */
+.futurePlans-list {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+/* Card Base */
+.futurePlans-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+  border-inline-start: 6px solid transparent;
+}
+
+
+/* Big Title */
+.futurePlans-cardTitle {
+  font-size: 26px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 6px;
+}
+
+/* Location under title */
+.futurePlans-location {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+   margin-top: 10px;
+      font-family: "Noto Naskh Arabic", serif;
+}
+body.rtl .futurePlans-location {
+  flex-direction: row-reverse;
+    font-weight: 600;
+    background-image: linear-gradient(-60deg, #1654a0 0%, #03a1a9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.futurePlans-location svg {
+  font-size: 16px;
+}
+
+/* Paragraph */
+.futurePlans-cardText {
+  font-size: 15.5px;
+  line-height: 1.8;
+  color: #374151;
+  max-width: 900px;
+  margin-top: 40px;
+}
+body.rtl .futurePlans-card {
+  text-align: right;
+  font-family: "Amiri", serif;
+}
+
+body.rtl .futurePlans-cardText {
+    font-size: 1.2rem;
+font-family: "Quicksand", sans-serif;}
+
+
+/* Color Themes */
+.futurePlans-card.blue {
+  border-left-color:  #a6c1ee;
+}
+
+
+.futurePlans-card.teal {
+   border-left-color:  #cff6d6;
+}
+
+.futurePlans-card.purple {
+  border-left-color:  #e6c7ec;
+}
+
+
+.futurePlans-card.orange {
+ border-left-color:  #efe3bf;
+}
+
+
+
+.futurePlans-card.blue .futurePlans-location,
+.futurePlans-card.teal .futurePlans-location,
+.futurePlans-card.purple .futurePlans-location,
+.futurePlans-card.orange .futurePlans-location
+{
+background-image: linear-gradient(-60deg, #1654a0 0%, #03a1a9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+ body.rtl .futurePlans-card.blue .futurePlans-location,
+ body.rtl .futurePlans-card.teal .futurePlans-location,
+ body.rtl .futurePlans-card.purple .futurePlans-location,
+ body.rtl .futurePlans-card.orange .futurePlans-location
+{
+background-image: linear-gradient(-60deg, #1654a0 0%, #03a1a9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+ body.rtl .futurePlans-card.orange .futurePlans-location
+{
+background-image: linear-gradient(-60deg, #1654a0 0%, #03a1a9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

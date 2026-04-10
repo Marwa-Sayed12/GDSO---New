@@ -1,0 +1,425 @@
+/* ConstructionGallery.css - Same as EducationGallery with construction theme */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+.construction-gallery {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  padding-top: 50px;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  width: 100%;
+box-sizing: border-box;
+overflow-x: hidden;
+}
+
+/* Header */
+.construction-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #dce2eb;
+  padding-bottom: 20px;
+}
+body.rtl .construction-header {
+    flex-direction: row-reverse;
+}
+
+.construction-header-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* RTL: Reverse header layout */
+body.rtl .construction-header-left {
+  flex-direction: row-reverse;
+}
+
+.construction-header-icon {
+  font-size: 2.4rem;
+  padding: 7px 15px;
+  border-radius: 14px;
+  background: rgba(230, 126, 34, 0.1);
+  color: #e67e22;
+}
+
+.construction-header-title {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #1b2430;
+}
+
+/* RTL: Right align text */
+body.rtl .construction-header-title {
+  text-align: right;
+  font-family: "Amiri", sans-serif;
+  flex-direction: row-reverse;
+}
+
+.content-type-toggle {
+  display: none;
+}
+
+/* Layout */
+.construction-container {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 30px;
+  /* ADDED THESE LINES */
+width: 100%;
+box-sizing: border-box;
+}
+
+/* Sidebar */
+.construction-sidebar {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  border: 1px solid #e5e8ec;
+  position: sticky;
+  top: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  /* ADDED THESE LINES */
+height: fit-content;
+max-width: 100%;
+box-sizing: border-box;
+}
+
+.construction-sidebar-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1b2430;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ffe8d7;
+}
+
+/* RTL: Right align sidebar title */
+body.rtl .construction-sidebar-title {
+  text-align: right;
+  font-family: "Quicksand", sans-serif;
+}
+
+.construction-category-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.construction-category-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #f8f9fa;
+  border: 1px solid transparent;
+  transition: all 0.25s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* RTL: Reverse category item layout */
+body.rtl  .construction-category-item {
+  flex-direction: row-reverse;
+}
+
+.construction-category-label {
+  font-size: 1rem;
+  font-weight: 500;
+  white-space: nowrap; /* ADDED */
+  overflow: hidden; /* ADDED */
+  text-overflow: ellipsis; /* ADDED */
+  flex: 1; /* ADDED */
+} 
+.construction-category-item:hover {
+  background-image: linear-gradient(-225deg, #FFFEFF 0%, #FFE8D7 100%);
+  border-color: #ffe8d7;
+  transform: translateX(4px);
+}
+
+/* RTL: Reverse hover direction */
+body.rtl   .construction-category-item:hover {
+  transform: translateX(-4px);
+}
+
+.construction-category-item.active {
+  background-color: #d4b896;
+  background-image: linear-gradient(-225deg, #f8e8d7 0%, #f9dfe4 100%);
+  color: rgb(45, 25, 5);
+  font-weight: 600;
+  border: 0.5px solid #5e5f5d00;
+  box-shadow: 0 4px 12px rgba(212, 184, 150, 0.2);
+  transform: translateX(4px);
+}
+
+/* RTL: Reverse active item direction */
+body.rtl .construction-category-item.active {
+  transform: translateX(-4px);
+}
+
+.construction-category-icon {
+  font-size: 1.4rem;
+  min-width: 40px; /* ADDED */
+  display: flex; /* ADDED */
+  align-items: center; /* ADDED */
+  justify-content: center; /* ADDED */
+  flex-shrink: 0; /* ADDED */
+}
+
+/* Gallery Card Area */
+.construction-content {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid #e5e8ec;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.construction-content-header {
+  margin-bottom: 25px;
+}
+
+.construction-content-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* RTL: Reverse content title layout */
+body.rtl .construction-content-title {
+  flex-direction: row-reverse;
+}
+
+.construction-title-icon {
+  padding: 6px 15px;
+  background: rgba(230, 126, 34, 0.1);
+  color: #e67e22;
+  font-size: 1.9rem;
+  border-radius: 10px;
+}
+
+.construction-content-title h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #1b2430;
+  word-break: break-word;
+}
+
+  body.rtl .construction-category-label {
+    white-space: normal !important;
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+  hyphens: auto !important;
+  }
+
+/* Images Grid - Full width images */
+.construction-images-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+}
+
+.construction-image-card {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #e5e8ec;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.construction-gallery-image {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Video Gallery Styles */
+.construction-videos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.construction-video-card {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #e5e8ec;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+/* Video Container Styles */
+.construction-video-card .video-container {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  background: #000;
+  overflow: hidden;
+}
+
+.construction-video-card .construction-gallery-video {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: #000;
+}
+
+/* No Content Message */
+.no-content-message {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #ffe8d7 100%);
+  border-radius: 15px;
+  border: 2px dashed #ffd7b5;
+  margin: 20px 0;
+}
+
+.no-content-message p {
+  font-size: 1.2rem;
+  color: #e67e22;
+  font-weight: 500;
+}
+
+.no-content-icon {
+  font-size: 60px;
+  color: rgba(230, 126, 34, 0.5);
+  margin-bottom: 20px;
+}
+
+/* Lightbox/Modal Styles */
+.lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  opacity: 0;
+  animation: fadeIn 0.3s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.lightbox-content {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+  background: transparent;
+}
+
+.lightbox-image {
+  max-width: 100%;
+  max-height: 85vh;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.close-lightbox {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s;
+}
+
+body.rtl .close-lightbox {
+  right: auto;
+  left: 0;
+}
+
+.close-lightbox:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.lightbox-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+/* RTL: Reverse navigation buttons */
+body.rtl .lightbox-nav {
+  flex-direction: row-reverse;
+}
+
+.nav-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+  transition: background 0.3s;
+}
+
+.nav-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Animation for category change */
+@keyframes fadeInGrid {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.construction-images-grid,
+.construction-videos-grid {
+  animation: fadeInGrid 0.5s ease-out;
+}
+
+/* Additional RTL specific adjustments */
+body.rtl .construction-category-list {
+  padding-right: 0;
+}
+
+body.rtl  .construction-sidebar {
+  text-align: right;
+}
+
+body.rtl .construction-content {
+  text-align: right;
+}

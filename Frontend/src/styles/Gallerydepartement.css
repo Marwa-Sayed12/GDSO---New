@@ -1,0 +1,421 @@
+/* Gallerydepartement.css */
+
+/* Main Container */
+.gallery-dept-container {
+  padding: 80px 40px;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-dept-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #3b82f6, #10b981, #8b5cf6);
+  z-index: 1;
+}
+
+/* Title */
+.dept-title {
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 500;
+  color: #1e293b;
+  margin-bottom: 60px;
+  position: relative;
+  padding-bottom: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dept-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  
+}
+
+/* RTL Title Support */
+body.rtl .dept-title {
+  font-family: "Lateef", sans-serif;
+  font-size: 3.2rem;
+}
+
+/* Cards Container */
+.dept-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Individual Card */
+.dept-card {
+  background: white;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1);
+  position: relative;
+  height: 420px;
+}
+
+.dept-card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.15);
+}
+
+.dept-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(transparent 60%, rgba(0, 0, 0, 0.7));
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.dept-card:hover::before {
+  opacity: 1;
+}
+
+/* Card Image */
+.dept-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.dept-card:hover .dept-image {
+  transform: scale(1.05);
+}
+
+/* Card Content */
+.dept-card-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 30px;
+  color: white;
+  z-index: 2;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
+  transform: translateY(30px);
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.dept-card:hover .dept-card-content {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.dept-card-content h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* RTL Text Support */
+body.rtl .dept-card-content h3 {
+  font-family: "Amiri", sans-serif;
+  font-size: 2.3rem;
+  text-align: right;
+    flex-direction: row-reverse;
+}
+
+
+/* View Gallery Button */
+.dept-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+  border: none;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  position: relative;
+  overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+
+}
+body.rtl .dept-btn{
+  font-family: "Amiri", sans-serif;
+  font-size: 1rem;
+   text-align: right;
+    flex-direction: row-reverse;
+  right: -59%;
+}
+
+.dept-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+.dept-btn:hover {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
+}
+
+.dept-btn:hover::before {
+  left: 100%;
+}
+
+
+
+/* Color Variations for Each Card */
+.dept-card:nth-child(1) .dept-btn {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+}
+
+.dept-card:nth-child(1) .dept-btn:hover {
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.4);
+}
+
+.dept-card:nth-child(2) .dept-btn {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  box-shadow: 0 4px 15px rgba(245, 158, 11, 0.3);
+}
+
+.dept-card:nth-child(2) .dept-btn:hover {
+  background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
+  box-shadow: 0 6px 20px rgba(245, 158, 11, 0.4);
+}
+
+.dept-card:nth-child(3) .dept-btn {
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+  box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
+}
+
+.dept-card:nth-child(3) .dept-btn:hover {
+  background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%);
+  box-shadow: 0 6px 20px rgba(139, 92, 246, 0.4);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .gallery-dept-container {
+    padding: 60px 30px;
+  }
+  
+  .dept-title {
+    font-size: 2.8rem;
+    margin-bottom: 50px;
+  }
+  
+  body.rtl .dept-title {
+    font-size: 2.4rem;
+  }
+  
+  .dept-cards {
+    gap: 30px;
+  }
+  
+  .dept-card {
+    height: 380px;
+  }
+  
+  .dept-card-content {
+    padding: 25px;
+  }
+  
+  .dept-card-content h3 {
+    font-size: 1.6rem;
+  }
+}
+
+/* Add to the Cards Container section */
+.dept-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* For desktop screens (3 columns) */
+@media (min-width: 1025px) {
+  .dept-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  /* Reorder the cards visually */
+  .dept-card:nth-child(1) { 
+    order: 1; /* First card on left */
+  }
+  
+  .dept-card:nth-child(2) { 
+    order: 3; /* Second card goes to right */
+  }
+  
+  .dept-card:nth-child(3) { 
+    order: 2; /* Third card moves to center */
+    
+    /* Optional: Make center card stand out */
+    transform: translateY(-10px);
+    box-shadow: 0 25px 70px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Hover effects maintain hierarchy */
+  .dept-card:nth-child(3):hover {
+    transform: translateY(-25px);
+    box-shadow: 0 35px 90px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* Adjust for medium screens (tablet) */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .dept-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  /* Reset order for tablet */
+  .dept-card:nth-child(n) { 
+    order: 0;
+    transform: none;
+  }
+  
+  /* Optional: Make the first card in second row stand out on tablet */
+  .dept-card:nth-child(3) {
+    grid-column: span 2; /* Make it full width on second row */
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
+/* For mobile (keep your existing mobile styles) */
+@media (max-width: 768px) {
+  .dept-cards {
+    grid-template-columns: 1fr;
+  }
+  
+  /* Reset order for mobile */
+  .dept-card:nth-child(n) { 
+    order: 0;
+    transform: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-dept-container {
+    padding: 40px 15px;
+  }
+  
+  .dept-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  body.rtl .dept-title {
+    font-size: 1.8rem;
+  }
+  
+  .dept-card {
+    height: 300px;
+    border-radius: 16px;
+  }
+  
+  .dept-card-content {
+    padding: 15px;
+  }
+  
+  .dept-card-content h3 {
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+  }
+  
+  .dept-card-content p {
+    font-size: 0.85rem;
+    margin-bottom: 15px;
+  }
+  
+  body.rtl .dept-card-content p {
+    font-size: 1rem;
+  }
+  
+  .dept-btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+
+
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .dept-card,
+  .dept-card-content,
+  .dept-image,
+  .dept-btn {
+    transition: none !important;
+  }
+  
+  .dept-card:hover .dept-image {
+    transform: none;
+  }
+  
+  .dept-btn:hover {
+    transform: none;
+  }
+}
+
+/* High DPI Screens */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .dept-image {
+    image-rendering: -webkit-optimize-contrast;
+  }
+  
+  .dept-title,
+  .dept-card-content h3 {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Hover Effects for Touch Devices */
+@media (hover: none) and (pointer: coarse) {
+  .dept-card-content {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .dept-btn {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
