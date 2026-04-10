@@ -1,0 +1,496 @@
+
+  {
+    "navbar": {
+      "welcome": "Welcome to Gurbat Development Services",
+      "home": "Home",
+      "about": "About Us",
+      "donate": "Donate",
+      "getInvolved": "Get Involved",
+      "programs": "Our Programs",
+      "contact": "Contact Us",
+      "searchPlaceholder": "Search...",
+      "Agriculture":"Agriculture",
+      "Education":"Education",
+      "Construction":"Construction"
+    },
+    "home": {
+      "hoome": "Together, we grow hope and build stronger communities for tomorrow.",
+      "agri": "Cultivating sustainable agriculture that strengthens families and transforms livelihoods.",
+      "edu": "Education inspires progress—empowering every child to shape a brighter future.",
+      "self": "Building essential infrastructure that brings dignity, opportunity, and long-lasting change.",
+      
+      "services-h2": "Our Services",
+      "services-p": "We are dedicated to empowering communities by strengthening sustainable agriculture, expanding access to quality education, supporting essential healthcare, and building vital infrastructure. Through our ongoing and future projects in education, construction, and agriculture, we strive to create lasting growth, resilience, and hope for generations to come.",
+      "Agriculture":"Agriculture",
+      "Agriculture-p":"Our agriculture programs promote sustainable practices that strengthen local communities. We support farmers through our Tomato Sauce Making Program, provide clean and accessible water for farming and daily use, and prepare future tree-planting projects to restore green cover, fight climate change, and ensure long-term environmental wellbeing.",
+      "Education-h3":"Education",
+      "Education-p":"Our education programs provide equal learning opportunities grounded in academic excellence, moral values, and essential life skills. We offer stationery and textbooks to reduce financial barriers and teach science, Islamic studies, and languages. Our services include girls’ home-based classes,  elementary classes for boys and girls, and specialized Kankor preparation for boys. During winter, we run Winter courses in Islamic studies, science, and languages to help students continue learning and strengthen their academic foundation.",
+      "link":"Learn More...",
+      "self-h3":"Construction",
+      "self-p":"Our construction projects strengthen community infrastructure and improve quality of life through sustainable development. We build and renovate masjids, provide clean-water facilities, and construct clinics for better healthcare and modern schools for enhanced learning. Our future plans focus on expanding infrastructure, adding more educational and healthcare centers, and creating community spaces that support long-term growth.",
+      
+      "video-title": "Watch Our Impact in Action",
+      "video-description": "We are proud to present the newly constructed Ansarullah Middle School, located in Sayed Abad district of Wardak province. This project reflects our commitment to expanding access to quality education for children in underserved communities. With modern classrooms, improved learning facilities, and a safe environment, the school now offers hundreds of students the opportunity to pursue a brighter future. Below is a short video showcasing the development of this important educational project.",
+       "Projects":"Projects",
+       "num":"10+", 
+       "impact-p":"successful initiatives in learning, farming, and infrastructure development, positively impacting communities.",
+       "edu-impact":"Education Programs",
+       "edu-num":"1200+",
+       "edu-impact-p":"Supporting students with knowledge and skills, opening new opportunities for the future.",
+       "cons-impact":"Infrastructure Projects",
+       "cons-impact-num":"5+",
+       "cons-impact-p":"Building safe and reliable spaces that strengthen communities and support long-term growth.",
+       "aboutUS":"About Us",
+       "about-p":"We are a dedicated organization committed to supporting communities through sustainable development, education, and humanitarian assistance. Our mission is to create long-lasting opportunities, strengthen local capacities, and bring positive change to the lives of those we serve.",
+       "vmvTitle":"Our Vision, Mission & Values",
+       "vTitle":"Our Vision",
+       "vp":"We envision thriving communities where every individual has the opportunity to learn, grow, and live with dignity. Our vision is a future shaped by equity, sustainability, and shared progress for all.",
+       "mTitle":"Our Mission",
+       "mp":"Our mission is to empower communities by providing essential services, expanding access to education, and building sustainable solutions that improve daily life. We work with integrity and compassion to create meaningful, lasting impact.",
+        "valTitle":"Our Values",
+        "valp":"We are guided by compassion, transparency, and accountability in all our work. We believe in collaboration, respect for every individual, and the commitment to deliver sustainable solutions that uplift and strengthen communities.",
+        "galleyh2":"Gallery",
+        "galleyh3":"Explore More Moments",
+        "galleryp":"See how Gurbat is creating impact in communities across Afghanistan. Each moment captured reflects the dedication, hope, and progress we continue to build together.",
+        "gallbtn":"Visit Full Gallery",
+        "gurbat":"Gurbat",
+        "gurbatp": "Gurbat is dedicated to uplifting communities by expanding opportunities, strengthening local capacity, and driving sustainable development for a brighter future.",
+        "programs":"Programs",
+        "eduu":"Education",
+        "agrii":"Agriculture",
+        "cons":"Construction",
+        "Get Involved":"Get Involved",
+        "Contact Us":"Contact Us",
+        "Gallery":"Gallery",
+        "Donate":"Donate",
+        "Careers":"Careers",
+        "About Us":"About Us",
+        "Follow Us":"Follow Us",
+        "copyright":"Gurbat Development Services Organization. All rights reserved."
+
+
+       
+    
+    },
+    "about" :{
+      "big-header":"Empowering Communities, Transforming Lives",
+      "first-p-about":"At Gurbat Development Services Organization, our journey is one of compassion, growth, and impact.Over the years, we've helped families access education, agricultural training, and essential services.",
+      "about-p":"Founded in 2019, Gurbat Development Services Organization is a grassroots nonprofit committed to creating sustainable change in Afghan communities. We work across education, agriculture, construction, and community development to empower individuals with the tools, skills, and opportunities they need to build a better future.Our approach is simple: meaningful progress starts with small, consistent efforts. Through our programs, families gain access to education, agricultural training, livelihood support, and essential community services.We are dedicated to fostering dignity, resilience, and hope—one community at a time.",
+      "about-title":"Who We Are",
+
+      "cultueTitle":"Company Culture",
+
+  "cultureTitle": "Our Culture",
+  "culturep": "At Gurbat, our culture is rooted in compassion, community empowerment, and sustainable progress. We work closely with local communities, listen to their needs, and design practical solutions that create long-term change. Our team believes in transparency, innovation, and collaboration, ensuring every project brings real impact to people’s lives.",
+  
+  "mission": "Our Mission",
+  "missionp": "Our mission is to uplift vulnerable communities through sustainable development programs. From education and agricultural support to climate resilience, technology training, and infrastructure development, Gurbat aims to create equal opportunities for every family and empower the next generation to build a brighter future.",
+  
+  "vision": "Our Vision",
+  "visionp": "We envision a future where every community has access to education, clean water, economic opportunities, and environmental stability. Gurbat strives to build strong, self-reliant communities by supporting long-term development, expanding green initiatives, and promoting innovation across all sectors.",
+  
+  "values": "Our Values",
+  "valuesp": "We stand on the values of integrity, transparency, empathy, innovation, and community-first development. Every project we launch reflects our commitment to sustainability, equality, and meaningful change for the people we serve.",
+  
+  "impact": "Our Impact",
+  "impactp": "Gurbat has launched initiatives that directly improve lives — from planting thousands of trees, supporting students through Kankor preparation programs, and providing AI and technology training, to empowering farmers with cold storage solutions and building check-dams for water control.",
+  "impactpp": "Our projects help protect the environment, strengthen education, preserve harvests, enhance local economies, and improve the resilience of communities living in cold and high-risk areas.",
+  
+  "area": "Areas We Work",
+"areap": "Our areas of work include agriculture to empower families, construction projects such as masjids, schools, clinics, and clean drinking water systems. We provide modern education for girls and boys, along with winter courses to support continued learning."
+,  
+  "future": "Future Plans",
+  "futurep": "Gurbat plans to expand green projects, establish more tree-growing zones, build additional cold storage centers, launch rural technology labs, support students with nationwide Kankor preparation, improve road access in remote communities, and introduce advanced water-control systems for sustainable farming."
+
+
+
+
+    },
+
+    "contact": {
+    "title": "Contact Us",
+    "description": "Have questions, suggestions, or need assistance? We'd love to hear from you. Fill out the form, and we'll respond as soon as possible.",
+    "address": "Kabul, Afghanistan",
+    "email": "info@gurbat.org",
+    "phone": "+93 700 000 000",
+    "mapTitle": "Gurbat Location",
+    "success": {
+      "title": "✅ Thank you!",
+      "message": "We have received your message and will get back to you soon."
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email Address",
+      "emailPlaceholder": "Your email",
+      "message": "Your Message",
+      "messagePlaceholder": "Write your message...",
+      "send": "Send Message",
+      "sending": "Sending..."
+    }
+  },
+"education": {
+  "eduTitle": "Education for a Better Future",
+
+  "waterIcon": "Safe Learning for Girls",
+  "farmerIcon": "Supporting Boys Learning",
+  "tree": "Empowerment Through Education",
+
+  "eduh2": "Building a Better Future",
+  "eduh2p": "We strive to create a better future for every student, both girls and boys, by ensuring equal access to quality education. Our services include the distribution of curriculum textbooks, stationery, and educational packages to public schools and religious institutions. Through these efforts, we aim to reduce learning barriers, support continuous education, and help students study with dignity, confidence, and the resources they need to succeed.",
+  "eduh2pp": "We also organize home-based classes for girls, enabling them to continue their education in a safe, secure, and supportive environment. These classes are designed to ensure that girls are not deprived of learning opportunities due to social, cultural, or environmental challenges. By providing structured lessons, qualified instruction, and a nurturing atmosphere, we help girls build confidence, develop essential skills, and stay connected to their educational journey despite existing limitations.",
+
+  "courseTitle": "Winter Education Courses",
+  "courseTitlep": "Our winter courses are specially designed educational programs that help students continue learning during the winter break. These courses focus on strengthening academic foundations, improving language and Islamic Studies, and keeping students engaged in a productive and supportive learning environment throughout the cold season.",
+
+  "eng": "Language Courses",
+  "engp": "Basic English and Arabic language courses designed for beginners. These classes help students gradually build confidence in reading, writing, listening, and speaking, while becoming familiar with essential vocabulary and daily communication skills in a supportive learning environment.",
+  "mounth": "Duration: 3 months",
+
+  "com": "Science Subjects",
+  "comp": "Structured teaching of Chemistry, Physics, and Mathematics with a strong academic foundation. The program also includes organized Kankor preparation classes for high school students (Grades 10–12), focusing on exam techniques, problem-solving skills, and regular assessments.",
+
+  "edu2": "Islamic Studies",
+  "edu2h2": "Islamic Education",
+  "edu2h2p": "Regular and well-structured Islamic education classes covering Tajweed, Quran fundamentals, and Quran memorization. These lessons aim to strengthen students’ religious knowledge, moral values, and understanding of Islamic principles in daily life.",
+
+  "futureplan": "Future Plans",
+  "futureplanp": "Our future plans focus on delivering advanced, skill-based education to students across the country.",
+
+  "kankor": "Kankor Preparation",
+  "engDiploma": "English & Computer Diploma",
+  "bussiness": "Online Business & Marketing",
+  "ai": "Artificial Intelligence & Technology",
+
+  "kankorTitlep": "Preparing students for the Kankor exam through comprehensive support programs, including regular mock tests, focused revision sessions, guidance classes, and structured learning plans designed to strengthen academic confidence and improve exam performance.",
+
+  "dipp": "A combined English and Computer diploma program aimed at equipping students with essential language and digital skills needed for higher education, professional growth, and success in today’s technology-driven environment.",
+
+  "onlinep": "Training students in online business, digital marketing, and entrepreneurship by introducing practical skills such as e-commerce basics, online branding, social media marketing, and modern business tools to help them create sustainable income opportunities.",
+
+  "aip": "Introducing students to artificial intelligence and modern technology trends through beginner-friendly concepts, practical exposure, and future-oriented learning that prepares them for advanced studies and global technological developments."
+
+}
+
+,
+
+
+
+  "construction": {
+    
+    "heroSection": {
+      "heroTitle": "Building the Future with Strength",
+      "modernTools": "Modern Tools",
+      "safetyFirst": "Safety First",
+      "strongInfrastructure": "Strong Infrastructure",
+      "consh1":" Construction Projects",
+      "consp":"Building communities, transforming lives through sustainable infrastructure"
+   
+    },
+    "common": {
+      "viewDetails": "View Details",
+      "completed": "Completed",
+      "inProgress": "In Progress",
+      "upcomingProject": "Upcoming Project",
+      "projectFeatures": "Project Features",
+      "projectImpact": "Project Impact",
+      "location": "Location",
+      "timeline": "Timeline",
+      "beneficiaries": "Beneficiaries",
+      "progress": "Progress"
+    },
+    "projects": {
+      "omermasjid": {
+        "title": "Reconstruction of Omer Farooq Masjid",
+         "title2": "Omer Farooq Masjid",
+        "description": "The old and deteriorated masjid of Kajqala village was completely demolished and replaced with a newly designed masjid.",
+        "paragraph1": "The old and deteriorated masjid of Kajqala village was completely demolished and rebuild with a newly designed masjid built according to modern construction standards. The masjid has the capacity to accommodate approximately 225 worshippers at one time.",
+        "paragraph2": "The masjid is equipped with complete and well-organized ablution facilities, including four toilets, ten ablution stations, a deep water well, and a full water supply system, ensuring convenience for all worshippers.",
+        "paragraph3": "In addition, a dedicated room for the imam, a winter heating room, and a spacious basement for storing village necessities were constructed. The masjid's new boundary walls, paved courtyard paths, and metal gates were built in a solid and durable manner.",
+        "location": "Wardak, Kaj Qala Village",
+        "timeline": "6-8 Months",
+        "beneficiaries": "300+ Worshippers"
+      },
+      "ansarullahschool": {
+        "title": "Construction of the New Ansarullah School Building",
+        "title2": "New Ansarullah School",
+        "description": "The previous building of Ansarullah School was no longer sufficient to accommodate the growing number of students.",
+        "paragraph1": "The previous building of Ansarullah School was in terrible state and no longer sufficient to accommodate the growing number of students and educational needs. Therefore, a new, and well-constructed school building was built according to a modern and standard design.",
+        "paragraph2": "The new building includes eight organized classrooms, a large and well-lit hallway, and a dedicated storage room, all designed to support both educational and administrative activities. The classrooms were constructed in a standard manner to ensure a better learning atmosphere for students.",
+        "paragraph3": "In addition, concrete pathways were built around all four sides of the building, making movement easier for students, teachers, and school staff. The school administration was also transferred to the new building, which helped resolve many administrative challenges.",
+        "location": "Wardak, Haidar Kheil Village",
+        "timeline": "8-12 Months",
+        "beneficiaries": "500+ Students"
+      },
+      "abubakrsiddiqmosque": {
+        "title": "Expansion of Facilities at Abu Bakr Siddiq Masjid",
+        "title2": "Abu-Bakr Siddiq Masjid",
+        "description": "Abu Bakr Siddiq Masjid required additional facilities due to the increasing number of worshippers and seasonal needs.",
+        "paragraph1": "Abu Bakr Siddiq Masjid, also known as the Zhawara Masjid, required additional facilities due to the increasing number of worshippers and seasonal needs. Therefore, a large room was constructed specifically for summer use.",
+        "paragraph2": "The room was built in a solid and standard manner, with the aim of improving convenience for worshippers. It also supports the daily operations of the masjid and helps reduce overcrowding during prayer times.",
+       
+        "location": "Wardak, Kaj Qala Village",
+        "timeline": "3-5 Months",
+        "beneficiaries": "200+ Worshippers"
+      },
+      "oldmosquewater": {
+        "title": "Construction of the Drinking Water",
+        "title2": "Water Supply Network",
+        "description": "Due to the lack of access to clean water at the old village masjid, the local community faced various difficulties.",
+     "paragraph1": "Due to the lack of access to clean drinking water in the old village masjid of Kaj Qala which is at the center of the village, residents were facing many difficulties. To address this problem, an organized water supply network was constructed in the village. As part of the project, a deep well was drilled and a water reservoir was firmly installed in a suitable location to ensure a sustainable water source for the local community.",
+    "paragraph2": "Through this network, clean drinking water was distributed via pipelines to five different directions, enabling approximately thirty-five households in the village to have access to clean water on a 24-hour basis.",
+    "paragraph3": "In addition, the boundary of the village masjid was expanded and completed, giving it a more organized and attractive appearance. With the completion of these works, not only was the water shortage resolved, but the overall condition of the masjid and ease of movement for residents also improved.",
+        "location": "Wardak, Kaj Qala Village",
+        "timeline": "2-4 Months",
+        "beneficiaries": "30+ Households"
+      },
+      "saidabadclinic": {
+        "title": "Construction of a New Maternity Ward at Saidabad District Clinic",
+        "title2": "Saidabad District Clinic",
+        "description": "To strengthen maternal and child healthcare services, a new maternity ward was constructed at the Saidabad District Clinic.",
+        "paragraph1": "To strengthen maternal and child healthcare services, a new maternity ward was constructed at the Saidabad District Clinic. Due to the lack of a proper maternity facility, the clinic had been facing multiple challenges.",
+        "paragraph2": "Therefore, the new maternity ward was built according to standard designs and equipped with essential medical equipment to ensure safe and suitable conditions for mothers and newborns during childbirth.",
+        "paragraph3": "In addition, a dedicated corridor was constructed for the maternity ward, and buildings that previously lacked electricity were connected to the power supply. With electricity now available, clinic operations have become more organized.",
+        "location": "Wardak, Saidabad District",
+        "timeline": "4-6 Months",
+        "beneficiaries": "1000+ Patients"
+      }
+    },
+    "features": {
+      "roadConstruction": {
+        "title": "Road Construction",
+        "feature1": "Modern Masjid Construction",
+        "feature2": "Spacious Prayer Hall",
+        "feature3": "Complete Ablution & Water System",
+        "feature4": "Supporting Rooms & Strong Infrastructure"
+
+      },
+      "bridgeProjects": {
+        "title": "Bridge Projects",
+       "feature1": "Modern School Building",
+        "feature2": "Standard Classrooms",
+        "feature3": "Bright Learning Spaces",
+        "feature4": "Improved Access & Administration"
+
+      },
+      "housingDevelopment": {
+        "title": "Housing Development",
+        "feature1": "Solar Power Ready",
+        "feature2": "Water Supply System",
+        "feature3": "Community Spaces",
+        "feature4": "Sustainable Materials"
+      },
+      "schoolBuildings": {
+        "title": "School Buildings",
+        "feature1": "Smart Classrooms",
+        "feature2": "Playground Area",
+        "feature3": "Library Facility",
+        "feature4": "Science Labs"
+      },
+      "hospitalProjects": {
+        "title": "Hospital Projects",
+        "feature1": "Emergency Services",
+        "feature2": "Operating Theaters",
+        "feature3": "Patient Wards",
+        "feature4": "Medical"
+      }
+    }
+    
+
+  },
+  
+  "futureplan":{
+     "title": "Future Construction Projects",
+    "description": "Gurbat Services Organization is committed to implementing future development projects based on community needs.",
+    "checkDamsTitle":"Water Conservation Check Dams",
+    "checkDamsDescription":"Afghanistan is facing severe water challenges due to climate change. In Wardak Province, prolonged droughts, dried karezes, and declining groundwater levels have significantly affected thousands of families. At the same time, unmanaged seasonal floods continue to damage agricultural land and infrastructure. Gurbat Services Organization plans to construct small and effective check dams to control floodwaters, recharge groundwater resources, strengthen agricultural production, and provide long-term stability for local communities.",
+     "checkDamsLocation":"Wardak, Kaj Qala Village",
+     "coldStorageTitle":"Modern Cold Storage Facilities",
+     "coldStorageDescription":"Afghanistan is an agricultural country, yet the lack of proper storage facilities causes significant post-harvest losses each year. In many rural areas, farmers are forced to sell their produce at low prices due to the absence of preservation systems. Gurbat Services Organization plans to establish modern cold storage facilities in key agricultural regions to reduce waste, improve market access, increase farmers’ income, and strengthen food security.",
+     "coldStorageLocation":"Wardak, Sayed Abad District",
+     "girlsSchoolTitle":"Girls’ School Construction",
+     "girlsSchoolDescription":"The Spin Khakori Girls’ School in Kajqala village of Wardak Province currently lacks a dedicated building, forcing students to study in unsuitable conditions. This has negatively affected the quality, safety, and continuity of education. Gurbat Services Organization plans to construct a safe, independent, and standard school building to provide a proper learning environment for girls and strengthen the educational future of the community.",
+      "girlsSchoolLocation":"Wardak, Kaj Qala Village",
+      "mamloSchoolTitle":"Mamlo School Expansion",
+      "mamloSchoolDescription":"Mamlo Village School in Wardak Province faces serious overcrowding due to a lack of classrooms, forcing students to study in multiple shifts. This has negatively affected learning quality and teaching effectiveness. Gurbat Services Organization plans to construct a spacious and standard school building to provide a safe, organized, and effective educational environment.",
+      "mamloSchoolLocation":"Wardak, Mamlo Village"
+
+    }
+  
+,
+  "agriculture": {
+  "heroTitle": "Empowering Agriculture for a Better Future",
+
+  "infoWater": "Water Solutions",
+  "infoFamilies": "Empowering Families & Farmers",
+  "infoTrees": "Tree Plantation & Growth",
+
+  "sauceTitle": "Promoting Tomato Paste Production",
+  "sauceDesc": "In many regions of Afghanistan, tomato production increases significantly during the harvest season, causing market prices to drop sharply. Due to the lack of proper preservation methods, a large portion of the harvest is either sold at very low prices or goes to waste. To address this challenge, a charitable initiative was implemented to promote a simple, affordable, and practical method of tomato paste production in rural communities. As part of the program, 70 kg of fresh tomatoes were distributed to selected vulnerable households, accompanied by hands-on training on how to produce tomato paste using locally available resources. The objective of this initiative was not merely short-term assistance, but the promotion of a sustainable and locally applicable practice. This enables rural families to preserve their produce, reduce post-harvest losses, and generate long-term benefits from their agricultural activities.",
+
+  "stepsTitle": "Steps to Make Tomato Sauce",
+
+  "step1Title": "Clean & Select Tomatoes",
+  "step1Desc": "Pick fresh, ripe tomatoes and wash them thoroughly to remove any dirt or chemicals.",
+
+  "step2Title": "Cook & Blend",
+  "step2Desc": "Boil the tomatoes, peel them, and blend into a smooth mixture ready for seasoning.",
+
+  "step3Title": "Store for Future Use",
+  "step3Desc": "Pour into sterilized jars and preserve to use later or sell as a local product.",
+
+  "galleryTitle": "Tomatoes in Action",
+
+  "waterTitle": "Clean Water Services",
+  "waterDesc": "We provide sustainable water solutions including well building, water filtration, and safe access for communities.",
+
+  "moreDetails": "More Details",
+
+  "futureTitle": "Future Tree Plantation Plans",
+  "title": "Forest Creation Project",
+  "intro": "This project aims to establish a sustainable forest by planting thousands of trees and medicinal herbs across the semi-arid hillsides of Sayed Abad district in Wardak Province. The selected area is highly suitable for forest restoration, as parts of the land already contain natural trenches that help retain rainwater and trap moisture for young plants. Additionally, the region benefits from a large rain catchment area, which can serve as a natural backup water source during dry seasons.",
+  "intro2": "Beyond environmental restoration, this project will create employment opportunities, strengthen the local economy, and help revive biodiversity that is essential for human life. Key environmental benefits include soil protection and enrichment, flood control, climate stabilization, wildlife habitat restoration, and ecosystem recovery. The initiative will also encourage investors and authorities to support similar environmental projects in the future.The project will primarily focus on planting five resilient tree species and one native herb, including mountain almond, Judas tree (Cercis siliquastrum), Tree of Heaven (Ailanthus altissima), pistachio, mountain olive, and Hing (Asafoetida). Among these, mountain almond will represent the majority due to its exceptional adaptability and ecological value.",
+  "intro3": "The project will primarily focus on planting five resilient tree species and one native herb, including mountain almond, Judas tree (Cercis siliquastrum), Tree of Heaven (Ailanthus altissima), pistachio, mountain olive, and Hing (Asafoetida). Among these, mountain almond will represent the majority due to its exceptional adaptability and ecological value.",
+   
+  "almond": "Mountain almond tree",
+  "almondDesc": "Mountain almond is a native, drought-tolerant tree requiring minimal care. It supports ecosystem restoration and can be grafted to produce high-quality almonds for sustainable income.",
+
+  
+  "olive": "Olive Trees",
+  "oliveDesc": "Mountain olive trees are hardy evergreens with low water needs. Their strong adaptability and minimal maintenance contribute to biodiversity and environmental stability.",
+
+  "moringa": "The Judas tree",
+  "judasDesc": "The Judas tree is highly drought-resistant and well adapted to mountainous regions. It improves soil fertility through nitrogen fixation, attracts bees and wildlife, and survives hot, dry seasons with minimal water.",
+
+  "pomegranate": "Pistachios tree",
+  "pistachioDesc": "Pistachio trees thrive in arid climates with low water demand. They provide high-value nuts, improve soil health, and offer long-term economic benefits for local communities.",
+
+  "mulberry": "Tree of heaven",
+  "heavenDesc": "Tree of Heaven is a fast-growing, drought-resistant species widely available in Afghanistan. Once established, it survives long dry seasons without irrigation.",
+
+  "apple": "Hing (Asafetida)",
+  "hingDesc": "Hing is a native medicinal plant tolerant to drought and poor soils. Its cultivation creates jobs, improves livelihoods, and provides long-term economic sustainability."
+
+}
+,
+   "donation": {
+    
+    "imageTitle": "Your Support Changes Lives",
+    "imageDescription": "Every donation helps us create lasting impact in our community and beyond.",
+    "livesImpacted": "Lives Impacted",
+    "projectsCompleted": "Projects Completed",
+    "supportTitle": "Support Our Cause",
+    "supportDescription": "Your donation helps create real impact. Thank you!",
+    "oneTime": "One-Time",
+    "monthly": "Monthly",
+    "customAmount": "Custom amount",
+    "donateButton": "Donate ${amount}",
+    "donateButtonEmpty": "Donate $0",
+    "processing": "Processing...",
+    "securityBadge": "🔒 Secure payment powered by Stripe",
+    "validationMessage": "Please enter a valid donation amount.",
+    "successTitle": "Thank You for Your Donation!",
+    "successMessage": "Your support is making a real difference in our community.",
+    "successRedirect": "You will be redirected to the payment page shortly.",
+    "errorTitle": "Payment Error",
+    "errorMessage": "There was an error processing your donation. Please try again."
+    
+    
+  },
+  
+  "EducationGallery": {
+    "headerTitle": "Education Gallery",
+    "sidebarTitle": "Categories",
+    "noImages": "No images available for this category yet.",
+    "noVideos": "No videos available yet.",
+    "close": "Close",
+    "prev": "Previous",
+    "next": "Next",
+    "image": "Image",
+    "fullView": "Full view",
+    
+    "categories": {
+      "oldSchool": "Old School Classes",
+      "newSchool": "New Ansarullah Opening ceremony",
+      "girls": "Girls Students",
+      "boys": "Boys Students",
+      "other": "Other Activities",
+      "videos": "School Videos"
+    },
+    "galleryTitles": {
+      "oldSchool": "Old Ansarullah School Classes",
+      "newSchool": "New Ansarullah Opening ceremony",
+      "girls": "Girls Students",
+      "boys": "Boys Students",
+      "other": "Other Activities",
+      "videos": "School Videos"
+    }
+  },
+
+  "AgricultureGallery": {
+    "headerTitle": "Agriculture Gallery",
+    "sidebarTitle": "Agriculture Sectors",
+    "noImages": "No images available for this category yet.",
+    "noVideos": "No videos available yet.",
+    "close": "Close",
+    "prev": "Previous",
+    "next": "Next",
+    "image": "Image",
+    "fullView": "Full view",
+    "categories": {
+      "farming": "Tomato Sauce Program",
+      "videos": "Agriculture Videos"
+    },
+    "galleryTitles": {
+      "farming": "Tomato Sauce Program",
+      "videos": "Agriculture Videos"
+    }
+  }
+,
+  
+
+  "ConstructionGallery": {
+    "headerTitle": "Construction Gallery",
+    "sidebarTitle": "Project Types",
+    "noImages": "No images available for this category yet.",
+    "noVideos": "No videos available yet.",
+    "close": "Close",
+    "prev": "Previous",
+    "next": "Next",
+    "image": "Image",
+    "fullView": "Full view",
+    "categories": {
+      "buildings": "Omer Farooq Masjid",
+      "infrastructure": "New Ansarullah School",
+      "interior": "Abu-Bakr Siddiq Masjid",
+      "interior2": "Ansarullah School Work Flow",
+      "heavy": "Water Supply Network",
+      "heavy2": "Saidabad District Clinic",
+      "videos": "Construction Videos"
+    },
+    "galleryTitles": {
+      "buildings": "Omer Farooq Masjid",
+      "infrastructure": "New Ansarullah School",
+      "interior": "Abu-Bakr Siddiq Masjid",
+      "interior2": "Ansarullah School Work Flow",
+      "heavy": "Water Supply Network",
+      "heavy2": "Saidabad District Clinic",
+      "videos": "Construction Videos"
+    }
+  },
+  
+  "GalleryDepartment": {
+    "headerTitle": "Explore Our Gallery by Department",
+    "viewGallery": "View Gallery",
+    "categories": {
+      "education": "Education",
+      "agriculture": "Agriculture",
+      "construction": "Construction"
+    }
+  }
+
+
+
+
+
+  }
